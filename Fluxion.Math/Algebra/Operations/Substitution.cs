@@ -1,12 +1,11 @@
-﻿    using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// Fluxion.Math/Algebra/Operations/Substitution.cs
+using Fluxion.Math.Algebra.Concepts;
 
-namespace Fluxion.Fluxion.Math.Algebra.Operations
+namespace Fluxion.Math.Algebra.Operations
 {
-    internal class Substitution
+    public static class Substitution
     {
+        /// Substitute x := value and return f(value).
+        public static double Evaluate(IEquation eq, double value) => eq.Evaluate(value);
     }
 }

@@ -1,17 +1,35 @@
 ﻿// Fluxion.Math/Algebra/Solvers/LinearSolver.Core.cs
 using System;
 using System.Collections.Generic;
-using SMath = System.Math;
+using Fluxion.Math.Algebra.Concepts;
+
 namespace Fluxion.Math.Algebra.Solvers
 {
     /// <summary>
-    /// Core implementation of the linear solver and helpers.
+    /// Linear equation solvers and helpers.
     /// </summary>
     public static partial class LinearSolver
     {
         /// <summary>
-        /// Implementation for solving a*x + b = c*x + d with formatting options.
-        /// Produces a narrated step list and either a unique value, none, or infinite solutions.
+        /// Solve the canonical linear form Ax + B = 0.
+        /// Returns:
+        ///  - Unique solution in X1,
+        ///  - null if no real solution,
+        ///  - NaN (in X1) to represent infinite solutions (identity).
+        /// </summary>
+        public static RealSolutions Solve(double A, double B)
+        {
+            if (System.Math.Abs(A) < 1e-12)
+            {
+                // A == 0 => either no solution (B != 0) or infinite solutions (B == 0).
+                return B == 0 ? new RealSolutions(double.NaN) : new RealSolutions(null);
+            }
+            return new RealSolutions(-B / A);
+        }
+
+        /// <summary>
+        /// Solve a*x + b = c*x + d with narrated steps and formatting options.
+        /// Produces a step list and either a unique value, none, or infinite solutions.
         /// </summary>
         public static partial LinearSolveResult Solve(double a, double b, double c, double d, SolveFormatOptions fmt)
         {
@@ -24,9 +42,9 @@ namespace Fluxion.Math.Algebra.Solvers
             steps.Add($"Move all terms to left side: ({a} - {c})x + ({b} - {d}) = 0");
             steps.Add($"Simplify: {A}x + {B} = 0");
 
-            if (global::System.Math.Abs(A) < 1e-12)
+            if (System.Math.Abs(A) < 1e-12)
             {
-                if (global::System.Math.Abs(B) < 1e-12)
+                if (System.Math.Abs(B) < 1e-12)
                 {
                     steps.Add("Result: Infinite solutions (identity).");
                     return LinearSolveResult.Infinite(steps);
@@ -41,12 +59,10 @@ namespace Fluxion.Math.Algebra.Solvers
             // Step 2: Solve for x
             double value = -B / A;
 
-            // Optional: "exact" display as a simple fraction string (not a true rational reduction)
+            // Optional exact display as a simple fraction string (display only; not reduced)
             string? exact = null;
             if (fmt.UseFractionsInSteps)
             {
-                // NOTE: This is a display convenience only.
-                // If you want reduced rationals, add a proper Fraction type later.
                 exact = $"{-B}/{A}";
             }
 
@@ -57,7 +73,7 @@ namespace Fluxion.Math.Algebra.Solvers
         }
 
         /// <summary>
-        /// Returns the narrated steps for solving a*x + b = c*x + d (no result formatting needed).
+        /// Return just the narrated steps for a*x + b = c*x + d.
         /// </summary>
         public static IReadOnlyList<string> Explain(double a, double b, double c, double d)
         {
@@ -66,7 +82,7 @@ namespace Fluxion.Math.Algebra.Solvers
         }
 
         /// <summary>
-        /// Solve many equations of the form a*x + b = c*x + d.
+        /// Solve many equations of the form a*x + b = c*x + d with default formatting.
         /// </summary>
         public static IEnumerable<LinearSolveResult> SolveMany(IEnumerable<(double a, double b, double c, double d)> items)
         {

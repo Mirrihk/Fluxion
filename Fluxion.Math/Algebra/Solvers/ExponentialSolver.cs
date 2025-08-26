@@ -1,12 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// Fluxion.Math/Algebra/Solvers/ExponentialSolver.cs
+using System;
+using Fluxion.Math.Algebra.Concepts;
+using static System.Math;
 
-namespace Fluxion.Fluxion.Math.Algebra.Solvers
+namespace Fluxion.Math.Algebra.Solvers
 {
-    internal class ExponentialSolver
+    public static class ExponentialSolver
     {
+        /// Solve A e^{B x} + C = 0  =>  e^{Bx} = -C/A  =>  x = ln(-C/A)/B
+        public static RealSolutions Solve(double A, double B, double C)
+        {
+            if (Abs(A) < 1e-12 || Abs(B) < 1e-12) return new RealSolutions(null);
+            double rhs = -C / A;
+            if (rhs <= 0) return new RealSolutions(null); // no real solution
+            return new RealSolutions(Log(rhs) / B);
+        }
     }
 }

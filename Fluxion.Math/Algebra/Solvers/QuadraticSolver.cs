@@ -1,37 +1,54 @@
-﻿using System;
+﻿// Fluxion.Math/Algebra/Solvers/QuadraticSolver.cs
+using System;
+using Fluxion.Math.Algebra.Concepts;
+using static System.Math;
 
 namespace Fluxion.Math.Algebra.Solvers
 {
     /// <summary>
-    /// Provides methods for solving quadratic equations of the form ax² + bx + c = 0.
+    /// Provides methods for solving quadratic equations of the form A x² + B x + C = 0.
     /// </summary>
     public static class QuadraticSolver
     {
         /// <summary>
-        /// Solves ax² + bx + c = 0 using the quadratic formula.
+        /// Returns real roots only using a numerically-stable formula.
+        /// If A is ~0, defers to the linear solver on B x + C = 0.
+        /// If discriminant &lt; 0, returns (null, null).
         /// </summary>
-        /// <param name="a">Coefficient of x² (must not be 0)</param>
-        /// <param name="b">Coefficient of x</param>
-        /// <param name="c">Constant term</param>
-        /// <returns>
-        /// A tuple with two roots (double.NaN if no real solution).
-        /// </returns>
-        /// <summary>
-        /// Returns the two real roots if they exist; otherwise (NaN, NaN).
-        /// Throws if a == 0 (not quadratic).
-        /// </summary>
-        public static (double x1, double x2) Solve(double a, double b, double c)
+        public static RealSolutions Solve(double A, double B, double C)
         {
-            if (a == 0)
-                throw new ArgumentException("Coefficient 'a' must not be zero for a quadratic equation.", nameof(a));
+            if (Abs(A) < 1e-12) return LinearSolver.Solve(B, C);
 
-            double d = b * b - 4 * a * c;
-            if (d < 0) return (double.NaN, double.NaN);
+            double disc = B * B - 4 * A * C;
+            if (disc < 0) return new RealSolutions(null, null);
 
-            double sqrtD = System.Math.Sqrt(d);
-            double denom = 2 * a;
+            // Stable quadratic formula (minimizes catastrophic cancellation)
+            double sqrtD = Sqrt(disc);
+            double q = -0.5 * (B + CopySign(sqrtD, B));
+            double x1 = q / A;
+            double x2 = C / q;
+            return new RealSolutions(x1, x2);
+        }
 
-            return ((-b + sqrtD) / denom, (-b - sqrtD) / denom);
+        /// <summary>
+        /// Quadratic-only solver (A must not be 0).
+        /// Returns a pair (x1, x2); if no real roots, both are double.NaN.
+        /// Uses a numerically-stable formula.
+        /// </summary>
+        /// <exception cref="ArgumentException">Thrown when A == 0.</exception>
+        public static (double x1, double x2) SolvePair(double A, double B, double C)
+        {
+            if (A == 0)
+                throw new ArgumentException("Coefficient 'A' must not be zero for a quadratic equation.", nameof(A));
+
+            double disc = B * B - 4 * A * C;
+            if (disc < 0) return (double.NaN, double.NaN);
+
+            double sqrtD = Sqrt(disc);
+            double q = -0.5 * (B + CopySign(sqrtD, B));
+            double x1 = q / A;
+            double x2 = C / q;
+            return (x1, x2);
         }
     }
 }

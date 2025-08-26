@@ -1,6 +1,5 @@
-﻿using System;
-using System.Numerics;                 // for Vector2 in Plot2D
-using Fluxion.Rendering.Visualize;     // Plot2D, PlotStyle
+﻿using System.Numerics;                 
+using Fluxion.Rendering.Visualize;     
 using OpenTK.Graphics.OpenGL4;
 using OpenTK.Mathematics;
 

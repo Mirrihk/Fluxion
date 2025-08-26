@@ -1,12 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// Fluxion.Math/Algebra/Equations/Logarithmic.cs
+using System;
+using Fluxion.Math.Algebra.Concepts;
+using static System.Math;
 
-namespace Fluxion.Fluxion.Math.Algebra.Equations
+namespace Fluxion.Math.Algebra.Equations
 {
-    internal class Logarithmic
+    public sealed class Logarithmic : IEquation, IDisplay
     {
+        public LogarithmicModel Model { get; }
+        public Logarithmic(double a, double @base, double c) => Model = new(a, @base, c);
+
+        public double Evaluate(double x) => Model.A * (Log(x) / Log(Model.Base)) + Model.C;
+        public bool IsWellFormed() => Model.Base > 0 && Model.Base != 1;
+
+        public string AsString(string variable = "x")
+            => $"{Model.A}*log_{Model.Base}({variable}) + {Model.C} = 0";
     }
 }

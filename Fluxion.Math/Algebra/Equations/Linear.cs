@@ -1,18 +1,17 @@
-﻿/// Fluxion.MAth/Equations.Linear.cs
+﻿// Fluxion.Math/Algebra/Equations/Linear.cs
+using Fluxion.Math.Algebra.Concepts;
+
 namespace Fluxion.Math.Algebra.Equations
 {
-    public class Linear
+    public sealed class Linear : IEquation, IDisplay
     {
-        public double A { get; }
-        public double B { get; }
+        public LinearModel Model { get; }
+        public Linear(double a, double b) => Model = new(a, b);
 
-        public Linear (double a, double b)
-        {
-            A = a;
-            B = b;
-        }
+        public double Evaluate(double x) => Model.A * x + Model.B;
+        public bool IsWellFormed() => !(Model.A == 0 && Model.B != 0); // A=0,B!=0 is contradiction
 
-        public double Evaluate(double x) => A * x + B;
+        public string AsString(string variable = "x")
+            => $"{Model.A}*{variable} + {Model.B} = 0";
     }
-
 }
