@@ -1,12 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// Fluxion.Math/Algebra/Solvers/LogarithmicSolver.cs
+using System;
+using Fluxion.Math.Algebra.Concepts;
+using static System.Math;
 
-namespace Fluxion.Fluxion.Math.Algebra.Solvers
+namespace Fluxion.Math.Algebra.Solvers
 {
-    internal class LogarithmicSolver
+    public static class LogarithmicSolver
     {
+        /// Solve A log_base(x) + C = 0 => log_base(x) = -C/A => x = base^{-C/A}, with x>0, base>0, base≠1
+        public static RealSolutions Solve(double A, double @base, double C)
+        {
+            if (Abs(A) < 1e-12 || @base <= 0 || Abs(@base - 1.0) < 1e-12) return new RealSolutions(null);
+            double pow = -C / A;
+            double x = System.Math.Pow(@base, pow);
+            if (x <= 0 || double.IsNaN(x) || double.IsInfinity(x)) return new RealSolutions(null);
+            return new RealSolutions(x);
+        }
     }
 }

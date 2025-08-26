@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using Fluxion.Math.Algebra.Equations;
+using Fluxion.Math.Algebra.Concepts;
 
 namespace Fluxion.Math.Algebra.Solvers
 {
@@ -17,7 +18,7 @@ namespace Fluxion.Math.Algebra.Solvers
         /// Solve a normalized linear expression A*x + B = 0.
         /// Returns NaN if |A| &lt; eps (no unique solution).
         /// </summary>
-        public static double Solve(Linear eq, double eps = Eps)
+        public static double Solve(LinearEquation eq, double eps = Eps)
         {
             if (global::System.Math.Abs(eq.A) < eps) return double.NaN;
             return -eq.B / eq.A;

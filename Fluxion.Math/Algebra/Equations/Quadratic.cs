@@ -1,19 +1,20 @@
-﻿// Fluxion.Math/Algebra/Quadratic.cs
-namespace Fluxion.Math.Algebra
+﻿// Fluxion.Math/Algebra/Equations/Quadratic.cs
+using Fluxion.Math.Algebra.Concepts;
+using static System.Math;
+
+namespace Fluxion.Math.Algebra.Equations
 {
-    /// <summary>y = a x^2 + b x + c</summary>
-    public sealed class Quadratic
+    public sealed class Quadratic : IEquation, IDisplay
     {
-        public double A { get; }
-        public double B { get; }
-        public double C { get; }
+        public QuadraticModel Model { get; }
+        public Quadratic(double a, double b, double c) => Model = new(a, b, c);
 
-        private Quadratic(double a, double b, double c)
-        { A = a; B = b; C = c; }
+        public double Evaluate(double x) => Model.A * x * x + Model.B * x + Model.C;
+        public bool IsWellFormed() => Model.A != 0; // avoid degenerating into linear here
 
-        public static Quadratic FromCoefficients(double a, double b, double c)
-            => new Quadratic(a, b, c);
+        public double Discriminant => Model.B * Model.B - 4.0 * Model.A * Model.C;
 
-        public double Evaluate(double x) => A * x * x + B * x + C;
+        public string AsString(string variable = "x")
+            => $"{Model.A}*{variable}^2 + {Model.B}*{variable} + {Model.C} = 0";
     }
 }
