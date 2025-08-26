@@ -12,7 +12,7 @@ namespace Fluxion.Rendering.Draw
     public sealed class OpenGLRenderer : IRenderer, IDisposable
     {
         private int _program = 0;
-        private int _vao = 0;
+        private int _vao = 0; //Ve
         private int _vbo = 0;
         private int _uColor = -1;
 
