@@ -1,4 +1,6 @@
-﻿using OpenTK.Graphics.OpenGL4;
+﻿//Fuxion/Fluxion.Rendering/Draw/SurfaceRenderer.cs
+
+using OpenTK.Graphics.OpenGL4;
 using OpenTK.Mathematics;
 using System;
 namespace Fluxion.Rendering.Draw
@@ -8,33 +10,37 @@ namespace Fluxion.Rendering.Draw
 
     public sealed class SurfaceRenderer : IDisposable
     {
-        private int vao, vboPos, vboNrm, ebo;
-        private int program;
+        private int vao;      // Vertex Array Object
+        private int vboPos;   // Vertex Buffer Object - positions
+        private int vboNrm;   // Vertex Buffer Object - normals
+        private int ebo;      // Element Buffer Object (indices)
+        private int program;  // Compiled shader program
+
         private int indexCount;
         private bool isLineStrip;
 
         private const string VS = @"
-#version 330 core
-layout(location=0) in vec3 inPos;
-layout(location=1) in vec3 inNrm;
-uniform mat4 uMVP;
-uniform mat4 uModel;
-out vec3 vNrm;
-void main(){
-    gl_Position = uMVP * vec4(inPos, 1.0);
-    vNrm = mat3(uModel) * inNrm;
-}";
+            #version 330 core
+            layout(location=0) in vec3 inPos;
+            layout(location=1) in vec3 inNrm;
+            uniform mat4 uMVP;
+            uniform mat4 uModel;
+            out vec3 vNrm;
+            void main(){
+            gl_Position = uMVP * vec4(inPos, 1.0);
+            vNrm = mat3(uModel) * inNrm;
+            }";
         private const string FS = @"
-#version 330 core
-in vec3 vNrm;
-out vec4 FragColor;
-uniform vec3 uLightDir = normalize(vec3(0.5, 1.0, 0.3));
-uniform vec3 uBase = vec3(0.2, 0.6, 1.0);
-void main(){
-    float ndl = max(dot(normalize(vNrm), normalize(uLightDir)), 0.0);
-    vec3 col = uBase * (0.35 + 0.65 * ndl);
-    FragColor = vec4(col, 1.0);
-}";
+            #version 330 core
+            in vec3 vNrm;
+            out vec4 FragColor;
+            uniform vec3 uLightDir = normalize(vec3(0.5, 1.0, 0.3));
+            uniform vec3 uBase = vec3(0.2, 0.6, 1.0);
+                void main(){
+            float ndl = max(dot(normalize(vNrm), normalize(uLightDir)), 0.0);
+             vec3 col = uBase * (0.35 + 0.65 * ndl);
+             FragColor = vec4(col, 1.0);
+            }";
 
         public SurfaceRenderer()
         {
