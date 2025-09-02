@@ -27,9 +27,6 @@
 
   <ItemGroup>
     <Folder Include="Fluxion.Math\Calculus\" />
-    <Folder Include="Fluxion.Math\ODE\" />
-    <Folder Include="Fluxion.Math\Optimazation\" />
-    <Folder Include="Fluxion.Math\Trigonometry\" />
   </ItemGroup>
 
   <ItemGroup>
