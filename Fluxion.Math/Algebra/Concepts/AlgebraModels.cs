@@ -20,20 +20,6 @@ namespace Fluxion.Math.Algebra.Concepts
     }
 
     /// <summary>Base contract for 1-variable equations.</summary>
-    public interface IEquation
-    {
-        /// Evaluate f(x).
-        double Evaluate(double x);
-
-        /// Returns true if parameters describe a valid equation (e.g., domain constraints ok).
-        bool IsWellFormed();
-    }
-
-    /// <summary>Optional pretty name/output.</summary>
-    public interface IDisplay
-    {
-        string AsString(string variable = "x");
-    }
 
     // -------- Canonical models (parameters only) --------
 

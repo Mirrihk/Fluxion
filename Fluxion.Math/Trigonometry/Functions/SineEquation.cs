@@ -3,7 +3,7 @@
 using Fluxion.Math.Algebra.Concepts;
 using Fluxion.Math.Trigonometry.Concepts;
 using System;
-
+using Fluxion.Math.Abstractions;
 namespace Fluxion.Math.Trigonometry.Functions
 {
     public readonly struct SineEquation : IEquation, IDisplay

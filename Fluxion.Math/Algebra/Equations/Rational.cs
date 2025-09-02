@@ -1,6 +1,6 @@
 ﻿// Fluxion.Math/Algebra/Equations/Rational.cs
 using Fluxion.Math.Algebra.Concepts;
-
+using Fluxion.Math.Abstractions;
 namespace Fluxion.Math.Algebra.Equations
 {
     public sealed class Rational : IEquation, IDisplay

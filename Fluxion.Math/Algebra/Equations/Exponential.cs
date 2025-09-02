@@ -1,4 +1,5 @@
 ﻿// Fluxion.Math/Algebra/Equations/Exponential.cs
+using Fluxion.Math.Abstractions;
 using Fluxion.Math.Algebra.Concepts;
 using static System.Math;
 

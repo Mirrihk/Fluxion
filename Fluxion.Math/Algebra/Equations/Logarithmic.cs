@@ -2,7 +2,7 @@
 using System;
 using Fluxion.Math.Algebra.Concepts;
 using static System.Math;
-
+using Fluxion.Math.Abstractions;
 namespace Fluxion.Math.Algebra.Equations
 {
     public sealed class Logarithmic : IEquation, IDisplay
