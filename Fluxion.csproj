@@ -26,10 +26,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Fluxion.Math\Calculus\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <EditorConfigFiles Remove="C:\Users\sebas\source\repos\Fluxion\.editorconfig" />
   </ItemGroup>
 
