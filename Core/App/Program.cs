@@ -18,7 +18,10 @@ namespace Fluxion.Core.App
             }
 
             // Default: run everything
-            QuickSimulations.RunAll();
+            //uickSimulations.RunAll();
+            //QuickSimulationsComprehensiveTests.Run(visual: false, verbose: true);
+            // or:
+            QuickSimulationsComprehensiveTests.Run(visual: true, verbose: true);
         }
     }
 }
