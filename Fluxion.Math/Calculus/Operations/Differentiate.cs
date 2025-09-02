@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// File: Fluxion.Math/Calculus/Operations/Differentiate.cs
+using Fluxion.Math.Calculus.Concepts;
 
-namespace Fluxion.Fluxion.Math.Calculus.Operations
+namespace Fluxion.Math.Calculus.Operations
 {
-    internal class Differentiate
+    public static class Differentiate
     {
+        /// <summary>Numerical central difference derivative for fallback.</summary>
+        public static IFunction Numeric(IFunction f, double h = 1e-5)
+            => new LambdaFunction(x => (f.Evaluate(x + h) - f.Evaluate(x - h)) / (2 * h));
     }
 }

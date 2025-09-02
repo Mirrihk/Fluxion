@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// File: Fluxion.Math/Calculus/Operations/Limit.cs
+using Fluxion.Math.Calculus.Concepts;
+using Fluxion.Math.Calculus.Limits;
 
-namespace Fluxion.Fluxion.Math.Calculus.Operations
+namespace Fluxion.Math.Calculus.Operations
 {
-    internal class Limit
+    public static class Limit
     {
+        public static double EvaluateTwoSided(IFunction f, double a)
+            => LimitsBasics.ProbeTwoSided(f, a);
     }
 }

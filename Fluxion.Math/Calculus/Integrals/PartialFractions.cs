@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Fluxion.Fluxion.Math.Calculus.Integrals
+﻿// File: Fluxion.Math/Calculus/Integrals/PartialFractions.cs
+namespace Fluxion.Math.Calculus.Integrals
 {
-    internal class PartialFractions
+    /// <summary>Placeholder; requires polynomial factorization from Algebra module.</summary>
+    public static class PartialFractions
     {
+        // TODO: integrate with Algebra.Factorization to decompose proper rationals
     }
 }

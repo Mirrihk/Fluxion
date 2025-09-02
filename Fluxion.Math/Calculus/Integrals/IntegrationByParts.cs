@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// File: Fluxion.Math/Calculus/Integrals/IntegrationByParts.cs
+using Fluxion.Math.Calculus.Concepts;
 
-namespace Fluxion.Fluxion.Math.Calculus.Integrals
+namespace Fluxion.Math.Calculus.Integrals
 {
-    internal class IntegrationByParts
+    /// <summary>Symbolic shell for ∫u dv = uv − ∫v du. Concrete use requires u, v already chosen.</summary>
+    public static class IntegrationByParts
     {
+        public static IFunction Build(IFunction u, IFunction v)
+            => new LambdaFunction(x => u.Evaluate(x) * v.Evaluate(x)); // partial; the remaining ∫v du must be handled externally
     }
 }

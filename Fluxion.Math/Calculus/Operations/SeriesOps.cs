@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// File: Fluxion.Math/Calculus/Operations/SeriesOps.cs
+using Fluxion.Math.Calculus.Concepts;
+using Fluxion.Math.Calculus.Series;
 
-namespace Fluxion.Fluxion.Math.Calculus.Operations
+namespace Fluxion.Math.Calculus.Operations
 {
-    internal class SeriesOps
+    public static class SeriesOps
     {
+        public static double Evaluate(SeriesModel s, double x, int terms) => PowerSeries.Evaluate(s, x, terms);
     }
 }

@@ -1,12 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// File: Fluxion.Math/Calculus/Limits/AlgebraicLimits.cs
+using System;
+using Fluxion.Math.Calculus.Concepts;
 
-namespace Fluxion.Fluxion.Math.Calculus.Limits
+namespace Fluxion.Math.Calculus.Limits
 {
-    internal class AlgebraicLimits
+    /// <summary>Placeholder for symbolic simplifications (factor/cancel, rationalize, squeeze).</summary>
+    public static class AlgebraicLimits
     {
+        /// <summary>
+        /// Attempts to evaluate a removable discontinuity by probing symmetrically and returning the average if stable.
+        /// </summary>
+        public static double Removable(IFunction f, double a)
+        {
+            var L = LimitsBasics.ProbeTwoSided(f, a);
+            return L;
+        }
     }
 }
