@@ -6,6 +6,7 @@ using Fluxion.Features;
 // Trigonometry dependencies
 using Fluxion.Math.Trigonometry.Concepts;
 using Fluxion.Math.Trigonometry.Functions;
+using Fluxion.Math.Abstractions;
 using Fluxion.Math.Trigonometry.Sampling;
 
 namespace Fluxion.Core.App
