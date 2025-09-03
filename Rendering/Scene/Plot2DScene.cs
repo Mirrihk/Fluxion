@@ -1,11 +1,11 @@
 ﻿// Fluxion.Rendering/Scene/Plot2DScene.cs
-using Fluxion.Rendering.Draw;        // AxesRenderer, Axes2DOptions, CurveRenderer2D
-using Fluxion.Rendering.Scene;
-using Fluxion.Rendering.Visualize;   // Plot2D
+using Rendering.Draw;        // AxesRenderer, Axes2DOptions, CurveRenderer2D
+using Rendering.Scene;
+using Rendering.Visualize;   // Plot2D
 using OpenTK.Graphics.OpenGL4;
 using OpenTK.Mathematics;
 
-namespace Fluxion.Rendering.SceneImpl
+namespace Rendering.SceneImpl
 {
     public sealed class Plot2DScene : IScene
     {

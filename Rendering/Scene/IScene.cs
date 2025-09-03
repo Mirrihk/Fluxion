@@ -1,5 +1,5 @@
 ﻿// Fluxion.Rendering/Scene/IScene.cs
-namespace Fluxion.Rendering.Scene
+namespace Rendering.Scene
 {
     /// A self-contained OpenGL scene hosted by FluxWindow.
     public interface IScene : System.IDisposable

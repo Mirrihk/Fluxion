@@ -1,10 +1,10 @@
 ﻿//Fluxion.Math/Trigonometry/Functions/SineEquation.cs
 
-using Fluxion.Math.Algebra.Concepts;
-using Fluxion.Math.Trigonometry.Concepts;
+using Math.Algebra.Concepts;
+using Math.Trigonometry.Concepts;
 using System;
-using Fluxion.Math.Abstractions;
-namespace Fluxion.Math.Trigonometry.Functions
+using Math.Abstractions;
+namespace Math.Trigonometry.Functions
 {
     public readonly struct SineEquation : IEquation, IDisplay
     {

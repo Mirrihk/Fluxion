@@ -1,11 +1,11 @@
 // Fluxion.Features/Graph3DFeature.cs
 using System;
-using Fluxion.Math.Functions3D;
-using Fluxion.Rendering.SceneImpl;       // Surface3DScene
-using Fluxion.Rendering.Visualize3D;     // SurfaceFactory, Mesh3D
-using Fluxion.Rendering.Windowing;       // FluxWindow
+using Math.Functions3D;
+using Rendering.SceneImpl;       // Surface3DScene
+using Rendering.Visualize3D;     // SurfaceFactory, Mesh3D
+using Rendering.Windowing;       // FluxWindow
 
-namespace Fluxion.Features
+namespace Features
 {
     public static class Graph3DFeature
     {

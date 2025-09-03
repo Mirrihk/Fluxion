@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using OpenTK.Graphics.OpenGL4;
 using OpenTK.Mathematics;
 
-namespace Fluxion.Rendering.Draw
+namespace Rendering.Draw
 {
     /// <summary>2D axes + grid + ticks (OpenGL lines). Uses the shared Axes2DOptions type.</summary>
     public sealed class AxesRenderer : IDisposable

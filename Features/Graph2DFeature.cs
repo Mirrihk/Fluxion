@@ -1,10 +1,10 @@
 ﻿// Fluxion.Features/Graph2DFeature.cs
 using System;
-using Fluxion.Rendering.SceneImpl;
-using Fluxion.Rendering.Visualize;    // Plot2DFactory
-using Fluxion.Rendering.Windowing;    // FluxWindow
+using Rendering.SceneImpl;
+using Rendering.Visualize;    // Plot2DFactory
+using Rendering.Windowing;    // FluxWindow
 
-namespace Fluxion.Features
+namespace Features
 {
     public static class Graph2DFeature
     {

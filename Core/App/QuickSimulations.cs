@@ -1,15 +1,15 @@
 ﻿// Fluxion.Core/App/QuickSimulations.cs
 using System;
 using System.Diagnostics;
-using Fluxion.Features;
+using Features;
 
 // Trigonometry dependencies
-using Fluxion.Math.Trigonometry.Concepts;
-using Fluxion.Math.Trigonometry.Functions;
-using Fluxion.Math.Abstractions;
-using Fluxion.Math.Trigonometry.Sampling;
+using Math.Trigonometry.Concepts;
+using Math.Trigonometry.Functions;
+using Math.Abstractions;
+using Math.Trigonometry.Sampling;
 
-namespace Fluxion.Core.App
+namespace Core.App
 {
     /// <summary>Reusable demo calls you can invoke from Program.Main or the CLI.</summary>
     public static class QuickSimulations

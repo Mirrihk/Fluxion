@@ -1,8 +1,8 @@
 ﻿// Fluxion.Math/Algebra/Solvers/RationalSolver.cs
 using System.Linq;
-using Fluxion.Math.Algebra.Concepts;
+using Math.Algebra.Concepts;
 
-namespace Fluxion.Math.Algebra.Solvers
+namespace Math.Algebra.Solvers
 {
     public static class RationalSolver
     {

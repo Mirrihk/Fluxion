@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Numerics;
 
-namespace Fluxion.Rendering.Draw
+namespace Rendering.Draw
 {
     public sealed class Axes2DOptions
     {

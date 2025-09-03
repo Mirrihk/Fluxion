@@ -1,7 +1,7 @@
 ﻿// Fluxion.Math/Algebra/AlgebraUtils.cs
 using System;
 
-namespace Fluxion.Math.Algebra
+namespace Math.Algebra
 {
     /// <summary>
     /// Common helper methods for algebraic operations.

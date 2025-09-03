@@ -1,9 +1,9 @@
 ﻿// QuickSimulationsComprehensiveTests.cs (visual + verbose console)
 using System;
 using Features;
-using Fluxion.Math.Trigonometry.Concepts;
-using Fluxion.Math.Trigonometry.Functions;
-using Fluxion.Math.Trigonometry.Sampling;
+using Math.Trigonometry.Concepts;
+using Math.Trigonometry.Functions;
+using Math.Trigonometry.Sampling;
 
 namespace Core.App
 {

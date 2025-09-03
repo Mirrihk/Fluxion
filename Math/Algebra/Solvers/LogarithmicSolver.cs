@@ -1,9 +1,9 @@
 ﻿// Fluxion.Math/Algebra/Solvers/LogarithmicSolver.cs
 using System;
-using Fluxion.Math.Algebra.Concepts;
+using Math.Algebra.Concepts;
 using static System.Math;
 
-namespace Fluxion.Math.Algebra.Solvers
+namespace Math.Algebra.Solvers
 {
     public static class LogarithmicSolver
     {
@@ -12,7 +12,7 @@ namespace Fluxion.Math.Algebra.Solvers
         {
             if (Abs(A) < 1e-12 || @base <= 0 || Abs(@base - 1.0) < 1e-12) return new RealSolutions(null);
             double pow = -C / A;
-            double x = System.Math.Pow(@base, pow);
+            double x = Pow(@base, pow);
             if (x <= 0 || double.IsNaN(x) || double.IsInfinity(x)) return new RealSolutions(null);
             return new RealSolutions(x);
         }

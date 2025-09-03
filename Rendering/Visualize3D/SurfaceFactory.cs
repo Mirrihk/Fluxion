@@ -1,8 +1,8 @@
-﻿using Fluxion.Math.Functions3D;
+﻿using Math.Functions3D;
 using OpenTK.Mathematics;
 using System;
 
-namespace Fluxion.Rendering.Visualize3D
+namespace Rendering.Visualize3D
 {
     public static class SurfaceFactory
     {

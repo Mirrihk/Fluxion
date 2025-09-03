@@ -1,9 +1,9 @@
 ﻿// Fluxion.Math/Algebra/Solvers/QuadraticSolver.cs
 using System;
-using Fluxion.Math.Algebra.Concepts;
+using Math.Algebra.Concepts;
 using static System.Math;
 
-namespace Fluxion.Math.Algebra.Solvers
+namespace Math.Algebra.Solvers
 {
     /// <summary>
     /// Provides methods for solving quadratic equations of the form A x² + B x + C = 0.

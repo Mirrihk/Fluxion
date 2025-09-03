@@ -1,6 +1,6 @@
 ﻿using System.Numerics;
 
-namespace Fluxion.Rendering.Visualize
+namespace Rendering.Visualize
 {
     public class PlotStyle
     {

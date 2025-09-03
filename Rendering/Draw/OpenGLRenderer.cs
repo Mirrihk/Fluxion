@@ -3,7 +3,7 @@ using OpenTK.Graphics.OpenGL4;
 using System;
 using System.Numerics;
 
-namespace Fluxion.Rendering.Draw
+namespace Rendering.Draw
 {
     /// <summary>
     /// Minimal OpenGL implementation of IRenderer.

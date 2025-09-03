@@ -1,7 +1,6 @@
 ﻿// Fluxion.Math/Algebra/Operations/Solve.cs
-using Fluxion.Math.Algebra.Solvers;
-using Fluxion.Math.Algebra.Concepts;
-using Fluxion.Math.Algebra.Solvers;
+using Math.Algebra.Solvers;
+using Math.Algebra.Concepts;
 using System;
 
 namespace Fluxion.Math.Algebra.Operations

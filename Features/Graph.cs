@@ -1,7 +1,7 @@
-﻿// Fluxion.Features/Graph.cs
+﻿// Features/Graph.cs
 using System;
 
-namespace Fluxion.Features
+namespace Features
 {
     /// <summary>How to lift a 1D function f(x) into a 3D surface z = g(x, y).</summary>
     public enum Lift
