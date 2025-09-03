@@ -1,7 +1,7 @@
 ﻿// Fluxion.Math/Algebra/Operations/Substitution.cs
-using Fluxion.Math.Algebra.Concepts;
-using Fluxion.Math.Abstractions;
-namespace Fluxion.Math.Algebra.Operations
+using Math.Algebra.Concepts;
+using Math.Abstractions;
+namespace Math.Algebra.Operations
 {
     public static class Substitution
     {

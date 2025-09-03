@@ -3,10 +3,11 @@
 using OpenTK.Graphics.OpenGL4;
 using OpenTK.Mathematics;
 using System;
-namespace Fluxion.Rendering.Draw
+using Rendering.Visualize3D;
+
+namespace Rendering.Draw
 {
    
-    using global::Fluxion.Rendering.Visualize3D;
 
     public sealed class SurfaceRenderer : IDisposable
     {

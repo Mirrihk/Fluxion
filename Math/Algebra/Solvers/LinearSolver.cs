@@ -1,10 +1,10 @@
 ﻿// Fluxion.Math/Algebra/Solvers/LinearSolver.cs
 using System;
 using System.Collections.Generic;
-using Fluxion.Math.Algebra.Equations;
-using Fluxion.Math.Algebra.Concepts;
+using Math.Algebra.Equations;
+using Math.Algebra.Concepts;
 
-namespace Fluxion.Math.Algebra.Solvers
+namespace Math.Algebra.Solvers
 {
     /// <summary>
     /// Public API surface for the linear equation solver.

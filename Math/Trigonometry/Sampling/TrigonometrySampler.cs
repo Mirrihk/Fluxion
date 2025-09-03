@@ -1,7 +1,7 @@
 ﻿//Fluxion.Math/Trigonometry/Sampling/TrigonometrySampler.cs
 using System;
 
-namespace Fluxion.Math.Trigonometry.Sampling
+namespace Math.Trigonometry.Sampling
 {
     public static class TrigonometrySampler
     {

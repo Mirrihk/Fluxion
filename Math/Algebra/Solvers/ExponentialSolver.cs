@@ -1,9 +1,9 @@
 ﻿// Fluxion.Math/Algebra/Solvers/ExponentialSolver.cs
 using System;
-using Fluxion.Math.Algebra.Concepts;
+using Math.Algebra.Concepts;
 using static System.Math;
 
-namespace Fluxion.Math.Algebra.Solvers
+namespace Math.Algebra.Solvers
 {
     public static class ExponentialSolver
     {

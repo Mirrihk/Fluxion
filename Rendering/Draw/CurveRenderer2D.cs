@@ -1,9 +1,9 @@
 ﻿using System.Numerics;                 
-using Fluxion.Rendering.Visualize;     
+using Rendering.Visualize;     
 using OpenTK.Graphics.OpenGL4;
 using OpenTK.Mathematics;
 
-namespace Fluxion.Rendering.Draw
+namespace Rendering.Draw
 {
     /// <summary>
     /// Renders 2D curves (lines/points) from Plot2D using an orthographic projection.

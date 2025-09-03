@@ -1,7 +1,7 @@
 ﻿// Fluxion.Math/Algebra/Equations/Quadratic.cs
-using Fluxion.Math.Algebra.Concepts;
+using Math.Algebra.Concepts;
 using static System.Math;
-using Fluxion.Math.Abstractions;
+using Math.Abstractions;
 namespace Fluxion.Math.Algebra.Equations
 {
     public sealed class Quadratic : IEquation, IDisplay

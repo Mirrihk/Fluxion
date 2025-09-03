@@ -1,9 +1,9 @@
 ﻿// Fluxion.Math/Algebra/Solvers/LinearSolver.Core.cs
 using System;
 using System.Collections.Generic;
-using Fluxion.Math.Algebra.Concepts;
+using Math.Algebra.Concepts;
 
-namespace Fluxion.Math.Algebra.Solvers
+namespace Math.Algebra.Solvers
 {
     /// <summary>
     /// Linear equation solvers and helpers.

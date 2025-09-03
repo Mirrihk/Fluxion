@@ -1,5 +1,5 @@
 ﻿// Fluxion.Math/Algebra/Operations/Factorization.cs
-using Fluxion.Math.Algebra.Concepts;
+using Math.Algebra.Concepts;
 
 namespace Fluxion.Math.Algebra.Operations
 {

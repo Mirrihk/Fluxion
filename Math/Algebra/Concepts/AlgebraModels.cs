@@ -1,8 +1,8 @@
-﻿// Fluxion.Math/Algebra/Concepts/AlgebraModels.cs
+﻿// FMath/Algebra/Concepts/AlgebraModels.cs
 using System;
 using System.Collections.Generic;
 
-namespace Fluxion.Math.Algebra.Concepts
+namespace Math.Algebra.Concepts
 {
     /// <summary>
     /// Represents a linear equation of the form A*x + B = 0.

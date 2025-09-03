@@ -2,10 +2,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Fluxion.Math.Algebra.Concepts;
-using Fluxion.Math.Algebra.Equations;
+using Math.Algebra.Concepts;
+using Math.Algebra.Equations;
 
-namespace Fluxion.Math.Algebra.Solvers
+namespace Math.Algebra.Solvers
 {
     /// <summary>Solves real polynomials for real roots (degree ≤ 2 for now).</summary>
     public static class PolynomialSolver

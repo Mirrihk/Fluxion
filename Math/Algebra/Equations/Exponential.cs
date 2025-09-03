@@ -1,9 +1,9 @@
 ﻿// Fluxion.Math/Algebra/Equations/Exponential.cs
-using Fluxion.Math.Abstractions;
-using Fluxion.Math.Algebra.Concepts;
+using Math.Abstractions;
+using Math.Algebra.Concepts;
 using static System.Math;
 
-namespace Fluxion.Math.Algebra.Equations
+namespace Math.Algebra.Equations
 {
     public sealed class Exponential : IEquation, IDisplay
     {

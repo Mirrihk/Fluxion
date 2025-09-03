@@ -1,9 +1,8 @@
 ﻿// Fluxion.Math/Algebra/Equations/Polynomial.cs
-using System;
-using System.Linq;
-using Fluxion.Math.Algebra.Concepts;
-using Fluxion.Math.Abstractions;
-namespace Fluxion.Math.Algebra.Equations
+using Math.Algebra.Concepts;
+using Math.Abstractions;
+
+namespace Math.Algebra.Equations
 {
     /// <summary>
     /// Represents a 1-variable polynomial with real coefficients (ascending order):

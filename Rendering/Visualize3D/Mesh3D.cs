@@ -1,6 +1,6 @@
 ﻿using OpenTK.Mathematics;
 
-namespace Fluxion.Rendering.Visualize3D
+namespace Rendering.Visualize3D
 {
     public sealed class Mesh3D
     {

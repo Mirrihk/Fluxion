@@ -1,5 +1,5 @@
-﻿// Fluxion.Math/Abstractions/EquationAbstractions.cs
-namespace Fluxion.Math.Abstractions
+﻿// Math/Abstractions/EquationAbstractions.cs
+namespace Math.Abstractions
 {
     /// <summary>Contract for single-variable real functions f(x).</summary>
     public interface IEquation

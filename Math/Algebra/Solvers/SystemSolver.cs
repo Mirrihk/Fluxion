@@ -1,8 +1,8 @@
 ﻿// Fluxion.Math/Algebra/Solvers/SystemSolver.cs
 using System;
-using Fluxion.Math.Algebra.Concepts;
+using Math.Algebra.Concepts;
 
-namespace Fluxion.Math.Algebra.Solvers
+namespace Math.Algebra.Solvers
 {
     /// <summary>
     /// Canonical 2×2 system solver variants.

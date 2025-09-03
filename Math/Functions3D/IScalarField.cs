@@ -1,4 +1,4 @@
-﻿namespace Fluxion.Math.Functions3D
+﻿namespace Math.Functions3D
 {
    /*
     * <summary>

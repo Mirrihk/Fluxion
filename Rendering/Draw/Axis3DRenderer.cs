@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using OpenTK.Graphics.OpenGL4;
 using OpenTK.Mathematics;
 
-namespace Fluxion.Rendering.Draw
+namespace Rendering.Draw
 {
     /// <summary>
     /// Minimal 3D axes + grid (XY plane) renderer using OpenGL lines.

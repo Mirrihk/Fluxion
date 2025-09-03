@@ -1,5 +1,5 @@
 ﻿//Fluxion.Math/Trigonmetry/Concepts/TrigonmetryModels.cs
-namespace Fluxion.Math.Trigonometry.Concepts
+namespace Math.Trigonometry.Concepts
 {
     /// <summary>
     /// General sinusoid model: f(x) = Amplitude * sin(Frequency * x + Phase) + VerticalOffset

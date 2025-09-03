@@ -1,6 +1,6 @@
 ﻿// Fluxion.Math/Algebra/Operations/Simplify.cs
 using System;
-using Fluxion.Math.Algebra.Concepts;
+using Math.Algebra.Concepts;
 
 namespace Fluxion.Math.Algebra.Operations
 {

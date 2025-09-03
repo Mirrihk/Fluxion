@@ -1,8 +1,8 @@
 ﻿// Fluxion.Rendering/Visualize/PlotRenderer.cs
 using System.Numerics;
 using System.Runtime.InteropServices;
-using Fluxion.Rendering.Draw;
-using Fluxion.Rendering.Visualize;
+using Rendering.Draw;
+using Rendering.Visualize;
 
 namespace Fluxion.Fluxion.Rendering.Scene
 {

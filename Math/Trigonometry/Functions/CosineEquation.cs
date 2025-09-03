@@ -1,8 +1,8 @@
-﻿using Fluxion.Math.Abstractions;
-using Fluxion.Math.Trigonometry.Concepts;
+﻿using Math.Abstractions;
+using Math.Trigonometry.Concepts;
 using System;
 
-namespace Fluxion.Math.Trigonometry.Functions
+namespace Math.Trigonometry.Functions
 {
     /// <summary>f(x) = Amplitude * cos(Frequency * x + Phase) + VerticalOffset</summary>
     public readonly struct CosineEquation : IEquation, IDisplay
