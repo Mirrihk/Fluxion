@@ -1,6 +1,6 @@
-// ===============================
+// ===================================
 // File: Fluxion.Rendering/Visualize4D/TesseractWireframeRenderer.cs
-// ===============================
+// ===================================================
 using System;
 using System.Numerics;
 
