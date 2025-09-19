@@ -1,7 +1,11 @@
 ﻿// Fluxion.Core/App/QuickSimulations.cs
 using System;
+using System.Numerics;
 using System.Diagnostics;
 using Features;
+using Fluxion.Math.Geometry4D;
+using Fluxion.Rendering.Visualize4D;
+
 
 // Trigonometry dependencies
 using Math.Trigonometry.Concepts;
@@ -222,5 +226,63 @@ namespace Core.App
                 default: return false;
             }
         }
+        public static void Tesseract4D()
+        {
+            // --- Config ---
+            var verts0 = TesseractModel.BuildVertices16(1f);
+            var edges  = TesseractModel.BuildEdges32();
+
+            // Angular velocities (rad/s) per rotation plane:
+            float wXY = 0.0f, wXZ = 0.0f, wYZ = 0.0f;
+            float wXW = 0.6f,  wYW = 0.4f,  wZW = 0.2f;
+
+            var renderer = new TesseractWireframeRenderer { EdgeThickness = 1.5f, FadeByDepth = true };
+
+            // Projection toggle
+            var mode = Projection4DMode.Perspective;
+            float wCam = 3.0f;   // distance for perspective camera in W
+            float wBias = 0.0f;  // bias for orthographic mix
+
+            // --- Main loop (replace with your engine's frame/update loop) ---
+            // This stub just runs N frames for illustration.
+            double t0 = TimeSeconds();
+            int frames = 600; // ~10 seconds at 60 FPS
+            for (int f = 0; f < frames; f++)
+            {
+                double t = TimeSeconds() - t0;
+
+                // 1) Build composed 4D rotation at time t
+                var R = Rotation4D.Compose(
+                    xy: wXY * (float)t,
+                    xz: wXZ * (float)t,
+                    xw: wXW * (float)t,
+                    yz: wYZ * (float)t,
+                    yw: wYW * (float)t,
+                    zw: wZW * (float)t
+                );
+
+                // 2) Transform vertices
+                var v4 = new Vector4[verts0.Length];
+                for (int i = 0; i < verts0.Length; i++)
+                    v4[i] = Rotation4D.Transform(R, verts0[i]);
+
+                // 3) Project 4D → 3D
+                Vector3[] v3 = mode switch
+                {
+                    Projection4DMode.Orthographic => Projector4Dto3D.Orthographic(v4, wBias),
+                    _ => Projector4Dto3D.Perspective(v4, wCam),
+                };
+
+                // 4) Render edges (3D → 2D is handled by your existing camera/pipeline)
+                renderer.Draw(v3, edges);
+
+                // TODO: pump input to toggle mode/velocities if you have an input layer:
+                // e.g., if (Input.KeyPressed('M')) mode = (mode == Ortho ? Persp : Ortho);
+
+                System.Threading.Thread.Sleep(16);
+            }
+        }
+
+        private static double TimeSeconds() => (DateTime.UtcNow - DateTime.UnixEpoch).TotalSeconds;
     }
 }
