@@ -12,10 +12,9 @@ namespace Core.App
             // Default: run everything
             //QuickSimulations.RunAll();
             QuickSimulations.Tesseract4D();
-            System.Console.WriteLine("Done. Press Enter to exit.");
-            System.Console.ReadLine();
+
             // Or run with pauses between: 
-            //QuickSimulations.RunAll(waitBetween: true);
+            //QuickSimulations.RunAll();
 
             //QuickSimulationsComprehensiveTests.Run(visual: false, verbose: true);
             // or:
