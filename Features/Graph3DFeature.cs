@@ -32,5 +32,25 @@ namespace Features
                                new Surface3DScene(mesh, wireframe: true));
             window.Run();
         }
+        public static void Segment(float x1, float y1, float z1,
+                           float x2, float y2, float z2,
+                           float thickness = 1f)
+        {
+            // Build a 2-point polyline
+            OpenTK.Mathematics.Vector3d[] pts =
+            {
+                new(x1, y1, z1),
+                new(x2, y2, z2)
+            };
+        
+            // Build mesh (polyline with 2 points = one segment)
+            var mesh = SurfaceFactory.BuildPolyline(t => pts[(int)t], 0, 1, 2);
+        
+            // Open a window to show it
+            using var window = new FluxWindow("Fluxion 3D Segment", 800, 600,
+                               new Surface3DScene(mesh, wireframe: true));
+            window.Run();
+        }
     }
 }
+
