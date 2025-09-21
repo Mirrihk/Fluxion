@@ -1,4 +1,7 @@
-﻿// Fluxion.Features/Graph2DFeature.cs
+﻿//|------------------------------------------------------|//
+//|Fluxion.Features/Graph2DFeature.cs  ------------------|//
+//|------------------------------------------------------|//
+
 using System;
 using Rendering.SceneImpl;
 using Rendering.Visualize;    // Plot2DFactory
