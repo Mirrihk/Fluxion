@@ -10,8 +10,9 @@ namespace Core.App
 
 
             // Default: run everything
-            //QuickSimulations.RunAll();
-            QuickSimulations.Tesseract4D();
+            QuickSimulations.RunAll();
+            
+            //QuickSimulations.Tesseract4D();
 
             // Or run with pauses between: 
             //QuickSimulations.RunAll();
