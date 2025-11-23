@@ -28,13 +28,13 @@ namespace Fluxion.Rendering.Visualize4D
 
             // 2) Use your existing BuildPolyline(Func<double, Vector3d>, ...)
             //    This draws a single continuous polyline (smoke test).
-            Vector3d R(double t)
+            Vector3d SamplePoint(double t)
             {
                 int i = (int)System.Math.Round(System.Math.Clamp(t, 0, pts.Count - 1));
                 return pts[i];
             }
 
-            var mesh = SurfaceFactory.BuildPolyline(R, 0, pts.Count - 1, pts.Count);
+            var mesh = SurfaceFactory.BuildPolyline(SamplePoint, 0, pts.Count - 1, pts.Count);
 
             using var window = new FluxWindow("Fluxion 4D Tesseract (smoke test)", 1280, 800,
                                new Surface3DScene(mesh, wireframe: true));
