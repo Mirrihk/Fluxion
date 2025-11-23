@@ -1,4 +1,5 @@
-﻿using Math.Functions3D;
+﻿    //C:/Users/sebas/source/repos/Fluxion/Rendering/Visualize3D/SurfaceFactory.cs
+using Math.Functions3D;
 using OpenTK.Mathematics;
 using System;
 
@@ -6,95 +7,96 @@ namespace Rendering.Visualize3D
 {
     public static class SurfaceFactory
     {
-        /// <summary>Samples z=f(x,y) on a regular grid and builds a triangle mesh.</summary>
-        public static Mesh3D BuildSurface(IScalarField f,
-            double xMin, double xMax, double yMin, double yMax, int resolution)
+        public static Mesh3D BuildSurface
+        (   IScalarField scalarField,int gridResolution,
+            double xMin, double xMax, 
+            double yMin, double yMax
+        )
         {
-            resolution = System.Math.Max(2, resolution);
+            gridResolution = System.Math.Max(2, gridResolution);
 
-            int nx = resolution, ny = resolution;
-            int vCount = nx * ny;
-            var pos = new Vector3[vCount];
-            var nrm = new Vector3[vCount];
+            int xSamples = gridResolution, ySamples = gridResolution;
+            int vertexCount = xSamples * ySamples;
+            var positions = new Vector3[vertexCount];
+            var normals = new Vector3[vertexCount];
 
-            double dx = (xMax - xMin) / (nx - 1);
-            double dy = (yMax - yMin) / (ny - 1);
+            double stepX = (xMax - xMin) / (xSamples - 1);
+            double stepY = (yMax - yMin) / (ySamples - 1);
 
-            // Positions
-            for (int j = 0; j < ny; j++)
+            for (int Positions = 0; Positions < ySamples; Positions++)
             {
-                double y = yMin + j * dy;
-                for (int i = 0; i < nx; i++)
+                double y = yMin + Positions * stepY;
+                for (int i = 0; i < xSamples; i++)
                 {
-                    double x = xMin + i * dx;
-                    double z = f.Evaluate(x, y);
-                    int idx = j * nx + i;
-                    pos[idx] = new Vector3((float)x, (float)z, (float)y); // note: Y<-Z, Z<-Y (Y up)
+                    double x = xMin + i * stepX;
+                    double z = scalarField.Evaluate(x, y);
+                    int idx = Positions * xSamples + i;
+                    positions[idx] = new Vector3((float)x, (float)z, (float)y); // note: Y<-Z, Z<-Y (Y up)
                 }
             }
 
             // Approx normals via central differences
-            for (int j = 0; j < ny; j++)
+            for (int j = 0; j < ySamples; j++)
             {
-                for (int i = 0; i < nx; i++)
+                for (int i = 0; i < xSamples; i++)
                 {
-                    int idx = j * nx + i;
+                    int vertexIndex = j * xSamples + i;
 
-                    int il = System.Math.Max(i - 1, 0), ir = System.Math.Min(i + 1, nx - 1);
-                    int jb = System.Math.Max(j - 1, 0), jt = System.Math.Min(j + 1, ny - 1);
+                    int leftIndex = System.Math.Max(i - 1, 0), rightIndex = System.Math.Min(i + 1, xSamples - 1);
+                    int bottomIndex = System.Math.Max(j - 1, 0), topIndex = System.Math.Min(j + 1, ySamples - 1);
 
-                    var pl = pos[j * nx + il];
-                    var pr = pos[j * nx + ir];
-                    var pb = pos[jb * nx + i];
-                    var pt = pos[jt * nx + i];
+                    var leftPos = positions[j * xSamples + leftIndex];
+                    var rightPos = positions[j * xSamples + rightIndex];
+                    var bottomPos = positions[bottomIndex * xSamples + i];
+                    var topPos = positions[topIndex * xSamples + i];
 
-                    var dxv = pr - pl;
-                    var dyv = pt - pb;
-                    var n = Vector3.Normalize(Vector3.Cross(dyv, dxv));
-                    nrm[idx] = n;
+                    var xDir = rightPos - leftPos;
+                    var yDir = topPos - bottomPos;
+                    var normal = Vector3.Normalize(Vector3.Cross(yDir, xDir));
+                    normals[vertexIndex] = normal;
                 }
             }
 
-            // Indices (two tris per grid quad)
-            int triCount = (nx - 1) * (ny - 1) * 2;
-            var idxs = new int[triCount * 3];
-            int k = 0;
-            for (int j = 0; j < ny - 1; j++)
+            int triangleCount = (xSamples - 1) * (ySamples - 1) * 2;
+            var indices = new int[triangleCount * 3];
+            int indexCursor = 0;
+            for (int j = 0; j < ySamples - 1; j++)
             {
-                for (int i = 0; i < nx - 1; i++)
+                for (int i = 0; i < xSamples - 1; i++)
                 {
-                    int i0 = j * nx + i;
-                    int i1 = j * nx + i + 1;
-                    int i2 = (j + 1) * nx + i;
-                    int i3 = (j + 1) * nx + i + 1;
+                    int v00 = j * xSamples + i;
+                    int v10 = j * xSamples + i + 1;
+                    int v01 = (j + 1) * xSamples + i;
+                    int v11 = (j + 1) * xSamples + i + 1;
 
-                    // tri1: i0,i2,i1
-                    idxs[k++] = i0; idxs[k++] = i2; idxs[k++] = i1;
-                    // tri2: i1,i2,i3
-                    idxs[k++] = i1; idxs[k++] = i2; idxs[k++] = i3;
+                    indices[indexCursor++] = v00; indices[indexCursor++] = v01; 
+                    indices[indexCursor++] = v10; indices[indexCursor++] = v10; 
+                    indices[indexCursor++] = v01; indices[indexCursor++] = v11;
                 }
             }
 
-            return new Mesh3D { Positions = pos, Normals = nrm, Indices = idxs };
+            return new Mesh3D { Positions = positions, Normals = normals, Indices = indices };
         }
 
-        /// <summary>Samples a parametric curve r(t) and outputs a thin triangle strip as “tube” substitute.</summary>
-        public static Mesh3D BuildPolyline(Func<double, Vector3d> r, double tMin, double tMax, int samples)
+        public static Mesh3D BuildPolyline
+        (
+            Func<double, Vector3d> curveFunction, double tMin, double tMax, int samplesCount
+        )
         {
-            samples = System.Math.Max(2, samples);
-            var pts = new Vector3[samples];
-            double dt = (tMax - tMin) / (samples - 1);
+            samplesCount = System.Math.Max(2, samplesCount);
+            var sampledPoints = new Vector3[samplesCount];
+            double tStep = (tMax - tMin) / (samplesCount - 1);
 
-            for (int i = 0; i < samples; i++)
+            for (int i = 0; i < samplesCount; i++)
             {
-                double t = tMin + i * dt;
-                var v = r(t);
-                pts[i] = new Vector3((float)v.X, (float)v.Z, (float)v.Y); // keep Y up
+                double t = tMin + i * tStep;
+                var samplePoint = curveFunction(t);
+                sampledPoints[i] = new Vector3((float)samplePoint.X, (float)samplePoint.Z, (float)samplePoint.Y); // keep Y up
             }
 
             // Build degenerate triangle list for a simple line strip (rendered as GL_LINES)
             // We’ll let the renderer treat this specially in wireframe mode.
-            return new Mesh3D { Positions = pts, Normals = Array.Empty<Vector3>(), Indices = Array.Empty<int>() };
+            return new Mesh3D { Positions = sampledPoints, Normals = Array.Empty<Vector3>(), Indices = Array.Empty<int>() };
         }
     }
 }
