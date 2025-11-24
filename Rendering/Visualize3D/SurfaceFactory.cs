@@ -95,7 +95,6 @@ namespace Rendering.Visualize3D
             }
 
             // Build degenerate triangle list for a simple line strip (rendered as GL_LINES)
-            // We’ll let the renderer treat this specially in wireframe mode.
             return new Mesh3D { Positions = sampledPoints, Normals = Array.Empty<Vector3>(), Indices = Array.Empty<int>() };
         }
     }

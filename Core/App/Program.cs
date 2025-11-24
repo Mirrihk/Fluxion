@@ -9,10 +9,10 @@ namespace Core.App
         {
 
             // Formula for testing prime number functionalities 
-            Fluxion.Core.App.PrimeTest.Run();
+            //Fluxion.Core.App.PrimeTest.Run();
 
             // Default: run everything
-            // QuickSimulations.RunAll();
+            QuickSimulations.RunAll();
             
             //QuickSimulations.Tesseract4D();
 
