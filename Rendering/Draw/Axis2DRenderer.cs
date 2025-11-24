@@ -35,6 +35,9 @@ namespace Rendering.Draw
             var minorX = opts.ShowMinor ? stepX / System.Math.Max(2, opts.MinorDivisions) : 0.0;
             var minorY = opts.ShowMinor ? stepY / System.Math.Max(2, opts.MinorDivisions) : 0.0;
 
+            // reusable 2-point span for all line drawing
+            Span<Vector2> line = stackalloc Vector2[2];
+
             // --- GRID ---
             if (opts.ShowGrid)
             {
@@ -44,33 +47,57 @@ namespace Rendering.Draw
                     foreach (var x in RangeWith0Safe(xMin, xMax, minorX))
                     {
                         if (NearlyMultiple(x, stepX)) continue; // skip where a major will be
-                        r.DrawLines(stackalloc Vector2[] { new((float)x, (float)yMin), new((float)x, (float)yMax) }, opts.MinorGridWidth);
+
+                        line[0] = new Vector2((float)x, (float)yMin);
+                        line[1] = new Vector2((float)x, (float)yMax);
+                        r.DrawLines(line, opts.MinorGridWidth);
                     }
                 }
+
                 // Minor horizontals
                 if (opts.ShowMinor)
                 {
                     foreach (var y in RangeWith0Safe(yMin, yMax, minorY))
                     {
                         if (NearlyMultiple(y, stepY)) continue;
-                        r.DrawLines(stackalloc Vector2[] { new((float)xMin, (float)y), new((float)xMax, (float)y) }, opts.MinorGridWidth);
+
+                        line[0] = new Vector2((float)xMin, (float)y);
+                        line[1] = new Vector2((float)xMax, (float)y);
+                        r.DrawLines(line, opts.MinorGridWidth);
                     }
                 }
+
                 // Major verticals
                 foreach (var x in RangeWith0Safe(xMin, xMax, stepX))
-                    r.DrawLines(stackalloc Vector2[] { new((float)x, (float)yMin), new((float)x, (float)yMax) }, opts.MajorGridWidth);
+                {
+                    line[0] = new Vector2((float)x, (float)yMin);
+                    line[1] = new Vector2((float)x, (float)yMax);
+                    r.DrawLines(line, opts.MajorGridWidth);
+                }
 
                 // Major horizontals
                 foreach (var y in RangeWith0Safe(yMin, yMax, stepY))
-                    r.DrawLines(stackalloc Vector2[] { new((float)xMin, (float)y), new((float)xMax, (float)y) }, opts.MajorGridWidth);
+                {
+                    line[0] = new Vector2((float)xMin, (float)y);
+                    line[1] = new Vector2((float)xMax, (float)y);
+                    r.DrawLines(line, opts.MajorGridWidth);
+                }
             }
 
             // --- AXES (thicker) ---
             if (xMin <= 0 && 0 <= xMax)
-                r.DrawLines(stackalloc Vector2[] { new(0, (float)yMin), new(0, (float)yMax) }, opts.AxisWidth); // Y axis
+            {
+                line[0] = new Vector2(0f, (float)yMin);
+                line[1] = new Vector2(0f, (float)yMax);
+                r.DrawLines(line, opts.AxisWidth); // Y axis
+            }
 
             if (yMin <= 0 && 0 <= yMax)
-                r.DrawLines(stackalloc Vector2[] { new((float)xMin, 0), new((float)xMax, 0) }, opts.AxisWidth); // X axis
+            {
+                line[0] = new Vector2((float)xMin, 0f);
+                line[1] = new Vector2((float)xMax, 0f);
+                r.DrawLines(line, opts.AxisWidth); // X axis
+            }
 
             // --- TICKS ---
             if (opts.ShowTicks)
@@ -83,19 +110,20 @@ namespace Rendering.Draw
                 {
                     foreach (var x in RangeWith0Safe(xMin, xMax, stepX))
                     {
-                        var p1 = new Vector2((float)x, -tY);
-                        var p2 = new Vector2((float)x, +tY);
-                        r.DrawLines(stackalloc Vector2[] { p1, p2 }, opts.AxisWidth);
+                        line[0] = new Vector2((float)x, -tY);
+                        line[1] = new Vector2((float)x, +tY);
+                        r.DrawLines(line, opts.AxisWidth);
                     }
                 }
+
                 // ticks on Y axis (for major Y positions, if Y axis visible)
                 if (xMin <= 0 && 0 <= xMax)
                 {
                     foreach (var y in RangeWith0Safe(yMin, yMax, stepY))
                     {
-                        var p1 = new Vector2(-tX, (float)y);
-                        var p2 = new Vector2(+tX, (float)y);
-                        r.DrawLines(stackalloc Vector2[] { p1, p2 }, opts.AxisWidth);
+                        line[0] = new Vector2(-tX, (float)y);
+                        line[1] = new Vector2(+tX, (float)y);
+                        r.DrawLines(line, opts.AxisWidth);
                     }
                 }
             }
@@ -127,6 +155,7 @@ namespace Rendering.Draw
         }
 
         static double SnapIfNearZero(double v) => System.Math.Abs(v) < 1e-9 ? 0.0 : v;
+
         static bool NearlyMultiple(double v, double step)
         {
             var m = v / step;

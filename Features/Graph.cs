@@ -188,7 +188,9 @@ namespace Features
                     {
                         EmbedPlane.XY => x,
                         EmbedPlane.XZ => x,
-                        EmbedPlane.YZ => offset, // X fixed
+                        EmbedPlane.YZ => offset,
+                        _ => throw new System.ArgumentOutOfRangeException(nameof(plane), plane, null),
+                        
                     };
                 },
                 t =>
@@ -206,6 +208,7 @@ namespace Features
                         EmbedPlane.XY => y,        // Y = f(x)
                         EmbedPlane.XZ => offset,   // Y fixed
                         EmbedPlane.YZ => x,        // Y varies with x
+                        _ => throw new System.ArgumentOutOfRangeException(nameof(plane), plane, null),
                     };
                 },
                 t =>
@@ -223,6 +226,7 @@ namespace Features
                         EmbedPlane.XY => offset,   // Z fixed
                         EmbedPlane.XZ => y,        // Z = f(x)
                         EmbedPlane.YZ => y,        // Z = f(t) with t~x
+                        _ => throw new System.ArgumentOutOfRangeException(nameof(plane), plane, null),
                     };
                 },
                 tMin: 0,
