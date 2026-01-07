@@ -12,9 +12,9 @@ namespace Core.App
             Fluxion.Core.App.PrimeTest.Run();
 
             // Default: run everything
-            //QuickSimulations.RunAll();
+            QuickSimulations.RunAll();
             
-            //QuickSimulations.Tesseract4D();
+            QuickSimulations.Tesseract4D();
 
             // Or run with pauses between: 
             //QuickSimulations.RunAll();
