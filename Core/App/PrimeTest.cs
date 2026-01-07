@@ -8,8 +8,9 @@ namespace Fluxion.Core.App
     {
         public static void Run()
         {
-            var primes = PrimeFinder.GetPrimes(100);
-            Console.WriteLine($"Found {primes.Count} primes up to 100:");
+            int target = 10000;
+            var primes = PrimeFinder.GetPrimes(target);
+            Console.WriteLine($"Found {primes.Count} primes up to {target}:");
             Console.WriteLine(string.Join(", ", primes));
         }
     }
