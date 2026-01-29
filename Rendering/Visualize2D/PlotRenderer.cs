@@ -7,17 +7,13 @@ namespace Rendering.Visualize
 {
     public static class PlotRenderer
     {
-        // Renders a single plot (line and/or points) with your IRenderer
         public static void Render(IRenderer renderer, Plot2D plot)
         {
-            // Lines
             if (plot.Style.Lines && plot.Points.Count > 1)
             {
-                // Convert List<Vector2> -> ReadOnlySpan<Vector2> without alloc
                 renderer.DrawLines(CollectionsMarshal.AsSpan(plot.Points), plot.Style.Width);
             }
 
-            // Points (re-use same points; size uses Width for now)
             if (plot.Style.Points && plot.Points.Count > 0)
             {
                 renderer.DrawPoints(CollectionsMarshal.AsSpan(plot.Points), plot.Style.Width);

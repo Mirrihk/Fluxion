@@ -35,7 +35,6 @@ namespace Rendering.Visualize3D
                 }
             }
 
-            // Approx normals via central differences
             for (int j = 0; j < ySamples; j++)
             {
                 for (int i = 0; i < xSamples; i++)
