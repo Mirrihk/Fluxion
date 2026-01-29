@@ -3,7 +3,9 @@ using System;
 
 namespace Features
 {
-    /// <summary>How to lift a 1D function f(x) into a 3D surface z = g(x, y).</summary>
+    /// <summary>
+    /// How to lift a 1D function f(x) into a 3D surface z = g(x, y).
+    /// </summary>
     public enum Lift
     {
         /// z = f(x)  (extrude along y)
@@ -108,7 +110,9 @@ namespace Features
         }
     }
 
-    /// <summary>2D scalar field g(x,y).</summary>
+    /// <summary>
+    /// 2D scalar field g(x,y).
+    /// </summary>
     public readonly struct Graph2D
     {
         private readonly Func<double, double, double> g;
