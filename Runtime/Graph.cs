@@ -18,7 +18,8 @@ namespace Features
         ProductSin
     }
 
-    /// <summary>Which plane to embed a 2D line in when drawing as a 3D line.</summary>
+    /// <summary>
+    /// Which plane to embed a 2D line in when drawing as a 3D line.</summary>
     public enum EmbedPlane { XY, XZ, YZ }
 
     /// <summary>Unified entry points for graphing.</summary>
@@ -110,9 +111,7 @@ namespace Features
         }
     }
 
-    /// <summary>
-    /// 2D scalar field g(x,y).
-    /// </summary>
+    /// <summary>2D scalar field g(x,y).</summary>
     public readonly struct Graph2D
     {
         private readonly Func<double, double, double> g;

@@ -5,7 +5,7 @@ using System.Collections.Generic;
 namespace Math.Algebra.Concepts
 {
     /// <summary>
-    /// Represents a linear equation of the form A*x + B = 0.
+    /// Represents a linear equation of the form Ax + B = 0.
     /// </summary>
     public class LinearEquation
     {

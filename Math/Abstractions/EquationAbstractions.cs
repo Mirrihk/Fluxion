@@ -1,13 +1,13 @@
 ﻿// Math/Abstractions/EquationAbstractions.cs
 namespace Math.Abstractions
 {
-    /// <summary>Contract for single-variable real functions f(x).</summary>
+    /// Contract for single-variable real functions f(x).</summary>
     public interface IEquation
     {
-        /// <summary>Evaluate f(x) for a given x.</summary>
+        /// <summary> Evaluate f(x) for a given x.</summary>
         double Evaluate(double x);
 
-        /// <summary>Returns true if parameters are valid (e.g., domain/NaN checks).</summary>
+        /// <summary> Returns true if parameters are valid (e.g., domain/NaN checks).</summary>
         bool IsWellFormed();
     }
 
