@@ -33,4 +33,9 @@
     <None Include="C:\Users\sebas\source\repos\Fluxion\.editorconfig" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="docs\build\" />
+    <Folder Include="md\" />
+  </ItemGroup>
+
 </Project>
