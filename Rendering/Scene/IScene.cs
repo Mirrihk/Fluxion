@@ -1,8 +1,8 @@
 ﻿// Fluxion.Rendering/Scene/IScene.cs
-namespace Rendering.Scene
+namespace Fluxion.Rendering.Scene
 {
     /// A self-contained OpenGL scene hosted by FluxWindow.
-    public interface IScene : System.IDisposable
+    public interface IScene : IDisposable
     {
         void OnLoad();                 // GL context is current here
         void OnResize(int width, int height);

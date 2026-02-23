@@ -3,7 +3,7 @@ using OpenTK.Graphics.OpenGL4;
 using System;
 using System.Numerics;
 
-namespace Rendering.Draw
+namespace Fluxion.Rendering.Draw
 {
     /// <summary>
     /// Minimal OpenGL implementation of IRenderer.
@@ -60,7 +60,7 @@ namespace Rendering.Draw
 
             GL.BindVertexArray(_vao);
             GL.BindBuffer(BufferTarget.ArrayBuffer, _vbo);
-            GL.BufferData(BufferTarget.ArrayBuffer, 0, IntPtr.Zero, BufferUsageHint.DynamicDraw);
+            GL.BufferData(BufferTarget.ArrayBuffer, 0, nint.Zero, BufferUsageHint.DynamicDraw);
 
             GL.EnableVertexAttribArray(0);
             GL.VertexAttribPointer(0, 2, VertexAttribPointerType.Float, false, sizeof(float) * 2, 0);

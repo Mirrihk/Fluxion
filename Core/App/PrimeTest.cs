@@ -1,4 +1,4 @@
-using Fluxion.Math.Algebra.Operations;
+using Fluxion.Numerics.Algebra.Operations;
 
 namespace Fluxion.Core.App
 {

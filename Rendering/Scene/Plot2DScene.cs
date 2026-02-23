@@ -1,11 +1,10 @@
 ﻿// Fluxion.Rendering/Scene/Plot2DScene.cs
-using Rendering.Draw;        // AxesRenderer, Axes2DOptions, CurveRenderer2D
-using Rendering.Scene;
-using Rendering.Visualize;   // Plot2D
 using OpenTK.Graphics.OpenGL4;
 using OpenTK.Mathematics;
+using Fluxion.Rendering.Draw;
+using Fluxion.Rendering.Visualize2D;
 
-namespace Rendering.SceneImpl
+namespace Fluxion.Rendering.Scene
 {
     public sealed class Plot2DScene : IScene
     {
@@ -72,8 +71,8 @@ namespace Rendering.SceneImpl
 
         public void Dispose()
         {
-            (axes as System.IDisposable)?.Dispose();
-            (curve as System.IDisposable)?.Dispose();
+            (axes as IDisposable)?.Dispose();
+            (curve as IDisposable)?.Dispose();
         }
     }
 }

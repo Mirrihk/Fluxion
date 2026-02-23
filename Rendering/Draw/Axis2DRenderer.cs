@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Numerics;
 
-namespace Rendering.Draw
+namespace Fluxion.Rendering.Draw
 {
     public sealed class Axes2DOptions
     {
@@ -102,8 +102,8 @@ namespace Rendering.Draw
             // --- TICKS ---
             if (opts.ShowTicks)
             {
-                var tX = (float)opts.TickLength;
-                var tY = (float)opts.TickLength;
+                var tX = opts.TickLength;
+                var tY = opts.TickLength;
 
                 // ticks on X axis (for major X positions, if X axis visible)
                 if (yMin <= 0 && 0 <= yMax)

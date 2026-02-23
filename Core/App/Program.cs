@@ -1,7 +1,7 @@
 ﻿// Fluxion/Core/App/Program.cs
 using System;
 
-namespace Core.App
+namespace Fluxion.Core.App
 {
     public static class Program
     {
@@ -9,7 +9,7 @@ namespace Core.App
         {
 
             // Formula for testing prime number functionalities 
-            Fluxion.Core.App.PrimeTest.Run();
+            PrimeTest.Run();
 
             // Default: run everything
             QuickSimulations.RunAll();

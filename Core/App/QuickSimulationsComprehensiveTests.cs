@@ -1,11 +1,11 @@
 ﻿// QuickSimulationsComprehensiveTests.cs (visual + verbose console)
 using System;
 using Features;
-using Math.Trigonometry.Concepts;
-using Math.Trigonometry.Functions;
-using Math.Trigonometry.Sampling;
+using Fluxion.Numerics.Trigonometry.Sampling;
+using Fluxion.Numerics.Trigonometry.Concepts;
+using Fluxion.Numerics.Trigonometry.Functions;
 
-namespace Core.App
+namespace Fluxion.Core.App
 {
     public static class QuickSimulationsComprehensiveTests
     {

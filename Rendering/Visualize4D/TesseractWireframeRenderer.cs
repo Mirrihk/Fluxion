@@ -3,9 +3,9 @@ using System;
 using System.Collections.Generic;
 using System.Numerics;                 // System.Numerics.Vector3
 using OpenTK.Mathematics;              // Vector3d
-using Rendering.Visualize3D;           // SurfaceFactory
-using Rendering.SceneImpl;             // Surface3DScene
-using Rendering.Windowing;             // FluxWindow
+using Fluxion.Rendering.Scene;             // Surface3DScene
+using Fluxion.Rendering.Windowing;
+using Fluxion.Rendering.Visualize3D;
 
 namespace Fluxion.Rendering.Visualize4D
 {

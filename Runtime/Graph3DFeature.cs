@@ -1,9 +1,9 @@
 // Fluxion.Features/Graph3DFeature.cs
 using System;
-using Math.Functions3D;
-using Rendering.SceneImpl;       // Surface3DScene
-using Rendering.Visualize3D;     // SurfaceFactory, Mesh3D
-using Rendering.Windowing;       // FluxWindow
+using Fluxion.Rendering.Visualize3D;
+using Fluxion.Numerics.Functions3D;
+using Fluxion.Rendering.Scene;       // Surface3DScene
+using Fluxion.Rendering.Windowing;       // FluxWindow
 
 namespace Features
 {

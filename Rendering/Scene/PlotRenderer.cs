@@ -1,10 +1,10 @@
 ﻿// Fluxion.Rendering/Visualize/PlotRenderer.cs
 using System.Numerics;
 using System.Runtime.InteropServices;
-using Rendering.Draw;
-using Rendering.Visualize;
+using Fluxion.Rendering.Draw;
+using Fluxion.Rendering.Visualize2D;
 
-namespace Fluxion.Fluxion.Rendering.Scene
+namespace Fluxion.Rendering.Scene
 {
     public static class PlotRenderer
     {

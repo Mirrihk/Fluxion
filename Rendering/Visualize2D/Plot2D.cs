@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Numerics;
 
-namespace Rendering.Visualize
+namespace Fluxion.Rendering.Visualize2D
 {
     public class Plot2D
     {

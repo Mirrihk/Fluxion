@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Numerics;
 using System.Runtime.InteropServices;
-using Rendering.Draw;
+using Fluxion.Rendering.Draw;
 
-namespace Rendering.Visualize
+namespace Fluxion.Rendering.Visualize2D
 {
     public static class GraphLinear
     {
@@ -69,7 +69,7 @@ namespace Rendering.Visualize
             static float Lerp(float a0, float a1, float t) => a0 + (a1 - a0) * t;
             static float InvLerp(float a0, float a1, float v)
             {
-                float denom = (a1 - a0);
+                float denom = a1 - a0;
                 return System.Math.Abs(denom) < 1e-12f ? 0.5f : (v - a0) / denom;
             }
 
