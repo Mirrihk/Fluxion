@@ -1,12 +1,11 @@
 ﻿// Fluxion.Rendering/Scene/Surface3DScene.cs
-using Rendering.Camera;       // OrbitCamera
-using Rendering.Draw;         // SurfaceRenderer, Axis3DRenderer
-using Rendering.Scene;
-using Rendering.Visualize3D;  // Mesh3D
 using OpenTK.Graphics.OpenGL4;
 using OpenTK.Mathematics;
+using Fluxion.Rendering.Camera;
+using Fluxion.Rendering.Draw;
+using Fluxion.Rendering.Visualize3D;
 
-namespace Rendering.SceneImpl
+namespace Fluxion.Rendering.Scene
 {
     public sealed class Surface3DScene : IScene
     {

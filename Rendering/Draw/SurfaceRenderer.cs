@@ -3,9 +3,9 @@
 using OpenTK.Graphics.OpenGL4;
 using OpenTK.Mathematics;
 using System;
-using Rendering.Visualize3D;
+using Fluxion.Rendering.Visualize3D;
 
-namespace Rendering.Draw
+namespace Fluxion.Rendering.Draw
 {
    
 

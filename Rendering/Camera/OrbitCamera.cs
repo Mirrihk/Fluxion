@@ -1,7 +1,9 @@
 ﻿// File: Fluxion.Rendering/Camera/OrbitCamera.cs
+
+// File: Fluxion.Rendering/Camera/OrbitCamera.cs
 using OpenTK.Mathematics;
 
-namespace Rendering.Camera
+namespace Fluxion.Rendering.Camera
 {
     public sealed class OrbitCamera
     {

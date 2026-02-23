@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using OpenTK.Graphics.OpenGL4;
 using OpenTK.Mathematics;
 
-namespace Rendering.Draw
+namespace Fluxion.Rendering.Draw
 {
     /// <summary>2D axes + grid + ticks (OpenGL lines). Uses the shared Axes2DOptions type.</summary>
     public sealed class AxesRenderer : IDisposable
@@ -168,7 +168,7 @@ void main(){ FragColor = vec4(uColor, 1.0); }";
             var rough = span / target;
             var mag =  System.Math.Pow(10, System.Math.Floor(System.Math.Log10(rough)));
             var norm = rough / mag;                  // 1..10
-            double nice = (norm < 1.5) ? 1 : (norm < 3) ? 2 : (norm < 7) ? 5 : 10;
+            double nice = norm < 1.5 ? 1 : norm < 3 ? 2 : norm < 7 ? 5 : 10;
             return nice * mag;
         }
 

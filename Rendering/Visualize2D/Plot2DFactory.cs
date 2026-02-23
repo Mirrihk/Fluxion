@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Numerics;
 
-namespace Rendering.Visualize
+namespace Fluxion.Rendering.Visualize2D
 {
     public static class Plot2DFactory
     {

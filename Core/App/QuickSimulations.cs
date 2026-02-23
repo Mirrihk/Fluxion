@@ -1,17 +1,19 @@
 ﻿// Fluxion.Core/App/QuickSimulations.cs
 using System.Numerics;
 using Features;
-using Fluxion.Math.Geometry4D;
 using Fluxion.Rendering.Visualize4D;
-
+using Fluxion.Rendering;
+using Fluxion.Rendering.Scene;
 
 // Trigonometry dependencies
-using Math.Trigonometry.Concepts;
-using Math.Trigonometry.Functions;
-using Math.Abstractions;
-using Math.Trigonometry.Sampling;
+using Fluxion.Numerics.Algebra;
+using Fluxion.Numerics.Trigonometry.Functions;
+using Fluxion.Numerics.Abstractions;
+using Fluxion.Numerics.Geometry4D;
+using Fluxion.Numerics.Trigonometry.Sampling;
+using Fluxion.Numerics.Trigonometry.Concepts;
 
-namespace Core.App
+namespace Fluxion.Core.App
 {
     /// <summary>Reusable demo calls you can invoke from Program.Main or the CLI.</summary>
     public static class QuickSimulations
@@ -277,7 +279,7 @@ namespace Core.App
                 // TODO: pump input to toggle mode/velocities if you have an input layer:
                 // e.g., if (Input.KeyPressed('M')) mode = (mode == Ortho ? Persp : Ortho);
 
-                System.Threading.Thread.Sleep(16);
+                Thread.Sleep(16);
             }
         }
 

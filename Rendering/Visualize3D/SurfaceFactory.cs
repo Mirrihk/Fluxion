@@ -1,9 +1,9 @@
-﻿    //C:/Users/sebas/source/repos/Fluxion/Rendering/Visualize3D/SurfaceFactory.cs
-using Math.Functions3D;
+﻿//C:/Users/sebas/source/repos/Fluxion/Rendering/Visualize3D/SurfaceFactory.cs
+using Fluxion.Numerics.Functions3D;
 using OpenTK.Mathematics;
 using System;
 
-namespace Rendering.Visualize3D
+namespace Fluxion.Rendering.Visualize3D
 {
     public static class SurfaceFactory
     {

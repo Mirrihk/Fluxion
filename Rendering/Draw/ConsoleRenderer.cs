@@ -2,7 +2,7 @@
 using System;
 using System.Numerics;
 
-namespace Rendering.Draw
+namespace Fluxion.Rendering.Draw
 {
     public class ConsoleRenderer : IRenderer
     {

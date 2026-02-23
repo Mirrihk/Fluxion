@@ -3,9 +3,9 @@
 //|------------------------------------------------------|//
 
 using System;
-using Rendering.SceneImpl;
-using Rendering.Visualize;    // Plot2DFactory
-using Rendering.Windowing;    // FluxWindow
+using Fluxion.Rendering.Visualize2D;
+using Fluxion.Rendering.Scene;
+using Fluxion.Rendering.Windowing;    // FluxWindow
 
 namespace Features
 {

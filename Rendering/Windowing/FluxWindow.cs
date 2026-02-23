@@ -1,10 +1,10 @@
 ﻿// Fluxion.Rendering/Windowing/FluxWindow.cs
-using Rendering.Scene;
 using OpenTK.Graphics.OpenGL4;
 using OpenTK.Windowing.Common;
 using OpenTK.Windowing.Desktop;
+using Fluxion.Rendering.Scene;
 
-namespace Rendering.Windowing
+namespace Fluxion.Rendering.Windowing
 {
     public sealed class FluxWindow : GameWindow
     {

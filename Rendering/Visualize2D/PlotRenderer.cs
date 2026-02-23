@@ -1,9 +1,9 @@
 ﻿// Fluxion.Rendering/Visualize/PlotRenderer.cs
 using System.Numerics;
 using System.Runtime.InteropServices;
-using Rendering.Draw;
+using Fluxion.Rendering.Draw;
 
-namespace Rendering.Visualize
+namespace Fluxion.Rendering.Visualize2D
 {
     public static class PlotRenderer
     {

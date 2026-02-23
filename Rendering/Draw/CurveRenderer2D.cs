@@ -1,9 +1,9 @@
-﻿using System.Numerics;                 
-using Rendering.Visualize;     
+﻿using System.Numerics;
 using OpenTK.Graphics.OpenGL4;
 using OpenTK.Mathematics;
+using Fluxion.Rendering.Visualize2D;
 
-namespace Rendering.Draw
+namespace Fluxion.Rendering.Draw
 {
     /// <summary>
     /// Renders 2D curves (lines/points) from Plot2D using an orthographic projection.
@@ -70,10 +70,10 @@ namespace Rendering.Draw
 
             if (needed > _cachedCapacityFloats)
             {
-                GL.BufferData(BufferTarget.ArrayBuffer, needed * sizeof(float), IntPtr.Zero, BufferUsageHint.DynamicDraw);
+                GL.BufferData(BufferTarget.ArrayBuffer, needed * sizeof(float), nint.Zero, BufferUsageHint.DynamicDraw);
                 _cachedCapacityFloats = needed;
             }
-            GL.BufferSubData(BufferTarget.ArrayBuffer, IntPtr.Zero, needed * sizeof(float), verts);
+            GL.BufferSubData(BufferTarget.ArrayBuffer, nint.Zero, needed * sizeof(float), verts);
 
             if (plot.Style.Lines && n >= 2)
             {
