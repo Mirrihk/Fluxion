@@ -13,7 +13,7 @@ using Fluxion.src.Numerics.Geometry4D;
 using Fluxion.src.Numerics.Trigonometry.Sampling;
 using Fluxion.src.Runtime;
 
-namespace Fluxion.tests
+namespace Fluxion.tests.Rendering
 {
     /// <summary>Reusable demo calls you can invoke from Program.Main or the CLI.</summary>
     public static class QuickSimulations

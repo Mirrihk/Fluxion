@@ -1,6 +1,6 @@
 using Fluxion.src.Numerics.Algebra.Operations;
 
-namespace Fluxion.tests
+namespace Fluxion.tests.Core
 {
     public static class PrimeTest
     {

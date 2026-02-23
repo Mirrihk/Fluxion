@@ -5,7 +5,7 @@ using Fluxion.src.Numerics.Trigonometry.Functions;
 using Fluxion.src.Numerics.Trigonometry.Sampling;
 using Fluxion.src.Runtime;
 
-namespace Fluxion.tests
+namespace Fluxion.tests.Numerics
 {
     public static class QuickSimulationsComprehensiveTests
     {

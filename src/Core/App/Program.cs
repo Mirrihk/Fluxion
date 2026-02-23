@@ -1,5 +1,6 @@
 ﻿// Fluxion/Core/App/Program.cs
-using Fluxion.tests;
+using Fluxion.tests.Core;
+using Fluxion.tests.Rendering;
 using System;
 
 namespace Fluxion.src.Core.App
