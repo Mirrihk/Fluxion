@@ -11,12 +11,12 @@ namespace Fluxion.src.Core.App
         {
 
             // Formula for testing prime number functionalities 
-            PrimeTest.Run();
+            // PrimeTest.Run();
 
             // Default: run everything
             QuickSimulations.RunAll();
             
-            QuickSimulations.Tesseract4D();
+            //QuickSimulations.Tesseract4D();
 
             // Or run with pauses between: 
             //QuickSimulations.RunAll();
