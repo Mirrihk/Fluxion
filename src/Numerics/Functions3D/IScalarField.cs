@@ -1,4 +1,6 @@
-﻿namespace Fluxion.src.Numerics.Functions3D
+﻿// File: Fluxion.Math/Numerics/Functions3D/IScalarField.cs
+
+namespace Fluxion.src.Numerics.Functions3D
 {
    /*
     * <summary>

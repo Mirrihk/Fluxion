@@ -1,6 +1,4 @@
-// ===============================
 // File: Fluxion.Rendering/Visualize4D/Projector4Dto3D.cs
-// ===============================
 using System;
 using System.Numerics;
 

@@ -12,15 +12,17 @@ namespace Fluxion.src.Rendering.Draw
         private readonly int _vao, _vbo, _program;
         private readonly int _locMvp, _locColor;
 
-        private const string VS = @"#version 330 core
-layout (location = 0) in vec2 aPos;
-uniform mat4 uMVP;
-void main(){ gl_Position = uMVP * vec4(aPos, 0.0, 1.0); }";
+        private const string VS = 
+            @"#version 330 core 
+            layout (location = 0) in vec2 aPos;
+            uniform mat4 uMVP;
+            void main(){ gl_Position = uMVP * vec4(aPos, 0.0, 1.0); }";
 
-        private const string FS = @"#version 330 core
-uniform vec3 uColor;
-out vec4 FragColor;
-void main(){ FragColor = vec4(uColor, 1.0); }";
+        private const string FS = 
+            @"#version 330 core
+            uniform vec3 uColor;
+            out vec4 FragColor;
+            void main(){ FragColor = vec4(uColor, 1.0); }";
 
         // default palette
         private static readonly Vector3 MinorColor = new(0.25f, 0.25f, 0.30f);

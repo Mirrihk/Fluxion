@@ -1,18 +1,4 @@
 ﻿// File: Fluxion.Math/Calculus/Operations/Differentiate.cs
-
-// File: Fluxion.Math/Calculus/Operations/Differentiate.cs
-
-// File: Fluxion.Math/Calculus/Operations/Differentiate.cs
-
-// File: Fluxion.Math/Calculus/Operations/Differentiate.cs
-
-// File: Fluxion.Math/Calculus/Operations/Differentiate.cs
-
-// File: Fluxion.Math/Calculus/Operations/Differentiate.cs
-
-// File: Fluxion.Math/Calculus/Operations/Differentiate.cs
-
-// File: Fluxion.Math/Calculus/Operations/Differentiate.cs
 using Fluxion.src.Numerics.Calculus.Concepts;
 
 namespace Fluxion.src.Numerics.Calculus.Operations

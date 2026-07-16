@@ -1,6 +1,4 @@
-﻿// ===============================
-// File: Fluxion.Math/Geometry4D/TesseractModel.cs
-// ===============================
+﻿// File: Fluxion.Math/Geometry4D/TesseractModel.cs
 using System;
 using System.Collections.Generic;
 using System.Numerics;

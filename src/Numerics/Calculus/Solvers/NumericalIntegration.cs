@@ -1,18 +1,5 @@
 ﻿// File: Fluxion.Math/Calculus/Solvers/NumericalIntegration.cs
 
-// File: Fluxion.Math/Calculus/Solvers/NumericalIntegration.cs
-
-// File: Fluxion.Math/Calculus/Solvers/NumericalIntegration.cs
-
-// File: Fluxion.Math/Calculus/Solvers/NumericalIntegration.cs
-
-// File: Fluxion.Math/Calculus/Solvers/NumericalIntegration.cs
-
-// File: Fluxion.Math/Calculus/Solvers/NumericalIntegration.cs
-
-// File: Fluxion.Math/Calculus/Solvers/NumericalIntegration.cs
-
-// File: Fluxion.Math/Calculus/Solvers/NumericalIntegration.cs
 using Fluxion.src.Numerics.Calculus.Concepts;
 
 namespace Fluxion.src.Numerics.Calculus.Solvers

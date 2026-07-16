@@ -1,18 +1,5 @@
 ﻿// File: Fluxion.Math/Calculus/Integrals/IntegrationByParts.cs
 
-// File: Fluxion.Math/Calculus/Integrals/IntegrationByParts.cs
-
-// File: Fluxion.Math/Calculus/Integrals/IntegrationByParts.cs
-
-// File: Fluxion.Math/Calculus/Integrals/IntegrationByParts.cs
-
-// File: Fluxion.Math/Calculus/Integrals/IntegrationByParts.cs
-
-// File: Fluxion.Math/Calculus/Integrals/IntegrationByParts.cs
-
-// File: Fluxion.Math/Calculus/Integrals/IntegrationByParts.cs
-
-// File: Fluxion.Math/Calculus/Integrals/IntegrationByParts.cs
 using Fluxion.src.Numerics.Calculus.Concepts;
 
 namespace Fluxion.src.Numerics.Calculus.Integrals

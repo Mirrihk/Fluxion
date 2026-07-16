@@ -1,4 +1,5 @@
-﻿using Fluxion.src.Numerics.Abstractions;
+﻿// Fluxion\src\Numerics\Trigonometry\Functions\CosineEquation.cs 
+using Fluxion.src.Numerics.Abstractions;
 using Fluxion.src.Numerics.Trigonometry.Concepts;
 using System;
 

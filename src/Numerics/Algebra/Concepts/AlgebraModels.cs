@@ -4,9 +4,7 @@ using System.Collections.Generic;
 
 namespace Fluxion.src.Numerics.Algebra.Concepts
 {
-    /// <summary>
     /// Represents a linear equation of the form Ax + B = 0.
-    /// </summary>
     public class LinearEquation
     {
         public double A { get; }

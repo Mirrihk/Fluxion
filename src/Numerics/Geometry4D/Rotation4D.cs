@@ -1,6 +1,4 @@
-// ===============================
 // File: Fluxion.Math/Geometry4D/Rotation4D.cs
-// ===============================
 using System;
 using System.Numerics;
 

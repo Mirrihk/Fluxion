@@ -1,6 +1,4 @@
-﻿// ===============================
-// File: Fluxion.Math/Calculus/Concepts/CalculusModels.cs
-// ===============================
+﻿// File: Fluxion.Math/Calculus/Concepts/CalculusModels.cs
 using Fluxion.src.Numerics.Calculus.Limits;
 using Fluxion.src.Numerics.Calculus.Series;
 using System;

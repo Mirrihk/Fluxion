@@ -1,20 +1,20 @@
 ﻿// Math/Abstractions/EquationAbstractions.cs
 namespace Fluxion.src.Numerics.Abstractions
 {
-    /// Contract for single-variable real functions f(x).</summary>
+    /// Contract for single-variable real functions f(x).
     public interface IEquation
     {
-        /// <summary> Evaluate f(x) for a given x.</summary>
+        //Evaluate f(x) for a given x.
         double Evaluate(double x);
 
-        /// <summary> Returns true if parameters are valid (e.g., domain/NaN checks).</summary>
+        // Returns true if parameters are valid (e.g., domain/NaN checks).
         bool IsWellFormed();
     }
 
-    /// <summary>Contract for a human-friendly display string.</summary>
+    //Contract for a human-friendly display string.
     public interface IDisplay
     {
-        /// <summary>Pretty representation, e.g., "A·x + B".</summary>
+        //Pretty representation, e.g., "A·x + B".
         string AsString(string variable = "x");
     }
 }

@@ -13,11 +13,11 @@ namespace Fluxion.src.Rendering.Draw
     /// </summary>
     public sealed class Axis3DRenderer : IDisposable
     {
-        private readonly int _vao;
-        private readonly int _vbo;
+        private readonly int _vao; //Vertex Array Object
+        private readonly int _vbo; //Vertex Buffer Object
         private readonly int _program;
-        private readonly int _uMvpLoc;
-        private readonly int _vertexCount;
+        private readonly int _uMvpLoc;// Uniform location for MVP matrix        
+        private readonly int _vertexTCount;
 
         public Axis3DRenderer(int halfExtent = 10, float step = 1f)
         {
@@ -50,7 +50,7 @@ namespace Fluxion.src.Rendering.Draw
                     PushLine(data, new Vector3(-L, y, 0), new Vector3(+L, y, 0), grid);
             }
 
-            _vertexCount = data.Count / 6;
+            _vertexTCount = data.Count / 6;
 
             // --- GL objects ---
             _vao = GL.GenVertexArray();
@@ -71,22 +71,22 @@ namespace Fluxion.src.Rendering.Draw
 
             // --- Shader program ---
             var vs = @"
-#version 330 core
-layout(location=0) in vec3 aPos;
-layout(location=1) in vec3 aColor;
-uniform mat4 uMVP;
-out vec3 vColor;
-void main(){
-    vColor = aColor;
-    gl_Position = uMVP * vec4(aPos, 1.0);
-}";
-            var fs = @"
-#version 330 core
-in vec3 vColor;
-out vec4 FragColor;
-void main(){
-    FragColor = vec4(vColor, 1.0);
-}";
+                #version 330 core
+                layout(location=0) in vec3 aPos;
+                layout(location=1) in vec3 aColor;
+                uniform mat4 uMVP;
+                out vec3 vColor;
+                void main(){
+                    vColor = aColor;
+                    gl_Position = uMVP * vec4(aPos, 1.0);
+                }";
+                            var fs = @"
+                #version 330 core
+                in vec3 vColor;
+                out vec4 FragColor;
+                void main(){
+                    FragColor = vec4(vColor, 1.0);
+                }";
             _program = CreateProgram(vs, fs);
             _uMvpLoc = GL.GetUniformLocation(_program, "uMVP");
         }
@@ -102,7 +102,7 @@ void main(){
             GL.LineWidth(1.2f);
 
             GL.BindVertexArray(_vao);
-            GL.DrawArrays(PrimitiveType.Lines, 0, _vertexCount);
+            GL.DrawArrays(PrimitiveType.Lines, 0, _vertexTCount);
             GL.BindVertexArray(0);
 
             GL.UseProgram(0);

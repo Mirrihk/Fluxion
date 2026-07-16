@@ -8,6 +8,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="docs\**" />
+    <Compile Remove="md\**" />
+    <EmbeddedResource Remove="docs\**" />
+    <EmbeddedResource Remove="md\**" />
+    <None Remove="docs\**" />
+    <None Remove="md\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="FluentAssertions" Version="8.6.0" />
     <PackageReference Include="FluentValidation" Version="12.0.0" />
     <PackageReference Include="FluxionSharp" Version="2.0.0" />
@@ -31,11 +40,6 @@
 
   <ItemGroup>
     <None Include="C:\Users\sebas\source\repos\Fluxion\.editorconfig" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="docs\build\" />
-    <Folder Include="md\" />
   </ItemGroup>
 
 </Project>
