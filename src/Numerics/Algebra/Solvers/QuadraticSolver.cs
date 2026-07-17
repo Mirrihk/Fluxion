@@ -1,7 +1,7 @@
 ﻿// Fluxion.Math/Algebra/Solvers/QuadraticSolver.cs
 using System;
 using Fluxion.src.Numerics.Algebra.Concepts;
-using Math.Algebra.Solvers;
+using Fluxion.src.Numerics.Algebra.Solvers;
 using static System.Math;
 
 namespace Fluxion.src.Numerics.Algebra.Solvers

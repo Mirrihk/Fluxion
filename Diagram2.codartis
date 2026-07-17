@@ -1,0 +1,4445 @@
+﻿{
+  "Version": 3,
+  "AreNodeDescriptionsVisible": false,
+  "ContainerNodes": [
+    {
+      "Id": 16,
+      "ParentId": 235,
+      "ZIndex": 1,
+      "Name": "Fluxion",
+      "FullyQualifiedName": "Fluxion",
+      "Stereotype": "Namespace",
+      "ToolTip": "namespace Fluxion\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1346.5611,-3289.4199",
+      "Size": "1674.904,1377.2587",
+      "IsPinned": true,
+      "CustomFillBrushKey": "DiagramItemCustomColorBrush11",
+      "Symbols": [
+        "{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}"
+      ],
+      "NamespaceLevel": 1
+    },
+    {
+      "Id": 17,
+      "ParentId": 27,
+      "ZIndex": 3,
+      "Name": "Runtime",
+      "FullyQualifiedName": "Fluxion.src.Runtime",
+      "Stereotype": "Namespace",
+      "ToolTip": "namespace Fluxion.src.Runtime\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-357.1621,-3089.1994",
+      "Size": "431.9099,204.0314",
+      "IsPinned": true,
+      "CustomFillBrushKey": "DiagramItemCustomColorBrush4",
+      "Symbols": [
+        "{\"K\":\"Namespace\",\"N\":\"Runtime\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}"
+      ],
+      "NamespaceLevel": 3
+    },
+    {
+      "Id": 27,
+      "ParentId": 16,
+      "ZIndex": 2,
+      "Name": "src",
+      "FullyQualifiedName": "Fluxion.src",
+      "Stereotype": "Namespace",
+      "ToolTip": "namespace Fluxion.src\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1341.5611,-3260.6199",
+      "Size": "1664.904,1343.4587",
+      "IsPinned": true,
+      "CustomFillBrushKey": "DiagramItemCustomColorBrush3",
+      "Symbols": [
+        "{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}"
+      ],
+      "NamespaceLevel": 2
+    },
+    {
+      "Id": 28,
+      "ParentId": 80,
+      "ZIndex": 14,
+      "Name": "Camera",
+      "FullyQualifiedName": "Fluxion.src.Rendering.Camera",
+      "Stereotype": "Namespace",
+      "ToolTip": "namespace Fluxion.src.Rendering.Camera\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-356.5272,-2481.5076",
+      "Size": "142,83.8",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"Namespace\",\"N\":\"Camera\",\"C\":{\"K\":\"Namespace\",\"N\":\"Rendering\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}"
+      ],
+      "NamespaceLevel": 4
+    },
+    {
+      "Id": 30,
+      "ParentId": 80,
+      "ZIndex": 16,
+      "Name": "Draw",
+      "FullyQualifiedName": "Fluxion.src.Rendering.Draw",
+      "Stereotype": "Namespace",
+      "ToolTip": "namespace Fluxion.src.Rendering.Draw\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-183.3089,-2613.4347",
+      "Size": "452.4514,273.6379",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"Namespace\",\"N\":\"Draw\",\"C\":{\"K\":\"Namespace\",\"N\":\"Rendering\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}"
+      ],
+      "NamespaceLevel": 4
+    },
+    {
+      "Id": 42,
+      "ParentId": 80,
+      "ZIndex": 28,
+      "Name": "Scene",
+      "FullyQualifiedName": "Fluxion.src.Rendering.Scene",
+      "Stereotype": "Namespace",
+      "ToolTip": "namespace Fluxion.src.Rendering.Scene\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-358.2768,-2740.0149",
+      "Size": "142,252.6466",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"Namespace\",\"N\":\"Scene\",\"C\":{\"K\":\"Namespace\",\"N\":\"Rendering\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}"
+      ],
+      "NamespaceLevel": 4
+    },
+    {
+      "Id": 59,
+      "ParentId": 80,
+      "ZIndex": 45,
+      "Name": "Visualize2D",
+      "FullyQualifiedName": "Fluxion.src.Rendering.Visualize2D",
+      "Stereotype": "Namespace",
+      "ToolTip": "namespace Fluxion.src.Rendering.Visualize2D\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-193.6018,-2845.5099",
+      "Size": "294,223.8",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"Namespace\",\"N\":\"Visualize2D\",\"C\":{\"K\":\"Namespace\",\"N\":\"Rendering\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}"
+      ],
+      "NamespaceLevel": 4
+    },
+    {
+      "Id": 69,
+      "ParentId": 80,
+      "ZIndex": 55,
+      "Name": "Visualize3D",
+      "FullyQualifiedName": "Fluxion.src.Rendering.Visualize3D",
+      "Stereotype": "Namespace",
+      "ToolTip": "namespace Fluxion.src.Rendering.Visualize3D\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "129.7542,-2847.7362",
+      "Size": "142,153.8",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"Namespace\",\"N\":\"Visualize3D\",\"C\":{\"K\":\"Namespace\",\"N\":\"Rendering\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}"
+      ],
+      "NamespaceLevel": 4
+    },
+    {
+      "Id": 74,
+      "ParentId": 80,
+      "ZIndex": 60,
+      "Name": "Visualize4D",
+      "FullyQualifiedName": "Fluxion.src.Rendering.Visualize4D",
+      "Stereotype": "Namespace",
+      "ToolTip": "namespace Fluxion.src.Rendering.Visualize4D\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "116.6483,-2679.1828",
+      "Size": "186.4133,83.8",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"Namespace\",\"N\":\"Visualize4D\",\"C\":{\"K\":\"Namespace\",\"N\":\"Rendering\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}"
+      ],
+      "NamespaceLevel": 4
+    },
+    {
+      "Id": 76,
+      "ParentId": 80,
+      "ZIndex": 62,
+      "Name": "Windowing",
+      "FullyQualifiedName": "Fluxion.src.Rendering.Windowing",
+      "Stereotype": "Namespace",
+      "ToolTip": "namespace Fluxion.src.Rendering.Windowing\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-363.1165,-2836.8818",
+      "Size": "142,83.8",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"Namespace\",\"N\":\"Windowing\",\"C\":{\"K\":\"Namespace\",\"N\":\"Rendering\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}"
+      ],
+      "NamespaceLevel": 4
+    },
+    {
+      "Id": 80,
+      "ParentId": 27,
+      "ZIndex": 13,
+      "Name": "Rendering",
+      "FullyQualifiedName": "Fluxion.src.Rendering",
+      "Stereotype": "Namespace",
+      "ToolTip": "namespace Fluxion.src.Rendering\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-368.1165,-2876.5362",
+      "Size": "676.1781,541.7394",
+      "IsPinned": true,
+      "CustomFillBrushKey": "DiagramItemCustomColorBrush4",
+      "Symbols": [
+        "{\"K\":\"Namespace\",\"N\":\"Rendering\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}"
+      ],
+      "NamespaceLevel": 3
+    },
+    {
+      "Id": 81,
+      "ParentId": 97,
+      "ZIndex": 67,
+      "Name": "Abstractions",
+      "FullyQualifiedName": "Fluxion.src.Numerics.Abstractions",
+      "Stereotype": "Namespace",
+      "ToolTip": "namespace Fluxion.src.Numerics.Abstractions\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1323.4046,-3189.1149",
+      "Size": "142.9531,146.7158",
+      "IsPinned": true,
+      "CustomFillBrushKey": "DiagramItemCustomColorBrush10",
+      "Symbols": [
+        "{\"K\":\"Namespace\",\"N\":\"Abstractions\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}"
+      ],
+      "NamespaceLevel": 4
+    },
+    {
+      "Id": 84,
+      "ParentId": 97,
+      "ZIndex": 70,
+      "Name": "Algebra",
+      "FullyQualifiedName": "Fluxion.src.Numerics.Algebra",
+      "Stereotype": "Namespace",
+      "ToolTip": "namespace Fluxion.src.Numerics.Algebra\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1156.1156,-3203.0199",
+      "Size": "758.7883,612.7115",
+      "IsPinned": true,
+      "CustomFillBrushKey": "DiagramItemCustomColorBrush10",
+      "Symbols": [
+        "{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}"
+      ],
+      "NamespaceLevel": 4
+    },
+    {
+      "Id": 86,
+      "ParentId": 97,
+      "ZIndex": 72,
+      "Name": "Calculus",
+      "FullyQualifiedName": "Fluxion.src.Numerics.Calculus",
+      "Stereotype": "Namespace",
+      "ToolTip": "namespace Fluxion.src.Numerics.Calculus\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1162.0224,-2570.367",
+      "Size": "779.6531,597.3844",
+      "IsPinned": true,
+      "CustomFillBrushKey": "DiagramItemCustomColorBrush10",
+      "Symbols": [
+        "{\"K\":\"Namespace\",\"N\":\"Calculus\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}"
+      ],
+      "NamespaceLevel": 4
+    },
+    {
+      "Id": 88,
+      "ParentId": 97,
+      "ZIndex": 74,
+      "Name": "Functions3D",
+      "FullyQualifiedName": "Fluxion.src.Numerics.Functions3D",
+      "Stereotype": "Namespace",
+      "ToolTip": "namespace Fluxion.src.Numerics.Functions3D\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1317.5927,-2294.117",
+      "Size": "146.3547,147.4302",
+      "IsPinned": true,
+      "CustomFillBrushKey": "DiagramItemCustomColorBrush10",
+      "Symbols": [
+        "{\"K\":\"Namespace\",\"N\":\"Functions3D\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}"
+      ],
+      "NamespaceLevel": 4
+    },
+    {
+      "Id": 92,
+      "ParentId": 97,
+      "ZIndex": 78,
+      "Name": "Geometry4D",
+      "FullyQualifiedName": "Fluxion.src.Numerics.Geometry4D",
+      "Stereotype": "Namespace",
+      "ToolTip": "namespace Fluxion.src.Numerics.Geometry4D\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1318.813,-2526.3054",
+      "Size": "145.0342,244.9088",
+      "IsPinned": true,
+      "CustomFillBrushKey": "DiagramItemCustomColorBrush10",
+      "Symbols": [
+        "{\"K\":\"Namespace\",\"N\":\"Geometry4D\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}"
+      ],
+      "NamespaceLevel": 4
+    },
+    {
+      "Id": 97,
+      "ParentId": 27,
+      "ZIndex": 66,
+      "Name": "Numerics",
+      "FullyQualifiedName": "Fluxion.src.Numerics",
+      "Stereotype": "Namespace",
+      "ToolTip": "namespace Fluxion.src.Numerics\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1336.5611,-3231.8199",
+      "Size": "959.1917,1263.8373",
+      "IsPinned": true,
+      "CustomFillBrushKey": "DiagramItemCustomColorBrush4",
+      "Symbols": [
+        "{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}"
+      ],
+      "NamespaceLevel": 3
+    },
+    {
+      "Id": 98,
+      "ParentId": 114,
+      "ZIndex": 84,
+      "Name": "Concepts",
+      "FullyQualifiedName": "Fluxion.src.Numerics.Trigonometry.Concepts",
+      "Stereotype": "Namespace",
+      "ToolTip": "namespace Fluxion.src.Numerics.Trigonometry.Concepts\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1325.9645,-2814.5596",
+      "Size": "146.2599,143.4893",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"Namespace\",\"N\":\"Concepts\",\"C\":{\"K\":\"Namespace\",\"N\":\"Trigonometry\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "NamespaceLevel": 5
+    },
+    {
+      "Id": 101,
+      "ParentId": 114,
+      "ZIndex": 87,
+      "Name": "Functions",
+      "FullyQualifiedName": "Fluxion.src.Numerics.Trigonometry.Functions",
+      "Stereotype": "Namespace",
+      "ToolTip": "namespace Fluxion.src.Numerics.Trigonometry.Functions\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1326.5611,-2973.7812",
+      "Size": "143.2036,140.4747",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"Namespace\",\"N\":\"Functions\",\"C\":{\"K\":\"Namespace\",\"N\":\"Trigonometry\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "NamespaceLevel": 5
+    },
+    {
+      "Id": 112,
+      "ParentId": 114,
+      "ZIndex": 98,
+      "Name": "Sampling",
+      "FullyQualifiedName": "Fluxion.src.Numerics.Trigonometry.Sampling",
+      "Stereotype": "Namespace",
+      "ToolTip": "namespace Fluxion.src.Numerics.Trigonometry.Sampling\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1319.5449,-2645.262",
+      "Size": "144.0267,83.8",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"Namespace\",\"N\":\"Sampling\",\"C\":{\"K\":\"Namespace\",\"N\":\"Trigonometry\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "NamespaceLevel": 5
+    },
+    {
+      "Id": 114,
+      "ParentId": 97,
+      "ZIndex": 83,
+      "Name": "Trigonometry",
+      "FullyQualifiedName": "Fluxion.src.Numerics.Trigonometry",
+      "Stereotype": "Namespace",
+      "ToolTip": "namespace Fluxion.src.Numerics.Trigonometry\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1331.5611,-3002.5812",
+      "Size": "161.0428,446.1192",
+      "IsPinned": true,
+      "CustomFillBrushKey": "DiagramItemCustomColorBrush10",
+      "Symbols": [
+        "{\"K\":\"Namespace\",\"N\":\"Trigonometry\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}"
+      ],
+      "NamespaceLevel": 4
+    },
+    {
+      "Id": 115,
+      "ParentId": 86,
+      "ZIndex": 100,
+      "Name": "Solvers",
+      "FullyQualifiedName": "Fluxion.src.Numerics.Calculus.Solvers",
+      "Stereotype": "Namespace",
+      "ToolTip": "namespace Fluxion.src.Numerics.Calculus.Solvers\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1148.9563,-2301.6922",
+      "Size": "276.2545,140.8942",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"Namespace\",\"N\":\"Solvers\",\"C\":{\"K\":\"Namespace\",\"N\":\"Calculus\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "NamespaceLevel": 5
+    },
+    {
+      "Id": 119,
+      "ParentId": 86,
+      "ZIndex": 104,
+      "Name": "Concepts",
+      "FullyQualifiedName": "Fluxion.src.Numerics.Calculus.Concepts",
+      "Stereotype": "Namespace",
+      "ToolTip": "namespace Fluxion.src.Numerics.Calculus.Concepts\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1157.0224,-2541.567",
+      "Size": "277.8678,212.1078",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"Namespace\",\"N\":\"Concepts\",\"C\":{\"K\":\"Namespace\",\"N\":\"Calculus\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "NamespaceLevel": 5
+    },
+    {
+      "Id": 130,
+      "ParentId": 86,
+      "ZIndex": 115,
+      "Name": "Derivatives",
+      "FullyQualifiedName": "Fluxion.src.Numerics.Calculus.Derivatives",
+      "Stereotype": "Namespace",
+      "ToolTip": "namespace Fluxion.src.Numerics.Calculus.Derivatives\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-857.0593,-2376.7717",
+      "Size": "284.9871,189.675",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"Namespace\",\"N\":\"Derivatives\",\"C\":{\"K\":\"Namespace\",\"N\":\"Calculus\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "NamespaceLevel": 5
+    },
+    {
+      "Id": 137,
+      "ParentId": 86,
+      "ZIndex": 122,
+      "Name": "DifferentialEquations",
+      "FullyQualifiedName": "Fluxion.src.Numerics.Calculus.DifferentialEquations",
+      "Stereotype": "Namespace",
+      "ToolTip": "namespace Fluxion.src.Numerics.Calculus.DifferentialEquations\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-558.8793,-2534.3757",
+      "Size": "171.51,141.1819",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"Namespace\",\"N\":\"DifferentialEquations\",\"C\":{\"K\":\"Namespace\",\"N\":\"Calculus\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "NamespaceLevel": 5
+    },
+    {
+      "Id": 140,
+      "ParentId": 86,
+      "ZIndex": 125,
+      "Name": "Integrals",
+      "FullyQualifiedName": "Fluxion.src.Numerics.Calculus.Integrals",
+      "Stereotype": "Namespace",
+      "ToolTip": "namespace Fluxion.src.Numerics.Calculus.Integrals\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-847.2621,-2177.9342",
+      "Size": "285.6456,199.9516",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"Namespace\",\"N\":\"Integrals\",\"C\":{\"K\":\"Namespace\",\"N\":\"Calculus\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "NamespaceLevel": 5
+    },
+    {
+      "Id": 146,
+      "ParentId": 86,
+      "ZIndex": 131,
+      "Name": "Limits",
+      "FullyQualifiedName": "Fluxion.src.Numerics.Calculus.Limits",
+      "Stereotype": "Namespace",
+      "ToolTip": "namespace Fluxion.src.Numerics.Calculus.Limits\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1144.7181,-2135.0718",
+      "Size": "284.232,143.9605",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"Namespace\",\"N\":\"Limits\",\"C\":{\"K\":\"Namespace\",\"N\":\"Calculus\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "NamespaceLevel": 5
+    },
+    {
+      "Id": 150,
+      "ParentId": 86,
+      "ZIndex": 135,
+      "Name": "Operations",
+      "FullyQualifiedName": "Fluxion.src.Numerics.Calculus.Operations",
+      "Stereotype": "Namespace",
+      "ToolTip": "namespace Fluxion.src.Numerics.Calculus.Operations\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-854.3919,-2536.7274",
+      "Size": "283.1845,142.0832",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"Namespace\",\"N\":\"Operations\",\"C\":{\"K\":\"Namespace\",\"N\":\"Calculus\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "NamespaceLevel": 5
+    },
+    {
+      "Id": 155,
+      "ParentId": 86,
+      "ZIndex": 140,
+      "Name": "Series",
+      "FullyQualifiedName": "Fluxion.src.Numerics.Calculus.Series",
+      "Stereotype": "Namespace",
+      "ToolTip": "namespace Fluxion.src.Numerics.Calculus.Series\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-550.9483,-2373.4872",
+      "Size": "143.8026,194.0573",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"Namespace\",\"N\":\"Series\",\"C\":{\"K\":\"Namespace\",\"N\":\"Calculus\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "NamespaceLevel": 5
+    },
+    {
+      "Id": 159,
+      "ParentId": 84,
+      "ZIndex": 144,
+      "Name": "Concepts",
+      "FullyQualifiedName": "Fluxion.src.Numerics.Algebra.Concepts",
+      "Stereotype": "Namespace",
+      "ToolTip": "namespace Fluxion.src.Numerics.Algebra.Concepts\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1149.9147,-2955.305",
+      "Size": "448.1217,356.5543",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"Namespace\",\"N\":\"Concepts\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "NamespaceLevel": 5
+    },
+    {
+      "Id": 180,
+      "ParentId": 84,
+      "ZIndex": 165,
+      "Name": "Equations",
+      "FullyQualifiedName": "Fluxion.src.Numerics.Algebra.Equations",
+      "Stereotype": "Namespace",
+      "ToolTip": "namespace Fluxion.src.Numerics.Algebra.Equations\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1151.1156,-3166.5094",
+      "Size": "434.5238,200.5385",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"Namespace\",\"N\":\"Equations\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "NamespaceLevel": 5
+    },
+    {
+      "Id": 215,
+      "ParentId": 84,
+      "ZIndex": 200,
+      "Name": "Operations",
+      "FullyQualifiedName": "Fluxion.src.Numerics.Algebra.Operations",
+      "Stereotype": "Namespace",
+      "ToolTip": "namespace Fluxion.src.Numerics.Algebra.Operations\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-687.1628,-3174.2199",
+      "Size": "279.1124,197.8744",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"Namespace\",\"N\":\"Operations\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "NamespaceLevel": 5
+    },
+    {
+      "Id": 221,
+      "ParentId": 84,
+      "ZIndex": 206,
+      "Name": "Sequences",
+      "FullyQualifiedName": "Fluxion.src.Numerics.Algebra.Sequences",
+      "Stereotype": "Namespace",
+      "ToolTip": "namespace Fluxion.src.Numerics.Algebra.Sequences\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-544.3272,-2679.1085",
+      "Size": "142,83.8",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"Namespace\",\"N\":\"Sequences\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "NamespaceLevel": 5
+    },
+    {
+      "Id": 223,
+      "ParentId": 84,
+      "ZIndex": 208,
+      "Name": "Solvers",
+      "FullyQualifiedName": "Fluxion.src.Numerics.Algebra.Solvers",
+      "Stereotype": "Namespace",
+      "ToolTip": "namespace Fluxion.src.Numerics.Algebra.Solvers\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-695.294,-2954.7346",
+      "Size": "291.7553,266.3451",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"Namespace\",\"N\":\"Solvers\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "NamespaceLevel": 5
+    },
+    {
+      "Id": 235,
+      "ZIndex": 0,
+      "Name": "Fluxion (1.0.0.0)",
+      "FullyQualifiedName": "Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Stereotype": "Assembly",
+      "ToolTip": "assembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1351.5611,-3318.2199",
+      "Size": "1684.904,1411.0587",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}"
+      ],
+      "NamespaceLevel": 0
+    },
+    {
+      "Id": 239,
+      "ParentId": 27,
+      "ZIndex": 217,
+      "Name": "App",
+      "FullyQualifiedName": "Fluxion.src.Core.App",
+      "Stereotype": "Namespace",
+      "ToolTip": "namespace Fluxion.src.Core.App\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-354.5293,-3191.9923",
+      "Size": "173.04,83.8",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"Namespace\",\"N\":\"App\",\"C\":{\"K\":\"Namespace\",\"N\":\"Core\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}"
+      ],
+      "NamespaceLevel": 4
+    }
+  ],
+  "LeafNodes": [
+    {
+      "Id": 18,
+      "ParentId": 17,
+      "ZIndex": 4,
+      "Name": "Lift",
+      "Stereotype": "Enum",
+      "ToolTip": "enum Fluxion.src.Runtime.Lift\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-214.6812,-2940.1681",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Lift\",\"C\":{\"K\":\"Namespace\",\"N\":\"Runtime\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}"
+      ],
+      "FullName": "enum Fluxion.src.Runtime.Lift",
+      "Description": "How to lift a 1D function f(x) into a 3D surface z = g(x, y).",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 19,
+      "ParentId": 17,
+      "ZIndex": 5,
+      "Name": "EmbedPlane",
+      "Stereotype": "Enum",
+      "ToolTip": "enum Fluxion.src.Runtime.EmbedPlane\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-352.1621,-2945.0077",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"EmbedPlane\",\"C\":{\"K\":\"Namespace\",\"N\":\"Runtime\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}"
+      ],
+      "FullName": "enum Fluxion.src.Runtime.EmbedPlane",
+      "Description": "Which plane to embed a 2D line in when drawing as a 3D line.",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 20,
+      "ParentId": 17,
+      "ZIndex": 6,
+      "Name": "Graph",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Runtime.Graph\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-213.0679,-3003.6139",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Graph\",\"C\":{\"K\":\"Namespace\",\"N\":\"Runtime\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Runtime.Graph",
+      "Description": "Unified entry points for graphing.",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 21,
+      "ParentId": 17,
+      "ZIndex": 7,
+      "Name": "Graph1D",
+      "Stereotype": "Struct",
+      "ToolTip": "readonly struct Fluxion.src.Runtime.Graph1D\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-68.7051,-3052.5358",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Graph1D\",\"C\":{\"K\":\"Namespace\",\"N\":\"Runtime\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}"
+      ],
+      "FullName": "readonly struct Fluxion.src.Runtime.Graph1D",
+      "Description": "1D function f(x).",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 22,
+      "ParentId": 17,
+      "ZIndex": 8,
+      "Name": "Graph2D",
+      "Stereotype": "Struct",
+      "ToolTip": "readonly struct Fluxion.src.Runtime.Graph2D\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-209.8415,-3060.3994",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Graph2D\",\"C\":{\"K\":\"Namespace\",\"N\":\"Runtime\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}"
+      ],
+      "FullName": "readonly struct Fluxion.src.Runtime.Graph2D",
+      "Description": "2D scalar field g(x,y).",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 23,
+      "ParentId": 17,
+      "ZIndex": 9,
+      "Name": "GraphLine",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Runtime.GraphLine\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-347.3225,-3060.1114",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"GraphLine\",\"C\":{\"K\":\"Namespace\",\"N\":\"Runtime\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Runtime.GraphLine",
+      "Description": "Convenience: y = m x + b as 2D or 3D line.",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 24,
+      "ParentId": 17,
+      "ZIndex": 10,
+      "Name": "GraphPoints",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Runtime.GraphPoints\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-348.9357,-3005.4346",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"GraphPoints\",\"C\":{\"K\":\"Namespace\",\"N\":\"Runtime\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Runtime.GraphPoints",
+      "Description": "Polyline from raw (x,y) samples, drawn as a 3D line on a chosen plane.",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 25,
+      "ParentId": 17,
+      "ZIndex": 11,
+      "Name": "Graph2DFeature",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Runtime.Graph2DFeature\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-62.2522,-2941.3768",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Graph2DFeature\",\"C\":{\"K\":\"Namespace\",\"N\":\"Runtime\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Runtime.Graph2DFeature",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 26,
+      "ParentId": 17,
+      "ZIndex": 12,
+      "Name": "Graph3DFeature",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Runtime.Graph3DFeature\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-67.0919,-2993.6313",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Graph3DFeature\",\"C\":{\"K\":\"Namespace\",\"N\":\"Runtime\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Runtime.Graph3DFeature",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 29,
+      "ParentId": 28,
+      "ZIndex": 15,
+      "Name": "OrbitCamera",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Rendering.Camera.OrbitCamera\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-351.5272,-2452.7076",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"OrbitCamera\",\"C\":{\"K\":\"Namespace\",\"N\":\"Camera\",\"C\":{\"K\":\"Namespace\",\"N\":\"Rendering\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Rendering.Camera.OrbitCamera",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 31,
+      "ParentId": 30,
+      "ZIndex": 17,
+      "Name": "Axes2DOptions",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Rendering.Draw.Axes2DOptions\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-173.8024,-2457.6563",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Axes2DOptions\",\"C\":{\"K\":\"Namespace\",\"N\":\"Draw\",\"C\":{\"K\":\"Namespace\",\"N\":\"Rendering\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Rendering.Draw.Axes2DOptions",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 32,
+      "ParentId": 30,
+      "ZIndex": 18,
+      "Name": "Axes2DRenderer",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Rendering.Draw.Axes2DRenderer\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-25.4076,-2460.577",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Axes2DRenderer\",\"C\":{\"K\":\"Namespace\",\"N\":\"Draw\",\"C\":{\"K\":\"Namespace\",\"N\":\"Rendering\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Rendering.Draw.Axes2DRenderer",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 33,
+      "ParentId": 30,
+      "ZIndex": 19,
+      "Name": "Axis3DRenderer",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Rendering.Draw.Axis3DRenderer\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-19.0414,-2581.5886",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Axis3DRenderer\",\"C\":{\"K\":\"Namespace\",\"N\":\"Draw\",\"C\":{\"K\":\"Namespace\",\"N\":\"Rendering\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Rendering.Draw.Axis3DRenderer",
+      "Description": "Minimal 3D axes + grid (XY plane) renderer using OpenGL lines. - Draws X (red), Y (green), Z (blue) axes through the origin. - Draws a gray XY grid at Z = 0.",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": true
+    },
+    {
+      "Id": 34,
+      "ParentId": 30,
+      "ZIndex": 20,
+      "Name": "AxesRenderer",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Rendering.Draw.AxesRenderer\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-178.3089,-2584.6347",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"AxesRenderer\",\"C\":{\"K\":\"Namespace\",\"N\":\"Draw\",\"C\":{\"K\":\"Namespace\",\"N\":\"Rendering\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Rendering.Draw.AxesRenderer",
+      "Description": "2D axes + grid + ticks (OpenGL lines). Uses the shared Axes2DOptions type.",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": true
+    },
+    {
+      "Id": 35,
+      "ParentId": 30,
+      "ZIndex": 21,
+      "Name": "ConsoleRenderer",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Rendering.Draw.ConsoleRenderer\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-18.6485,-2399.4855",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"ConsoleRenderer\",\"C\":{\"K\":\"Namespace\",\"N\":\"Draw\",\"C\":{\"K\":\"Namespace\",\"N\":\"Rendering\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Rendering.Draw.ConsoleRenderer",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 36,
+      "ParentId": 30,
+      "ZIndex": 22,
+      "Name": "CurveRenderer2D",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Rendering.Draw.CurveRenderer2D\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-177.5624,-2520.5701",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"CurveRenderer2D\",\"C\":{\"K\":\"Namespace\",\"N\":\"Draw\",\"C\":{\"K\":\"Namespace\",\"N\":\"Rendering\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Rendering.Draw.CurveRenderer2D",
+      "Description": "Renders 2D curves (lines/points) from Plot2D using an orthographic projection.",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": true
+    },
+    {
+      "Id": 37,
+      "ParentId": 30,
+      "ZIndex": 23,
+      "Name": "IRenderer",
+      "Stereotype": "Interface",
+      "ToolTip": "interface Fluxion.src.Rendering.Draw.IRenderer\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-18.707,-2520.2278",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"IRenderer\",\"C\":{\"K\":\"Namespace\",\"N\":\"Draw\",\"C\":{\"K\":\"Namespace\",\"N\":\"Rendering\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "FullName": "interface Fluxion.src.Rendering.Draw.IRenderer",
+      "Description": "Minimal renderer abstraction for 2D primitives. Different backends (OpenGL, DirectX, etc.) can implement this.",
+      "IsDescriptionVisible": false,
+      "IsAbstract": true,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 39,
+      "ParentId": 30,
+      "ZIndex": 25,
+      "Name": "OpenGLRenderer",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Rendering.Draw.OpenGLRenderer\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-175.6046,-2394.7968",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"OpenGLRenderer\",\"C\":{\"K\":\"Namespace\",\"N\":\"Draw\",\"C\":{\"K\":\"Namespace\",\"N\":\"Rendering\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Rendering.Draw.OpenGLRenderer",
+      "Description": "Minimal OpenGL implementation of IRenderer. Assumes incoming points are in NDC (-1..1). Use a visualizer to normalize world coords.",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": true
+    },
+    {
+      "Id": 41,
+      "ParentId": 30,
+      "ZIndex": 27,
+      "Name": "SurfaceRenderer",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Rendering.Draw.SurfaceRenderer\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "132.1425,-2576.0611",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"SurfaceRenderer\",\"C\":{\"K\":\"Namespace\",\"N\":\"Draw\",\"C\":{\"K\":\"Namespace\",\"N\":\"Rendering\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Rendering.Draw.SurfaceRenderer",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": true
+    },
+    {
+      "Id": 43,
+      "ParentId": 42,
+      "ZIndex": 29,
+      "Name": "IScene",
+      "Stereotype": "Interface",
+      "ToolTip": "interface Fluxion.src.Rendering.Scene.IScene\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-353.2768,-2711.2149",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"IScene\",\"C\":{\"K\":\"Namespace\",\"N\":\"Scene\",\"C\":{\"K\":\"Namespace\",\"N\":\"Rendering\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "FullName": "interface Fluxion.src.Rendering.Scene.IScene",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": true,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": true
+    },
+    {
+      "Id": 44,
+      "ParentId": 42,
+      "ZIndex": 30,
+      "Name": "Plot2DScene",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Rendering.Scene.Plot2DScene\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-353.2768,-2656.5004",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Plot2DScene\",\"C\":{\"K\":\"Namespace\",\"N\":\"Scene\",\"C\":{\"K\":\"Namespace\",\"N\":\"Rendering\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Rendering.Scene.Plot2DScene",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": true
+    },
+    {
+      "Id": 50,
+      "ParentId": 42,
+      "ZIndex": 36,
+      "Name": "PlotRenderer",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Rendering.Scene.PlotRenderer\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-353.2768,-2595.9069",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"PlotRenderer\",\"C\":{\"K\":\"Namespace\",\"N\":\"Scene\",\"C\":{\"K\":\"Namespace\",\"N\":\"Rendering\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Rendering.Scene.PlotRenderer",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 51,
+      "ParentId": 42,
+      "ZIndex": 37,
+      "Name": "Surface3DScene",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Rendering.Scene.Surface3DScene\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-353.2768,-2542.3683",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Surface3DScene\",\"C\":{\"K\":\"Namespace\",\"N\":\"Scene\",\"C\":{\"K\":\"Namespace\",\"N\":\"Rendering\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Rendering.Scene.Surface3DScene",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": true
+    },
+    {
+      "Id": 60,
+      "ParentId": 59,
+      "ZIndex": 46,
+      "Name": "GraphLinear",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Rendering.Visualize2D.GraphLinear\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-36.6018,-2814.3746",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"GraphLinear\",\"C\":{\"K\":\"Namespace\",\"N\":\"Visualize2D\",\"C\":{\"K\":\"Namespace\",\"N\":\"Rendering\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Rendering.Visualize2D.GraphLinear",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 61,
+      "ParentId": 59,
+      "ZIndex": 47,
+      "Name": "Plot2D",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Rendering.Visualize2D.Plot2D\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-188.6018,-2746.7099",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Plot2D\",\"C\":{\"K\":\"Namespace\",\"N\":\"Visualize2D\",\"C\":{\"K\":\"Namespace\",\"N\":\"Rendering\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Rendering.Visualize2D.Plot2D",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 64,
+      "ParentId": 59,
+      "ZIndex": 50,
+      "Name": "Plot2DFactory",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Rendering.Visualize2D.Plot2DFactory\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-39.3057,-2749.7824",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Plot2DFactory\",\"C\":{\"K\":\"Namespace\",\"N\":\"Visualize2D\",\"C\":{\"K\":\"Namespace\",\"N\":\"Rendering\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Rendering.Visualize2D.Plot2DFactory",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 65,
+      "ParentId": 59,
+      "ZIndex": 51,
+      "Name": "PlotRenderer",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Rendering.Visualize2D.PlotRenderer\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-188.6018,-2676.7099",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"PlotRenderer\",\"C\":{\"K\":\"Namespace\",\"N\":\"Visualize2D\",\"C\":{\"K\":\"Namespace\",\"N\":\"Rendering\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Rendering.Visualize2D.PlotRenderer",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 66,
+      "ParentId": 59,
+      "ZIndex": 52,
+      "Name": "PlotStyle",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Rendering.Visualize2D.PlotStyle\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-188.6018,-2816.7099",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"PlotStyle\",\"C\":{\"K\":\"Namespace\",\"N\":\"Visualize2D\",\"C\":{\"K\":\"Namespace\",\"N\":\"Rendering\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Rendering.Visualize2D.PlotStyle",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 70,
+      "ParentId": 69,
+      "ZIndex": 56,
+      "Name": "Mesh3D",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Rendering.Visualize3D.Mesh3D\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "134.7542,-2748.9362",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Mesh3D\",\"C\":{\"K\":\"Namespace\",\"N\":\"Visualize3D\",\"C\":{\"K\":\"Namespace\",\"N\":\"Rendering\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Rendering.Visualize3D.Mesh3D",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 73,
+      "ParentId": 69,
+      "ZIndex": 59,
+      "Name": "SurfaceFactory",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Rendering.Visualize3D.SurfaceFactory\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "134.7542,-2818.9362",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"SurfaceFactory\",\"C\":{\"K\":\"Namespace\",\"N\":\"Visualize3D\",\"C\":{\"K\":\"Namespace\",\"N\":\"Rendering\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Rendering.Visualize3D.SurfaceFactory",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 75,
+      "ParentId": 74,
+      "ZIndex": 61,
+      "Name": "TesseractWireframeRenderer",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Rendering.Visualize4D.TesseractWireframeRenderer\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "121.6483,-2650.3828",
+      "MemberAreaSize": "176.4133,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"TesseractWireframeRenderer\",\"C\":{\"K\":\"Namespace\",\"N\":\"Visualize4D\",\"C\":{\"K\":\"Namespace\",\"N\":\"Rendering\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Rendering.Visualize4D.TesseractWireframeRenderer",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 77,
+      "ParentId": 76,
+      "ZIndex": 63,
+      "Name": "FluxWindow",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Rendering.Windowing.FluxWindow\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-358.1165,-2808.0818",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"FluxWindow\",\"C\":{\"K\":\"Namespace\",\"N\":\"Windowing\",\"C\":{\"K\":\"Namespace\",\"N\":\"Rendering\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Rendering.Windowing.FluxWindow",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": true
+    },
+    {
+      "Id": 82,
+      "ParentId": 81,
+      "ZIndex": 68,
+      "Name": "IEquation",
+      "Stereotype": "Interface",
+      "ToolTip": "interface Fluxion.src.Numerics.Abstractions.IEquation\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1317.4516,-3097.3991",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"IEquation\",\"C\":{\"K\":\"Namespace\",\"N\":\"Abstractions\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "FullName": "interface Fluxion.src.Numerics.Abstractions.IEquation",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": true,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 83,
+      "ParentId": 81,
+      "ZIndex": 69,
+      "Name": "IDisplay",
+      "Stereotype": "Interface",
+      "ToolTip": "interface Fluxion.src.Numerics.Abstractions.IDisplay\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1318.4046,-3160.3149",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"IDisplay\",\"C\":{\"K\":\"Namespace\",\"N\":\"Abstractions\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "FullName": "interface Fluxion.src.Numerics.Abstractions.IDisplay",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": true,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 85,
+      "ParentId": 84,
+      "ZIndex": 71,
+      "Name": "AlgebraUtils",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Algebra.AlgebraUtils\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-693.7499,-2670.5104",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"AlgebraUtils\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Algebra.AlgebraUtils",
+      "Description": "Common helper methods for algebraic operations.",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 87,
+      "ParentId": 86,
+      "ZIndex": 73,
+      "Name": "CalculusUtils",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Calculus.CalculusUtils\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-548.015,-2103.6611",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"CalculusUtils\",\"C\":{\"K\":\"Namespace\",\"N\":\"Calculus\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Calculus.CalculusUtils",
+      "Description": "Helpers for numeric guards and tolerances.",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 89,
+      "ParentId": 88,
+      "ZIndex": 75,
+      "Name": "IScalarField",
+      "Stereotype": "Interface",
+      "ToolTip": "interface Fluxion.src.Numerics.Functions3D.IScalarField\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1308.238,-2201.6868",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"IScalarField\",\"C\":{\"K\":\"Namespace\",\"N\":\"Functions3D\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "FullName": "interface Fluxion.src.Numerics.Functions3D.IScalarField",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": true,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 90,
+      "ParentId": 88,
+      "ZIndex": 76,
+      "Name": "DelegateScalarField",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Functions3D.DelegateScalarField\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1312.5927,-2265.317",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"DelegateScalarField\",\"C\":{\"K\":\"Namespace\",\"N\":\"Functions3D\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Functions3D.DelegateScalarField",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 93,
+      "ParentId": 92,
+      "ZIndex": 79,
+      "Name": "Projection4DMode",
+      "Stereotype": "Enum",
+      "ToolTip": "enum Fluxion.src.Numerics.Geometry4D.Projection4DMode\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1313.813,-2497.5054",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Projection4DMode\",\"C\":{\"K\":\"Namespace\",\"N\":\"Geometry4D\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "FullName": "enum Fluxion.src.Numerics.Geometry4D.Projection4DMode",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 94,
+      "ParentId": 92,
+      "ZIndex": 80,
+      "Name": "Projector4Dto3D",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Geometry4D.Projector4Dto3D\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1311.6593,-2391.4297",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Projector4Dto3D\",\"C\":{\"K\":\"Namespace\",\"N\":\"Geometry4D\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Geometry4D.Projector4Dto3D",
+      "Description": "4D→3D projection helpers (then your existing 3D→2D camera handles the rest).",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 95,
+      "ParentId": 92,
+      "ZIndex": 81,
+      "Name": "Rotation4D",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Geometry4D.Rotation4D\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1310.7788,-2336.3966",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Rotation4D\",\"C\":{\"K\":\"Namespace\",\"N\":\"Geometry4D\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Geometry4D.Rotation4D",
+      "Description": "4D plane rotations. Each method returns a Matrix4x4 rotating in the named plane. Convention: (X,Y,Z,W) basis; right-handed sin/cos like 3D planes.",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 96,
+      "ParentId": 92,
+      "ZIndex": 82,
+      "Name": "TesseractModel",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Geometry4D.TesseractModel\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1313.1356,-2441.4743",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"TesseractModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"Geometry4D\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Geometry4D.TesseractModel",
+      "Description": "Static builder for a unit tesseract (4D hypercube) centered at origin. Vertices at (±1,±1,±1,±1). Edges connect vertices differing in exactly one coordinate.",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 99,
+      "ParentId": 98,
+      "ZIndex": 85,
+      "Name": "SineModel",
+      "Stereotype": "Struct",
+      "ToolTip": "readonly record struct Fluxion.src.Numerics.Trigonometry.Concepts.SineModel\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1320.9645,-2726.0703",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"SineModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"Concepts\",\"C\":{\"K\":\"Namespace\",\"N\":\"Trigonometry\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "readonly record struct Fluxion.src.Numerics.Trigonometry.Concepts.SineModel",
+      "Description": "General sinusoid model: f(x) = Amplitude * sin(Frequency * x + Phase) + VerticalOffset",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 100,
+      "ParentId": 98,
+      "ZIndex": 86,
+      "Name": "CosineModel",
+      "Stereotype": "Struct",
+      "ToolTip": "readonly record struct Fluxion.src.Numerics.Trigonometry.Concepts.CosineModel\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1316.7047,-2785.7596",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"CosineModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"Concepts\",\"C\":{\"K\":\"Namespace\",\"N\":\"Trigonometry\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "readonly record struct Fluxion.src.Numerics.Trigonometry.Concepts.CosineModel",
+      "Description": "General sinusoid model: f(x) = Amplitude * cos(Frequency * x + Phase) + VerticalOffset",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 102,
+      "ParentId": 101,
+      "ZIndex": 88,
+      "Name": "CosineEquation",
+      "Stereotype": "Struct",
+      "ToolTip": "readonly struct Fluxion.src.Numerics.Trigonometry.Functions.CosineEquation\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1320.3574,-2944.9812",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"CosineEquation\",\"C\":{\"K\":\"Namespace\",\"N\":\"Functions\",\"C\":{\"K\":\"Namespace\",\"N\":\"Trigonometry\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "readonly struct Fluxion.src.Numerics.Trigonometry.Functions.CosineEquation",
+      "Description": "f(x) = Amplitude * cos(Frequency * x + Phase) + VerticalOffset",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 107,
+      "ParentId": 101,
+      "ZIndex": 93,
+      "Name": "SineEquation",
+      "Stereotype": "Struct",
+      "ToolTip": "readonly struct Fluxion.src.Numerics.Trigonometry.Functions.SineEquation\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1321.5611,-2888.3065",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"SineEquation\",\"C\":{\"K\":\"Namespace\",\"N\":\"Functions\",\"C\":{\"K\":\"Namespace\",\"N\":\"Trigonometry\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "readonly struct Fluxion.src.Numerics.Trigonometry.Functions.SineEquation",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 113,
+      "ParentId": 112,
+      "ZIndex": 99,
+      "Name": "TrigonometrySampler",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Trigonometry.Sampling.TrigonometrySampler\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1314.5449,-2616.462",
+      "MemberAreaSize": "134.0267,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"TrigonometrySampler\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sampling\",\"C\":{\"K\":\"Namespace\",\"N\":\"Trigonometry\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Trigonometry.Sampling.TrigonometrySampler",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 116,
+      "ParentId": 115,
+      "ZIndex": 101,
+      "Name": "NumericalIntegration",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Calculus.Solvers.NumericalIntegration\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1068.5495,-2215.798",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"NumericalIntegration\",\"C\":{\"K\":\"Namespace\",\"N\":\"Solvers\",\"C\":{\"K\":\"Namespace\",\"N\":\"Calculus\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Calculus.Solvers.NumericalIntegration",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 117,
+      "ParentId": 115,
+      "ZIndex": 102,
+      "Name": "ODESolver",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Calculus.Solvers.ODESolver\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1009.7018,-2271.279",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"ODESolver\",\"C\":{\"K\":\"Namespace\",\"N\":\"Solvers\",\"C\":{\"K\":\"Namespace\",\"N\":\"Calculus\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Calculus.Solvers.ODESolver",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 118,
+      "ParentId": 115,
+      "ZIndex": 103,
+      "Name": "RootFinding",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Calculus.Solvers.RootFinding\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1143.9563,-2272.8922",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"RootFinding\",\"C\":{\"K\":\"Namespace\",\"N\":\"Solvers\",\"C\":{\"K\":\"Namespace\",\"N\":\"Calculus\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Calculus.Solvers.RootFinding",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 120,
+      "ParentId": 119,
+      "ZIndex": 105,
+      "Name": "IFunction",
+      "Stereotype": "Interface",
+      "ToolTip": "interface Fluxion.src.Numerics.Calculus.Concepts.IFunction\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1148.796,-2507.5228",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"IFunction\",\"C\":{\"K\":\"Namespace\",\"N\":\"Concepts\",\"C\":{\"K\":\"Namespace\",\"N\":\"Calculus\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "interface Fluxion.src.Numerics.Calculus.Concepts.IFunction",
+      "Description": "Simple function abstraction backed by a delegate.",
+      "IsDescriptionVisible": false,
+      "IsAbstract": true,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 121,
+      "ParentId": 119,
+      "ZIndex": 106,
+      "Name": "LambdaFunction",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Calculus.Concepts.LambdaFunction\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1152.0224,-2446.7977",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"LambdaFunction\",\"C\":{\"K\":\"Namespace\",\"N\":\"Concepts\",\"C\":{\"K\":\"Namespace\",\"N\":\"Calculus\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Calculus.Concepts.LambdaFunction",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 123,
+      "ParentId": 119,
+      "ZIndex": 108,
+      "Name": "LimitModel",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Calculus.Concepts.LimitModel\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1016.1547,-2448.8154",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"LimitModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"Concepts\",\"C\":{\"K\":\"Namespace\",\"N\":\"Calculus\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Calculus.Concepts.LimitModel",
+      "Description": "Encapsulates a limit problem: lim_{x-&gt;a^dir} f(x)",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 126,
+      "ParentId": 119,
+      "ZIndex": 111,
+      "Name": "ApproachDirection",
+      "Stereotype": "Enum",
+      "ToolTip": "enum Fluxion.src.Numerics.Calculus.Concepts.ApproachDirection\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1019.3811,-2512.767",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"ApproachDirection\",\"C\":{\"K\":\"Namespace\",\"N\":\"Concepts\",\"C\":{\"K\":\"Namespace\",\"N\":\"Calculus\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "enum Fluxion.src.Numerics.Calculus.Concepts.ApproachDirection",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 129,
+      "ParentId": 119,
+      "ZIndex": 114,
+      "Name": "SeriesModel",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Calculus.Concepts.SeriesModel\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1088.4729,-2384.4592",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"SeriesModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"Concepts\",\"C\":{\"K\":\"Namespace\",\"N\":\"Calculus\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Calculus.Concepts.SeriesModel",
+      "Description": "Describes a power series \\sum c_n (x-a)^n.",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 131,
+      "ParentId": 130,
+      "ZIndex": 116,
+      "Name": "ChainRule",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Calculus.Derivatives.ChainRule\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-709.0722,-2242.2209",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"ChainRule\",\"C\":{\"K\":\"Namespace\",\"N\":\"Derivatives\",\"C\":{\"K\":\"Namespace\",\"N\":\"Calculus\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Calculus.Derivatives.ChainRule",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 132,
+      "ParentId": 130,
+      "ZIndex": 117,
+      "Name": "HigherOrder",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Calculus.Derivatives.HigherOrder\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-717.1839,-2347.9717",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"HigherOrder\",\"C\":{\"K\":\"Namespace\",\"N\":\"Derivatives\",\"C\":{\"K\":\"Namespace\",\"N\":\"Calculus\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Calculus.Derivatives.HigherOrder",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 133,
+      "ParentId": 130,
+      "ZIndex": 118,
+      "Name": "ImplicitRelatedRates",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Calculus.Derivatives.ImplicitRelatedRates\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-711.8505,-2295.9976",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"ImplicitRelatedRates\",\"C\":{\"K\":\"Namespace\",\"N\":\"Derivatives\",\"C\":{\"K\":\"Namespace\",\"N\":\"Calculus\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Calculus.Derivatives.ImplicitRelatedRates",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Internal",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 134,
+      "ParentId": 130,
+      "ZIndex": 119,
+      "Name": "LinearizationTangent",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Calculus.Derivatives.LinearizationTangent\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-852.0593,-2347.9717",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"LinearizationTangent\",\"C\":{\"K\":\"Namespace\",\"N\":\"Derivatives\",\"C\":{\"K\":\"Namespace\",\"N\":\"Calculus\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Calculus.Derivatives.LinearizationTangent",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Internal",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 135,
+      "ParentId": 130,
+      "ZIndex": 120,
+      "Name": "ProductQuotientRules",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Calculus.Derivatives.ProductQuotientRules\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-852.0593,-2297.8002",
+      "MemberAreaSize": "137.3333,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"ProductQuotientRules\",\"C\":{\"K\":\"Namespace\",\"N\":\"Derivatives\",\"C\":{\"K\":\"Namespace\",\"N\":\"Calculus\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Calculus.Derivatives.ProductQuotientRules",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 136,
+      "ParentId": 130,
+      "ZIndex": 121,
+      "Name": "RulesBasics",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Calculus.Derivatives.RulesBasics\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-848.4541,-2242.0968",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"RulesBasics\",\"C\":{\"K\":\"Namespace\",\"N\":\"Derivatives\",\"C\":{\"K\":\"Namespace\",\"N\":\"Calculus\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Calculus.Derivatives.RulesBasics",
+      "Description": "Basic differentiation rules for common primitives.",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 138,
+      "ParentId": 137,
+      "ZIndex": 123,
+      "Name": "FirstOrderLinear",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Calculus.DifferentialEquations.FirstOrderLinear\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-552.978,-2505.5757",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"FirstOrderLinear\",\"C\":{\"K\":\"Namespace\",\"N\":\"DifferentialEquations\",\"C\":{\"K\":\"Namespace\",\"N\":\"Calculus\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Calculus.DifferentialEquations.FirstOrderLinear",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 139,
+      "ParentId": 137,
+      "ZIndex": 124,
+      "Name": "Separable",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Calculus.DifferentialEquations.Separable\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-553.8793,-2448.1939",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Separable\",\"C\":{\"K\":\"Namespace\",\"N\":\"DifferentialEquations\",\"C\":{\"K\":\"Namespace\",\"N\":\"Calculus\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Calculus.DifferentialEquations.Separable",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 141,
+      "ParentId": 140,
+      "ZIndex": 126,
+      "Name": "AntiderivativesBasics",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Calculus.Integrals.AntiderivativesBasics\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-763.5291,-2032.9826",
+      "MemberAreaSize": "134.7233,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"AntiderivativesBasics\",\"C\":{\"K\":\"Namespace\",\"N\":\"Integrals\",\"C\":{\"K\":\"Namespace\",\"N\":\"Calculus\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Calculus.Integrals.AntiderivativesBasics",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Internal",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 142,
+      "ParentId": 140,
+      "ZIndex": 127,
+      "Name": "ImproperIntegrals",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Calculus.Integrals.ImproperIntegrals\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-842.2621,-2144.8937",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"ImproperIntegrals\",\"C\":{\"K\":\"Namespace\",\"N\":\"Integrals\",\"C\":{\"K\":\"Namespace\",\"N\":\"Calculus\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Calculus.Integrals.ImproperIntegrals",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 143,
+      "ParentId": 140,
+      "ZIndex": 128,
+      "Name": "IntegrationByParts",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Calculus.Integrals.IntegrationByParts\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-840.6822,-2092.9932",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"IntegrationByParts\",\"C\":{\"K\":\"Namespace\",\"N\":\"Integrals\",\"C\":{\"K\":\"Namespace\",\"N\":\"Calculus\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Calculus.Integrals.IntegrationByParts",
+      "Description": "Symbolic shell for ∫u dv = uv − ∫v du. Concrete use requires u, v already chosen.",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 144,
+      "ParentId": 140,
+      "ZIndex": 129,
+      "Name": "PartialFractions",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Calculus.Integrals.PartialFractions\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-698.6165,-2093.8657",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"PartialFractions\",\"C\":{\"K\":\"Namespace\",\"N\":\"Integrals\",\"C\":{\"K\":\"Namespace\",\"N\":\"Calculus\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Calculus.Integrals.PartialFractions",
+      "Description": "Placeholder; requires polynomial factorization from Algebra module.",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 145,
+      "ParentId": 140,
+      "ZIndex": 130,
+      "Name": "USubstitution",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Calculus.Integrals.USubstitution\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-701.4907,-2149.1342",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"USubstitution\",\"C\":{\"K\":\"Namespace\",\"N\":\"Integrals\",\"C\":{\"K\":\"Namespace\",\"N\":\"Calculus\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Calculus.Integrals.USubstitution",
+      "Description": "u-substitution template: integrates f(g(x))g'(x) as F(g(x)).",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 147,
+      "ParentId": 146,
+      "ZIndex": 132,
+      "Name": "AlgebraicLimits",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Calculus.Limits.AlgebraicLimits\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-997.4861,-2106.2372",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"AlgebraicLimits\",\"C\":{\"K\":\"Namespace\",\"N\":\"Limits\",\"C\":{\"K\":\"Namespace\",\"N\":\"Calculus\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Calculus.Limits.AlgebraicLimits",
+      "Description": "Placeholder for symbolic simplifications (factor/cancel, rationalize, squeeze).",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 148,
+      "ParentId": 146,
+      "ZIndex": 133,
+      "Name": "LHospitalsRule",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Calculus.Limits.LHospitalsRule\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1059.0569,-2046.1113",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"LHospitalsRule\",\"C\":{\"K\":\"Namespace\",\"N\":\"Limits\",\"C\":{\"K\":\"Namespace\",\"N\":\"Calculus\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Calculus.Limits.LHospitalsRule",
+      "Description": "L'Hôpital's rule evaluator given f,g and their derivatives.",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 149,
+      "ParentId": 146,
+      "ZIndex": 134,
+      "Name": "LimitsBasics",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Calculus.Limits.LimitsBasics\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1139.7181,-2106.2718",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"LimitsBasics\",\"C\":{\"K\":\"Namespace\",\"N\":\"Limits\",\"C\":{\"K\":\"Namespace\",\"N\":\"Calculus\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Calculus.Limits.LimitsBasics",
+      "Description": "Basic tools to numerically probe limits; formal checks live in AlgebraicLimits.",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 151,
+      "ParentId": 150,
+      "ZIndex": 136,
+      "Name": "Differentiate",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Calculus.Operations.Differentiate\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-849.3919,-2507.9274",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Differentiate\",\"C\":{\"K\":\"Namespace\",\"N\":\"Operations\",\"C\":{\"K\":\"Namespace\",\"N\":\"Calculus\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Calculus.Operations.Differentiate",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 152,
+      "ParentId": 150,
+      "ZIndex": 137,
+      "Name": "Integrate",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Calculus.Operations.Integrate\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-848.4906,-2454.1507",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Integrate\",\"C\":{\"K\":\"Namespace\",\"N\":\"Operations\",\"C\":{\"K\":\"Namespace\",\"N\":\"Calculus\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Calculus.Operations.Integrate",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 153,
+      "ParentId": 150,
+      "ZIndex": 138,
+      "Name": "Limit",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Calculus.Operations.Limit\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-712.7139,-2504.3222",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Limit\",\"C\":{\"K\":\"Namespace\",\"N\":\"Operations\",\"C\":{\"K\":\"Namespace\",\"N\":\"Calculus\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Calculus.Operations.Limit",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 154,
+      "ParentId": 150,
+      "ZIndex": 139,
+      "Name": "SeriesOps",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Calculus.Operations.SeriesOps\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-708.2074,-2449.6442",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"SeriesOps\",\"C\":{\"K\":\"Namespace\",\"N\":\"Operations\",\"C\":{\"K\":\"Namespace\",\"N\":\"Calculus\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Calculus.Operations.SeriesOps",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 156,
+      "ParentId": 155,
+      "ZIndex": 141,
+      "Name": "PowerSeries",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Calculus.Series.PowerSeries\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-544.1458,-2290.0092",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"PowerSeries\",\"C\":{\"K\":\"Namespace\",\"N\":\"Series\",\"C\":{\"K\":\"Namespace\",\"N\":\"Calculus\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Calculus.Series.PowerSeries",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 157,
+      "ParentId": 155,
+      "ZIndex": 142,
+      "Name": "ConvergenceTests",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Calculus.Series.ConvergenceTests\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-545.9483,-2234.4299",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"ConvergenceTests\",\"C\":{\"K\":\"Namespace\",\"N\":\"Series\",\"C\":{\"K\":\"Namespace\",\"N\":\"Calculus\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Calculus.Series.ConvergenceTests",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 158,
+      "ParentId": 155,
+      "ZIndex": 143,
+      "Name": "TaylorMaclaurin",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Calculus.Series.TaylorMaclaurin\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-544.1458,-2344.6872",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"TaylorMaclaurin\",\"C\":{\"K\":\"Namespace\",\"N\":\"Series\",\"C\":{\"K\":\"Namespace\",\"N\":\"Calculus\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Calculus.Series.TaylorMaclaurin",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 160,
+      "ParentId": 159,
+      "ZIndex": 145,
+      "Name": "LinearEquation",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Algebra.Concepts.LinearEquation\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1144.9147,-2725.4545",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"LinearEquation\",\"C\":{\"K\":\"Namespace\",\"N\":\"Concepts\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Algebra.Concepts.LinearEquation",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 161,
+      "ParentId": 159,
+      "ZIndex": 146,
+      "Name": "LinearModel",
+      "Stereotype": "Struct",
+      "ToolTip": "readonly record struct Fluxion.src.Numerics.Algebra.Concepts.LinearModel\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1134.1348,-2860.8746",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"LinearModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"Concepts\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "readonly record struct Fluxion.src.Numerics.Algebra.Concepts.LinearModel",
+      "Description": "Ax + B = 0",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 162,
+      "ParentId": 159,
+      "ZIndex": 147,
+      "Name": "QuadraticModel",
+      "Stereotype": "Struct",
+      "ToolTip": "readonly record struct Fluxion.src.Numerics.Algebra.Concepts.QuadraticModel\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-990.3834,-2856.268",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"QuadraticModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"Concepts\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "readonly record struct Fluxion.src.Numerics.Algebra.Concepts.QuadraticModel",
+      "Description": "Ax² + Bx + C = 0",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 163,
+      "ParentId": 159,
+      "ZIndex": 148,
+      "Name": "PolynomialModel",
+      "Stereotype": "Struct",
+      "ToolTip": "readonly record struct Fluxion.src.Numerics.Algebra.Concepts.PolynomialModel\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-986.1581,-2782.9686",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"PolynomialModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"Concepts\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "readonly record struct Fluxion.src.Numerics.Algebra.Concepts.PolynomialModel",
+      "Description": "c0 + c1 x + ... + cn x^n",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 164,
+      "ParentId": 159,
+      "ZIndex": 149,
+      "Name": "RationalModel",
+      "Stereotype": "Struct",
+      "ToolTip": "readonly record struct Fluxion.src.Numerics.Algebra.Concepts.RationalModel\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-846.3127,-2858.6196",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"RationalModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"Concepts\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "readonly record struct Fluxion.src.Numerics.Algebra.Concepts.RationalModel",
+      "Description": "N(x) / D(x)",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 167,
+      "ParentId": 159,
+      "ZIndex": 152,
+      "Name": "ExponentialModel",
+      "Stereotype": "Struct",
+      "ToolTip": "readonly record struct Fluxion.src.Numerics.Algebra.Concepts.ExponentialModel\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1137.6622,-2926.376",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"ExponentialModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"Concepts\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "readonly record struct Fluxion.src.Numerics.Algebra.Concepts.ExponentialModel",
+      "Description": "A e^{B x} + C = 0",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 168,
+      "ParentId": 159,
+      "ZIndex": 153,
+      "Name": "LogarithmicModel",
+      "Stereotype": "Struct",
+      "ToolTip": "readonly record struct Fluxion.src.Numerics.Algebra.Concepts.LogarithmicModel\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-994.6846,-2926.505",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"LogarithmicModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"Concepts\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "readonly record struct Fluxion.src.Numerics.Algebra.Concepts.LogarithmicModel",
+      "Description": "A log_base(x) + C = 0 (base &gt; 0, base ≠ 1)",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 169,
+      "ParentId": 159,
+      "ZIndex": 154,
+      "Name": "System2x2Model",
+      "Stereotype": "Struct",
+      "ToolTip": "readonly record struct Fluxion.src.Numerics.Algebra.Concepts.System2x2Model\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-848.4895,-2925.3292",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"System2x2Model\",\"C\":{\"K\":\"Namespace\",\"N\":\"Concepts\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "readonly record struct Fluxion.src.Numerics.Algebra.Concepts.System2x2Model",
+      "Description": "2×2 system: A x + B y = E; C x + D y = F.",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 170,
+      "ParentId": 159,
+      "ZIndex": 155,
+      "Name": "RealSolutions",
+      "Stereotype": "Struct",
+      "ToolTip": "readonly record struct Fluxion.src.Numerics.Algebra.Concepts.RealSolutions\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1136.4864,-2792.9182",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"RealSolutions\",\"C\":{\"K\":\"Namespace\",\"N\":\"Concepts\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "readonly record struct Fluxion.src.Numerics.Algebra.Concepts.RealSolutions",
+      "Description": "Solutions container for real roots.",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 171,
+      "ParentId": 159,
+      "ZIndex": 156,
+      "Name": "FormulaItem",
+      "Stereotype": "Class",
+      "ToolTip": "record Fluxion.src.Numerics.Algebra.Concepts.FormulaItem\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-838.793,-2794.3907",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"FormulaItem\",\"C\":{\"K\":\"Namespace\",\"N\":\"Concepts\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "record Fluxion.src.Numerics.Algebra.Concepts.FormulaItem",
+      "Description": "Named algebra formula with an optional note.",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 172,
+      "ParentId": 159,
+      "ZIndex": 157,
+      "Name": "AlgebraTopic",
+      "Stereotype": "Class",
+      "ToolTip": "record Fluxion.src.Numerics.Algebra.Concepts.AlgebraTopic\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-999.2315,-2720.3497",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"AlgebraTopic\",\"C\":{\"K\":\"Namespace\",\"N\":\"Concepts\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "record Fluxion.src.Numerics.Algebra.Concepts.AlgebraTopic",
+      "Description": "Topic containing a set of reference formulas.",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 175,
+      "ParentId": 159,
+      "ZIndex": 160,
+      "Name": "Linear",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Algebra.Concepts.Linear\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-843.966,-2725.8649",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Linear\",\"C\":{\"K\":\"Namespace\",\"N\":\"Concepts\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Algebra.Concepts.Linear",
+      "Description": "Temporary alias to maintain compatibility with old code using \"Linear\". Prefer Fluxion.src.Numerics.Algebra.Concepts.LinearEquation instead.",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 177,
+      "ParentId": 159,
+      "ZIndex": 162,
+      "Name": "AlgebraSeeds",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Algebra.Concepts.AlgebraSeeds\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1141.5046,-2653.7507",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"AlgebraSeeds\",\"C\":{\"K\":\"Namespace\",\"N\":\"Concepts\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Algebra.Concepts.AlgebraSeeds",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 181,
+      "ParentId": 180,
+      "ZIndex": 166,
+      "Name": "Exponential",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Algebra.Equations.Exponential\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1005.8737,-3134.182",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Exponential\",\"C\":{\"K\":\"Namespace\",\"N\":\"Equations\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Algebra.Equations.Exponential",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 186,
+      "ParentId": 180,
+      "ZIndex": 171,
+      "Name": "Linear",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Algebra.Equations.Linear\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1146.1156,-3136.5336",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Linear\",\"C\":{\"K\":\"Namespace\",\"N\":\"Equations\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Algebra.Equations.Linear",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 191,
+      "ParentId": 180,
+      "ZIndex": 176,
+      "Name": "Logarithmic",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Algebra.Equations.Logarithmic\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1143.482,-3082.995",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Logarithmic\",\"C\":{\"K\":\"Namespace\",\"N\":\"Equations\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Algebra.Equations.Logarithmic",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 196,
+      "ParentId": 180,
+      "ZIndex": 181,
+      "Name": "Polynomial",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Algebra.Equations.Polynomial\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1011.0577,-3020.9709",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Polynomial\",\"C\":{\"K\":\"Namespace\",\"N\":\"Equations\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Algebra.Equations.Polynomial",
+      "Description": "Represents a 1-variable polynomial with real coefficients (ascending order): coeffs[0] = constant, coeffs[1] = x, coeffs[2] = x², ... Implements IEquation/IDisplay so it can be used by generic algebra ops/solvers.",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 201,
+      "ParentId": 180,
+      "ZIndex": 186,
+      "Name": "Quadratic",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Algebra.Equations.Quadratic\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-1007.9434,-3081.8192",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Quadratic\",\"C\":{\"K\":\"Namespace\",\"N\":\"Equations\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Algebra.Equations.Quadratic",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 206,
+      "ParentId": 180,
+      "ZIndex": 191,
+      "Name": "Rational",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Algebra.Equations.Rational\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-866.5257,-3081.8192",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Rational\",\"C\":{\"K\":\"Namespace\",\"N\":\"Equations\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Algebra.Equations.Rational",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 211,
+      "ParentId": 180,
+      "ZIndex": 196,
+      "Name": "SystemOfEquations2x2",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Algebra.Equations.SystemOfEquations2x2\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-865.6318,-3137.7094",
+      "MemberAreaSize": "144.04,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"SystemOfEquations2x2\",\"C\":{\"K\":\"Namespace\",\"N\":\"Equations\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Algebra.Equations.SystemOfEquations2x2",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": false,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 216,
+      "ParentId": 215,
+      "ZIndex": 201,
+      "Name": "Factorization",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Algebra.Operations.Factorization\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-545.0504,-3031.3455",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Factorization\",\"C\":{\"K\":\"Namespace\",\"N\":\"Operations\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Algebra.Operations.Factorization",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 217,
+      "ParentId": 215,
+      "ZIndex": 202,
+      "Name": "PrimeFinder",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Algebra.Operations.PrimeFinder\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-546.6601,-3089.4615",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"PrimeFinder\",\"C\":{\"K\":\"Namespace\",\"N\":\"Operations\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Algebra.Operations.PrimeFinder",
+      "Description": "William-style prime sieve for competitive performance.",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 218,
+      "ParentId": 215,
+      "ZIndex": 203,
+      "Name": "Simplify",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Algebra.Operations.Simplify\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-609.2626,-3145.4199",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Simplify\",\"C\":{\"K\":\"Namespace\",\"N\":\"Operations\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Algebra.Operations.Simplify",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 219,
+      "ParentId": 215,
+      "ZIndex": 204,
+      "Name": "Solve",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Algebra.Operations.Solve\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-682.1628,-3088.0458",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Solve\",\"C\":{\"K\":\"Namespace\",\"N\":\"Operations\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Algebra.Operations.Solve",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 220,
+      "ParentId": 215,
+      "ZIndex": 205,
+      "Name": "Substitution",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Algebra.Operations.Substitution\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-680.987,-3033.0234",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Substitution\",\"C\":{\"K\":\"Namespace\",\"N\":\"Operations\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Algebra.Operations.Substitution",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 222,
+      "ParentId": 221,
+      "ZIndex": 207,
+      "Name": "FibonacciSequence",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Algebra.Sequences.FibonacciSequence\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-539.3272,-2650.3085",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"FibonacciSequence\",\"C\":{\"K\":\"Namespace\",\"N\":\"Sequences\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Algebra.Sequences.FibonacciSequence",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 224,
+      "ParentId": 223,
+      "ZIndex": 209,
+      "Name": "ExponentialSolver",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Algebra.Solvers.ExponentialSolver\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-690.294,-2925.9346",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"ExponentialSolver\",\"C\":{\"K\":\"Namespace\",\"N\":\"Solvers\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Algebra.Solvers.ExponentialSolver",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 227,
+      "ParentId": 223,
+      "ZIndex": 210,
+      "Name": "LogarithmicSolver",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Algebra.Solvers.LogarithmicSolver\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-681.38,-2743.3895",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"LogarithmicSolver\",\"C\":{\"K\":\"Namespace\",\"N\":\"Solvers\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Algebra.Solvers.LogarithmicSolver",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 228,
+      "ParentId": 223,
+      "ZIndex": 211,
+      "Name": "PolynomialSolver",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Algebra.Solvers.PolynomialSolver\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-540.5386,-2745.135",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"PolynomialSolver\",\"C\":{\"K\":\"Namespace\",\"N\":\"Solvers\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Algebra.Solvers.PolynomialSolver",
+      "Description": "Solves real polynomials for real roots (degree ≤ 2 for now).",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 229,
+      "ParentId": 223,
+      "ZIndex": 212,
+      "Name": "QuadraticSolver",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Algebra.Solvers.QuadraticSolver\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-543.068,-2811.9372",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"QuadraticSolver\",\"C\":{\"K\":\"Namespace\",\"N\":\"Solvers\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Algebra.Solvers.QuadraticSolver",
+      "Description": "Provides methods for solving quadratic equations of the form A x² + B x + C = 0.",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 230,
+      "ParentId": 223,
+      "ZIndex": 213,
+      "Name": "RationalSolver",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Algebra.Solvers.RationalSolver\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-688.7654,-2871.2201",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"RationalSolver\",\"C\":{\"K\":\"Namespace\",\"N\":\"Solvers\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Algebra.Solvers.RationalSolver",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 231,
+      "ParentId": 223,
+      "ZIndex": 214,
+      "Name": "SystemSolver2x2",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Algebra.Solvers.SystemSolver2x2\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-549.8641,-2866.9428",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"SystemSolver2x2\",\"C\":{\"K\":\"Namespace\",\"N\":\"Solvers\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Algebra.Solvers.SystemSolver2x2",
+      "Description": "Canonical 2×2 system solver variants.",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 232,
+      "ParentId": 223,
+      "ZIndex": 215,
+      "Name": "SystemSolver",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Algebra.Solvers.SystemSolver\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-683.7893,-2813.7703",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"SystemSolver\",\"C\":{\"K\":\"Namespace\",\"N\":\"Solvers\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Algebra.Solvers.SystemSolver",
+      "Description": "Throwing convenience wrapper (kept for backward compatibility with your original API).",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 238,
+      "ParentId": 223,
+      "ZIndex": 216,
+      "Name": "LinearSolver",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Numerics.Algebra.Solvers.LinearSolver\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-552.5198,-2922.9411",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"LinearSolver\",\"C\":{\"K\":\"Namespace\",\"N\":\"Solvers\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Numerics.Algebra.Solvers.LinearSolver",
+      "Description": "Linear equation solvers and helpers.",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    },
+    {
+      "Id": 240,
+      "ParentId": 239,
+      "ZIndex": 218,
+      "Name": "Program",
+      "Stereotype": "Class",
+      "ToolTip": "class Fluxion.src.Core.App.Program\r\nassembly: Fluxion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Position": "-343.5555,-3163.1923",
+      "MemberAreaSize": "132,0",
+      "IsPinned": true,
+      "Symbols": [
+        "{\"K\":\"NamedType\",\"N\":\"Program\",\"C\":{\"K\":\"Namespace\",\"N\":\"App\",\"C\":{\"K\":\"Namespace\",\"N\":\"Core\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}"
+      ],
+      "FullName": "class Fluxion.src.Core.App.Program",
+      "Description": "",
+      "IsDescriptionVisible": false,
+      "IsAbstract": false,
+      "IsStatic": true,
+      "Accessibility": "Public",
+      "Origin": "SourceCode",
+      "IsDisposable": false
+    }
+  ],
+  "Connectors": [
+    {
+      "Id": 38,
+      "SourceId": 35,
+      "TargetId": 37,
+      "ZIndex": 24,
+      "Stereotype": "Implementation",
+      "RoutePoints": [
+        [
+          47.33941332177978,
+          -2399.4855442199146,
+          true
+        ],
+        [
+          47.305145908821082,
+          -2470.2278155258246,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 40,
+      "SourceId": 39,
+      "TargetId": 37,
+      "ZIndex": 26,
+      "Stereotype": "Implementation",
+      "RoutePoints": [
+        [
+          -78.3328940958224,
+          -2394.7967822284318,
+          true
+        ],
+        [
+          16.021344846983833,
+          -2470.2278155258246,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 45,
+      "SourceId": 44,
+      "TargetId": 34,
+      "ZIndex": 31,
+      "Stereotype": "Association",
+      "RoutePoints": [
+        [
+          -226.41057463256129,
+          -2606.5004292338963,
+          true
+        ],
+        [
+          -173.17515035725762,
+          -2584.6346912215959,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 47,
+      "SourceId": 44,
+      "TargetId": 36,
+      "ZIndex": 33,
+      "Stereotype": "Association",
+      "RoutePoints": [
+        [
+          -254.95983131103463,
+          -2606.5004292338963,
+          true
+        ],
+        [
+          -143.87935778927022,
+          -2520.5700551671393,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 49,
+      "SourceId": 44,
+      "TargetId": 43,
+      "ZIndex": 35,
+      "Stereotype": "Implementation",
+      "RoutePoints": [
+        [
+          -287.2768306049831,
+          -2656.5004292338963,
+          true
+        ],
+        [
+          -287.2768306049831,
+          -2661.2148946899006,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 52,
+      "SourceId": 51,
+      "TargetId": 29,
+      "ZIndex": 38,
+      "Stereotype": "Association",
+      "RoutePoints": [
+        [
+          -286.78897551528695,
+          -2492.3682569237353,
+          true
+        ],
+        [
+          -286.0150295475276,
+          -2452.7076085003819,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 54,
+      "SourceId": 51,
+      "TargetId": 41,
+      "ZIndex": 40,
+      "Stereotype": "Association",
+      "RoutePoints": [
+        [
+          -314.10584810060953,
+          -2531.075686219453,
+          false
+        ],
+        [
+          132.14252026848351,
+          -2534.5748991749319,
+          false
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 56,
+      "SourceId": 51,
+      "TargetId": 33,
+      "ZIndex": 42,
+      "Stereotype": "Association",
+      "RoutePoints": [
+        [
+          -221.27683060498308,
+          -2525.1129201560561,
+          true
+        ],
+        [
+          -19.041412247121798,
+          -2548.8439081686179,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 58,
+      "SourceId": 51,
+      "TargetId": 43,
+      "ZIndex": 44,
+      "Stereotype": "Implementation",
+      "RoutePoints": [
+        [
+          -287.2768306049831,
+          -2542.3682569237353,
+          true
+        ],
+        [
+          -287.2768306049831,
+          -2661.2148946899006,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 62,
+      "SourceId": 44,
+      "TargetId": 61,
+      "ZIndex": 48,
+      "Stereotype": "Association",
+      "RoutePoints": [
+        [
+          -241.64002199922692,
+          -2656.5004292338963,
+          true
+        ],
+        [
+          -168.23865511465411,
+          -2696.7099493159571,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 67,
+      "SourceId": 61,
+      "TargetId": 66,
+      "ZIndex": 53,
+      "Stereotype": "Association",
+      "RoutePoints": [
+        [
+          -122.60184650889795,
+          -2746.7099493159571,
+          true
+        ],
+        [
+          -122.60184650889795,
+          -2766.7099493159571,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 71,
+      "SourceId": 51,
+      "TargetId": 70,
+      "ZIndex": 57,
+      "Stereotype": "Association",
+      "RoutePoints": [
+        [
+          -221.27683060498308,
+          -2541.0073137436675,
+          false
+        ],
+        [
+          192.53549984679728,
+          -2737.6436098526742,
+          false
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 78,
+      "SourceId": 77,
+      "TargetId": 43,
+      "ZIndex": 64,
+      "Stereotype": "Association",
+      "RoutePoints": [
+        [
+          -290.86745107104269,
+          -2758.0817680095111,
+          true
+        ],
+        [
+          -288.52588329790154,
+          -2711.2148946899006,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 91,
+      "SourceId": 90,
+      "TargetId": 89,
+      "ZIndex": 77,
+      "Stereotype": "Implementation",
+      "RoutePoints": [
+        [
+          -1244.8817691837776,
+          -2215.3170347746186,
+          true
+        ],
+        [
+          -1243.9489601747391,
+          -2201.6868441387346,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 103,
+      "SourceId": 102,
+      "TargetId": 82,
+      "ZIndex": 89,
+      "Stereotype": "Implementation",
+      "RoutePoints": [
+        [
+          -1280.3017617140761,
+          -2933.6886188593107,
+          false
+        ],
+        [
+          -1245.3451014289731,
+          -3047.3991305663981,
+          false
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 104,
+      "SourceId": 102,
+      "TargetId": 83,
+      "ZIndex": 90,
+      "Stereotype": "Implementation",
+      "RoutePoints": [
+        [
+          -1254.1307156872533,
+          -2944.981189563593,
+          true
+        ],
+        [
+          -1252.6313507873363,
+          -3110.3148816331136,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 105,
+      "SourceId": 102,
+      "TargetId": 100,
+      "ZIndex": 91,
+      "Stereotype": "Association",
+      "RoutePoints": [
+        [
+          -1253.7838972664069,
+          -2894.981189563593,
+          true
+        ],
+        [
+          -1251.2781960581744,
+          -2785.7596494481008,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 108,
+      "SourceId": 107,
+      "TargetId": 82,
+      "ZIndex": 94,
+      "Stereotype": "Implementation",
+      "RoutePoints": [
+        [
+          -1255.0697043994303,
+          -2888.3064735612156,
+          true
+        ],
+        [
+          -1251.9429209702369,
+          -3047.3991305663981,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 109,
+      "SourceId": 107,
+      "TargetId": 83,
+      "ZIndex": 95,
+      "Stereotype": "Implementation",
+      "RoutePoints": [
+        [
+          -1255.2709477123783,
+          -2888.3064735612156,
+          true
+        ],
+        [
+          -1252.6947357668278,
+          -3110.3148816331136,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 110,
+      "SourceId": 107,
+      "TargetId": 99,
+      "ZIndex": 96,
+      "Stereotype": "Association",
+      "RoutePoints": [
+        [
+          -1255.4691294353759,
+          -2838.3064735612156,
+          true
+        ],
+        [
+          -1255.0564540455903,
+          -2726.0703471540369,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 122,
+      "SourceId": 121,
+      "TargetId": 120,
+      "ZIndex": 107,
+      "Stereotype": "Implementation",
+      "RoutePoints": [
+        [
+          -1084.6941098460813,
+          -2446.7976525669596,
+          true
+        ],
+        [
+          -1084.1242596080199,
+          -2457.522837999416,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 124,
+      "SourceId": 123,
+      "TargetId": 120,
+      "ZIndex": 109,
+      "Stereotype": "Association",
+      "RoutePoints": [
+        [
+          -1006.6386912641744,
+          -2448.8154087036987,
+          true
+        ],
+        [
+          -1026.3119220531871,
+          -2457.522837999416,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 127,
+      "SourceId": 123,
+      "TargetId": 126,
+      "ZIndex": 112,
+      "Stereotype": "Association",
+      "RoutePoints": [
+        [
+          -951.4159377009272,
+          -2448.8154087036987,
+          true
+        ],
+        [
+          -952.119817024999,
+          -2462.7670429088084,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 165,
+      "SourceId": 164,
+      "TargetId": 163,
+      "ZIndex": 150,
+      "Stereotype": "Association",
+      "RoutePoints": [
+        [
+          -826.52673193915871,
+          -2808.6195967401618,
+          true
+        ],
+        [
+          -873.94413029726877,
+          -2782.9686105850815,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 173,
+      "SourceId": 172,
+      "TargetId": 171,
+      "ZIndex": 158,
+      "Stereotype": "Association",
+      "RoutePoints": [
+        [
+          -879.0592911508802,
+          -2720.3497310109465,
+          true
+        ],
+        [
+          -826.96524825714584,
+          -2744.390665828153,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 176,
+      "SourceId": 175,
+      "TargetId": 160,
+      "ZIndex": 161,
+      "Stereotype": "Inheritance",
+      "RoutePoints": [
+        [
+          -843.96599975626714,
+          -2700.7748874543395,
+          true
+        ],
+        [
+          -1012.9147192540752,
+          -2700.5444804654717,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 178,
+      "SourceId": 177,
+      "TargetId": 172,
+      "ZIndex": 163,
+      "Stereotype": "Association",
+      "RoutePoints": [
+        [
+          -1022.0980167871852,
+          -2653.7506752214522,
+          true
+        ],
+        [
+          -986.63807963978559,
+          -2670.3497310109465,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 182,
+      "SourceId": 181,
+      "TargetId": 82,
+      "ZIndex": 167,
+      "Stereotype": "Implementation",
+      "RoutePoints": [
+        [
+          -1005.8736661799242,
+          -3101.3904734187308,
+          true
+        ],
+        [
+          -1185.451574686874,
+          -3080.1906645846129,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 183,
+      "SourceId": 181,
+      "TargetId": 83,
+      "ZIndex": 168,
+      "Stereotype": "Implementation",
+      "RoutePoints": [
+        [
+          -1005.8736661799242,
+          -3114.7007236000823,
+          true
+        ],
+        [
+          -1186.4046327964129,
+          -3129.796165469977,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 184,
+      "SourceId": 181,
+      "TargetId": 167,
+      "ZIndex": 169,
+      "Stereotype": "Association",
+      "RoutePoints": [
+        [
+          -955.72841890211919,
+          -3084.1820074369457,
+          true
+        ],
+        [
+          -1055.8074541332585,
+          -2926.3759587007853,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 187,
+      "SourceId": 186,
+      "TargetId": 82,
+      "ZIndex": 172,
+      "Stereotype": "Implementation",
+      "RoutePoints": [
+        [
+          -1088.3342009412256,
+          -3125.2410574317396,
+          false
+        ],
+        [
+          -1185.451574686874,
+          -3047.3991305663981,
+          false
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 188,
+      "SourceId": 186,
+      "TargetId": 83,
+      "ZIndex": 173,
+      "Stereotype": "Implementation",
+      "RoutePoints": [
+        [
+          -1146.1155626845427,
+          -3120.6436821271946,
+          true
+        ],
+        [
+          -1186.4046327964129,
+          -3126.2048276419409,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 189,
+      "SourceId": 186,
+      "TargetId": 161,
+      "ZIndex": 174,
+      "Stereotype": "Association",
+      "RoutePoints": [
+        [
+          -1079.0290042768977,
+          -3086.5336281360219,
+          true
+        ],
+        [
+          -1069.2213342144844,
+          -2860.8745656915476,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 192,
+      "SourceId": 191,
+      "TargetId": 82,
+      "ZIndex": 177,
+      "Stereotype": "Implementation",
+      "RoutePoints": [
+        [
+          -1143.482045480848,
+          -3063.4595759503682,
+          true
+        ],
+        [
+          -1185.451574686874,
+          -3066.9345276455856,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 193,
+      "SourceId": 191,
+      "TargetId": 83,
+      "ZIndex": 178,
+      "Stereotype": "Implementation",
+      "RoutePoints": [
+        [
+          -1134.0401139249161,
+          -3082.9949730295557,
+          true
+        ],
+        [
+          -1195.8465643523448,
+          -3110.3148816331136,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 194,
+      "SourceId": 191,
+      "TargetId": 168,
+      "ZIndex": 179,
+      "Stereotype": "Association",
+      "RoutePoints": [
+        [
+          -1053.7109587073478,
+          -3032.9949730295557,
+          true
+        ],
+        [
+          -952.4556730664832,
+          -2926.5050104484762,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 197,
+      "SourceId": 196,
+      "TargetId": 82,
+      "ZIndex": 182,
+      "Stereotype": "Implementation",
+      "RoutePoints": [
+        [
+          -1011.0576686012491,
+          -3012.4342307986844,
+          true
+        ],
+        [
+          -1185.451574686874,
+          -3055.9358039824892,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 198,
+      "SourceId": 196,
+      "TargetId": 83,
+      "ZIndex": 183,
+      "Stereotype": "Implementation",
+      "RoutePoints": [
+        [
+          -1000.1994425568697,
+          -3020.9709042147756,
+          true
+        ],
+        [
+          -1197.2628588407922,
+          -3110.3148816331136,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 199,
+      "SourceId": 196,
+      "TargetId": 163,
+      "ZIndex": 184,
+      "Stereotype": "Association",
+      "RoutePoints": [
+        [
+          -942.44219725199594,
+          -2970.9709042147756,
+          true
+        ],
+        [
+          -922.773612748702,
+          -2782.9686105850815,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 202,
+      "SourceId": 201,
+      "TargetId": 82,
+      "ZIndex": 187,
+      "Stereotype": "Implementation",
+      "RoutePoints": [
+        [
+          -1007.9433903743818,
+          -3060.14145893136,
+          true
+        ],
+        [
+          -1185.451574686874,
+          -3069.0768343150557,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 203,
+      "SourceId": 201,
+      "TargetId": 83,
+      "ZIndex": 188,
+      "Stereotype": "Implementation",
+      "RoutePoints": [
+        [
+          -1007.9433903743818,
+          -3073.5063259809422,
+          true
+        ],
+        [
+          -1186.4046327964129,
+          -3118.627718332189,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 204,
+      "SourceId": 201,
+      "TargetId": 162,
+      "ZIndex": 189,
+      "Stereotype": "Association",
+      "RoutePoints": [
+        [
+          -939.99704756314316,
+          -3031.8191626800176,
+          true
+        ],
+        [
+          -926.32973595837871,
+          -2856.2679760410856,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 207,
+      "SourceId": 206,
+      "TargetId": 82,
+      "ZIndex": 192,
+      "Stereotype": "Implementation",
+      "RoutePoints": [
+        [
+          -866.525683520225,
+          -3059.09953269346,
+          true
+        ],
+        [
+          -1185.451574686874,
+          -3070.1187605529558,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 208,
+      "SourceId": 206,
+      "TargetId": 83,
+      "ZIndex": 193,
+      "Stereotype": "Implementation",
+      "RoutePoints": [
+        [
+          -866.525683520225,
+          -3068.2839973646223,
+          true
+        ],
+        [
+          -1186.4046327964129,
+          -3123.8500469485089,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 209,
+      "SourceId": 206,
+      "TargetId": 164,
+      "ZIndex": 194,
+      "Stereotype": "Association",
+      "RoutePoints": [
+        [
+          -798.26168240107711,
+          -3031.8191626800176,
+          true
+        ],
+        [
+          -782.57672195612656,
+          -2858.6195967401618,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 212,
+      "SourceId": 211,
+      "TargetId": 83,
+      "ZIndex": 197,
+      "Stereotype": "Implementation",
+      "RoutePoints": [
+        [
+          -865.631769675306,
+          -3116.2579767178495,
+          true
+        ],
+        [
+          -1186.4046327964129,
+          -3132.0629582322372,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    },
+    {
+      "Id": 213,
+      "SourceId": 211,
+      "TargetId": 169,
+      "ZIndex": 198,
+      "Stereotype": "Association",
+      "RoutePoints": [
+        [
+          -792.30252950989609,
+          -3087.70943848556,
+          true
+        ],
+        [
+          -783.79874030331212,
+          -2925.3292000989377,
+          true
+        ]
+      ],
+      "IsCreatedFromModelItem": true
+    }
+  ],
+  "Labels": [
+    {
+      "Id": 46,
+      "ConnectorId": 45,
+      "ZIndex": 32,
+      "AnchorKind": "End",
+      "AnchorVector": "0,0",
+      "Size": "56,17.5",
+      "IsPinned": true,
+      "Entries": [
+        {
+          "TextColumn1": "0..1",
+          "TextColumn2": "axes",
+          "Tooltip": "private AxesRenderer? axes",
+          "CanBeHidden": false,
+          "Symbol": "{\"K\":\"Field\",\"N\":\"axes\",\"C\":{\"K\":\"NamedType\",\"N\":\"Plot2DScene\",\"C\":{\"K\":\"Namespace\",\"N\":\"Scene\",\"C\":{\"K\":\"Namespace\",\"N\":\"Rendering\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+        }
+      ]
+    },
+    {
+      "Id": 48,
+      "ConnectorId": 47,
+      "ZIndex": 34,
+      "AnchorKind": "End",
+      "AnchorVector": "0,0",
+      "Size": "56,17.5",
+      "IsPinned": true,
+      "Entries": [
+        {
+          "TextColumn1": "0..1",
+          "TextColumn2": "curve",
+          "Tooltip": "private CurveRenderer2D? curve",
+          "CanBeHidden": false,
+          "Symbol": "{\"K\":\"Field\",\"N\":\"curve\",\"C\":{\"K\":\"NamedType\",\"N\":\"Plot2DScene\",\"C\":{\"K\":\"Namespace\",\"N\":\"Scene\",\"C\":{\"K\":\"Namespace\",\"N\":\"Rendering\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+        }
+      ]
+    },
+    {
+      "Id": 53,
+      "ConnectorId": 52,
+      "ZIndex": 39,
+      "AnchorKind": "End",
+      "AnchorVector": "0,0",
+      "Size": "56,17.5",
+      "IsPinned": true,
+      "Entries": [
+        {
+          "TextColumn1": "",
+          "TextColumn2": "cam",
+          "Tooltip": "private readonly OrbitCamera cam",
+          "CanBeHidden": false,
+          "Symbol": "{\"K\":\"Field\",\"N\":\"cam\",\"C\":{\"K\":\"NamedType\",\"N\":\"Surface3DScene\",\"C\":{\"K\":\"Namespace\",\"N\":\"Scene\",\"C\":{\"K\":\"Namespace\",\"N\":\"Rendering\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+        }
+      ]
+    },
+    {
+      "Id": 55,
+      "ConnectorId": 54,
+      "ZIndex": 41,
+      "AnchorKind": "End",
+      "AnchorVector": "0,-2.3516",
+      "Size": "65.4633,17.5",
+      "IsPinned": true,
+      "Entries": [
+        {
+          "TextColumn1": "0..1",
+          "TextColumn2": "renderer",
+          "Tooltip": "private SurfaceRenderer? renderer",
+          "CanBeHidden": false,
+          "Symbol": "{\"K\":\"Field\",\"N\":\"renderer\",\"C\":{\"K\":\"NamedType\",\"N\":\"Surface3DScene\",\"C\":{\"K\":\"Namespace\",\"N\":\"Scene\",\"C\":{\"K\":\"Namespace\",\"N\":\"Rendering\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+        }
+      ]
+    },
+    {
+      "Id": 57,
+      "ConnectorId": 56,
+      "ZIndex": 43,
+      "AnchorKind": "End",
+      "AnchorVector": "0,0",
+      "Size": "56,17.5",
+      "IsPinned": true,
+      "Entries": [
+        {
+          "TextColumn1": "0..1",
+          "TextColumn2": "axes",
+          "Tooltip": "private Axis3DRenderer? axes",
+          "CanBeHidden": false,
+          "Symbol": "{\"K\":\"Field\",\"N\":\"axes\",\"C\":{\"K\":\"NamedType\",\"N\":\"Surface3DScene\",\"C\":{\"K\":\"Namespace\",\"N\":\"Scene\",\"C\":{\"K\":\"Namespace\",\"N\":\"Rendering\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+        }
+      ]
+    },
+    {
+      "Id": 63,
+      "ConnectorId": 62,
+      "ZIndex": 49,
+      "AnchorKind": "End",
+      "AnchorVector": "0,0",
+      "Size": "56,17.5",
+      "IsPinned": true,
+      "Entries": [
+        {
+          "TextColumn1": "",
+          "TextColumn2": "plot",
+          "Tooltip": "private readonly Plot2D plot",
+          "CanBeHidden": false,
+          "Symbol": "{\"K\":\"Field\",\"N\":\"plot\",\"C\":{\"K\":\"NamedType\",\"N\":\"Plot2DScene\",\"C\":{\"K\":\"Namespace\",\"N\":\"Scene\",\"C\":{\"K\":\"Namespace\",\"N\":\"Rendering\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+        }
+      ]
+    },
+    {
+      "Id": 68,
+      "ConnectorId": 67,
+      "ZIndex": 54,
+      "AnchorKind": "End",
+      "AnchorVector": "0,0",
+      "Size": "56,17.5",
+      "IsPinned": true,
+      "Entries": [
+        {
+          "TextColumn1": "",
+          "TextColumn2": "Style",
+          "Tooltip": "public PlotStyle Style { get; }",
+          "CanBeHidden": false,
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Style\",\"C\":{\"K\":\"NamedType\",\"N\":\"Plot2D\",\"C\":{\"K\":\"Namespace\",\"N\":\"Visualize2D\",\"C\":{\"K\":\"Namespace\",\"N\":\"Rendering\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+        }
+      ]
+    },
+    {
+      "Id": 72,
+      "ConnectorId": 71,
+      "ZIndex": 58,
+      "AnchorKind": "End",
+      "AnchorVector": "0,0",
+      "Size": "56,17.5",
+      "IsPinned": true,
+      "Entries": [
+        {
+          "TextColumn1": "",
+          "TextColumn2": "mesh",
+          "Tooltip": "private readonly Mesh3D mesh",
+          "CanBeHidden": false,
+          "Symbol": "{\"K\":\"Field\",\"N\":\"mesh\",\"C\":{\"K\":\"NamedType\",\"N\":\"Surface3DScene\",\"C\":{\"K\":\"Namespace\",\"N\":\"Scene\",\"C\":{\"K\":\"Namespace\",\"N\":\"Rendering\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+        }
+      ]
+    },
+    {
+      "Id": 79,
+      "ConnectorId": 78,
+      "ZIndex": 65,
+      "AnchorKind": "End",
+      "AnchorVector": "0,0",
+      "Size": "56,17.5",
+      "IsPinned": true,
+      "Entries": [
+        {
+          "TextColumn1": "",
+          "TextColumn2": "scene",
+          "Tooltip": "private readonly IScene scene",
+          "CanBeHidden": true,
+          "Symbol": "{\"K\":\"Field\",\"N\":\"scene\",\"C\":{\"K\":\"NamedType\",\"N\":\"FluxWindow\",\"C\":{\"K\":\"Namespace\",\"N\":\"Windowing\",\"C\":{\"K\":\"Namespace\",\"N\":\"Rendering\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}"
+        }
+      ]
+    },
+    {
+      "Id": 106,
+      "ConnectorId": 105,
+      "ZIndex": 92,
+      "AnchorKind": "End",
+      "AnchorVector": "0,0",
+      "Size": "56,17.5",
+      "IsPinned": true,
+      "Entries": [
+        {
+          "TextColumn1": "",
+          "TextColumn2": "Model",
+          "Tooltip": "public CosineModel Model { get; }",
+          "CanBeHidden": false,
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Model\",\"C\":{\"K\":\"NamedType\",\"N\":\"CosineEquation\",\"C\":{\"K\":\"Namespace\",\"N\":\"Functions\",\"C\":{\"K\":\"Namespace\",\"N\":\"Trigonometry\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}}"
+        }
+      ]
+    },
+    {
+      "Id": 111,
+      "ConnectorId": 110,
+      "ZIndex": 97,
+      "AnchorKind": "End",
+      "AnchorVector": "0,0",
+      "Size": "56,17.5",
+      "IsPinned": true,
+      "Entries": [
+        {
+          "TextColumn1": "",
+          "TextColumn2": "Model",
+          "Tooltip": "public SineModel Model { get; }",
+          "CanBeHidden": false,
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Model\",\"C\":{\"K\":\"NamedType\",\"N\":\"SineEquation\",\"C\":{\"K\":\"Namespace\",\"N\":\"Functions\",\"C\":{\"K\":\"Namespace\",\"N\":\"Trigonometry\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}}"
+        }
+      ]
+    },
+    {
+      "Id": 125,
+      "ConnectorId": 124,
+      "ZIndex": 110,
+      "AnchorKind": "End",
+      "AnchorVector": "0,0",
+      "Size": "56,17.5",
+      "IsPinned": true,
+      "Entries": [
+        {
+          "TextColumn1": "",
+          "TextColumn2": "F",
+          "Tooltip": "public IFunction F { get; }",
+          "CanBeHidden": false,
+          "Symbol": "{\"K\":\"Property\",\"N\":\"F\",\"C\":{\"K\":\"NamedType\",\"N\":\"LimitModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"Concepts\",\"C\":{\"K\":\"Namespace\",\"N\":\"Calculus\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}}"
+        }
+      ]
+    },
+    {
+      "Id": 128,
+      "ConnectorId": 127,
+      "ZIndex": 113,
+      "AnchorKind": "End",
+      "AnchorVector": "0,0",
+      "Size": "56,17.5",
+      "IsPinned": true,
+      "Entries": [
+        {
+          "TextColumn1": "",
+          "TextColumn2": "Direction",
+          "Tooltip": "public ApproachDirection Direction { get; }",
+          "CanBeHidden": false,
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Direction\",\"C\":{\"K\":\"NamedType\",\"N\":\"LimitModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"Concepts\",\"C\":{\"K\":\"Namespace\",\"N\":\"Calculus\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}}"
+        }
+      ]
+    },
+    {
+      "Id": 166,
+      "ConnectorId": 165,
+      "ZIndex": 151,
+      "AnchorKind": "End",
+      "AnchorVector": "0,0",
+      "Size": "56,29",
+      "IsPinned": true,
+      "Entries": [
+        {
+          "TextColumn1": "",
+          "TextColumn2": "Numer",
+          "Tooltip": "public PolynomialModel Numer { get; init; }",
+          "CanBeHidden": false,
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Numer\",\"C\":{\"K\":\"NamedType\",\"N\":\"RationalModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"Concepts\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}}"
+        },
+        {
+          "TextColumn1": "",
+          "TextColumn2": "Denom",
+          "Tooltip": "public PolynomialModel Denom { get; init; }",
+          "CanBeHidden": false,
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Denom\",\"C\":{\"K\":\"NamedType\",\"N\":\"RationalModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"Concepts\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}}"
+        }
+      ]
+    },
+    {
+      "Id": 174,
+      "ConnectorId": 173,
+      "ZIndex": 159,
+      "AnchorKind": "End",
+      "AnchorVector": "0,0",
+      "Size": "56,17.5",
+      "IsPinned": true,
+      "Entries": [
+        {
+          "TextColumn1": "*",
+          "TextColumn2": "Items",
+          "Tooltip": "public IReadOnlyList<FormulaItem> Items { get; init; }",
+          "CanBeHidden": false,
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Items\",\"C\":{\"K\":\"NamedType\",\"N\":\"AlgebraTopic\",\"C\":{\"K\":\"Namespace\",\"N\":\"Concepts\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}}"
+        }
+      ]
+    },
+    {
+      "Id": 179,
+      "ConnectorId": 178,
+      "ZIndex": 164,
+      "AnchorKind": "End",
+      "AnchorVector": "0,0",
+      "Size": "56,17.5",
+      "IsPinned": true,
+      "Entries": [
+        {
+          "TextColumn1": "*",
+          "TextColumn2": "Basics",
+          "Tooltip": "public static IReadOnlyList<AlgebraTopic> Basics { get; }",
+          "CanBeHidden": false,
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Basics\",\"C\":{\"K\":\"NamedType\",\"N\":\"AlgebraSeeds\",\"C\":{\"K\":\"Namespace\",\"N\":\"Concepts\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}}"
+        }
+      ]
+    },
+    {
+      "Id": 185,
+      "ConnectorId": 184,
+      "ZIndex": 170,
+      "AnchorKind": "End",
+      "AnchorVector": "0,0",
+      "Size": "56,17.5",
+      "IsPinned": true,
+      "Entries": [
+        {
+          "TextColumn1": "",
+          "TextColumn2": "Model",
+          "Tooltip": "public ExponentialModel Model { get; }",
+          "CanBeHidden": false,
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Model\",\"C\":{\"K\":\"NamedType\",\"N\":\"Exponential\",\"C\":{\"K\":\"Namespace\",\"N\":\"Equations\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}}"
+        }
+      ]
+    },
+    {
+      "Id": 190,
+      "ConnectorId": 189,
+      "ZIndex": 175,
+      "AnchorKind": "End",
+      "AnchorVector": "0,0",
+      "Size": "56,17.5",
+      "IsPinned": true,
+      "Entries": [
+        {
+          "TextColumn1": "",
+          "TextColumn2": "Model",
+          "Tooltip": "public LinearModel Model { get; }",
+          "CanBeHidden": false,
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Model\",\"C\":{\"K\":\"NamedType\",\"N\":\"Linear\",\"C\":{\"K\":\"Namespace\",\"N\":\"Equations\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}}"
+        }
+      ]
+    },
+    {
+      "Id": 195,
+      "ConnectorId": 194,
+      "ZIndex": 180,
+      "AnchorKind": "End",
+      "AnchorVector": "0,0",
+      "Size": "56,17.5",
+      "IsPinned": true,
+      "Entries": [
+        {
+          "TextColumn1": "",
+          "TextColumn2": "Model",
+          "Tooltip": "public LogarithmicModel Model { get; }",
+          "CanBeHidden": false,
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Model\",\"C\":{\"K\":\"NamedType\",\"N\":\"Logarithmic\",\"C\":{\"K\":\"Namespace\",\"N\":\"Equations\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}}"
+        }
+      ]
+    },
+    {
+      "Id": 200,
+      "ConnectorId": 199,
+      "ZIndex": 185,
+      "AnchorKind": "End",
+      "AnchorVector": "0,0",
+      "Size": "56,17.5",
+      "IsPinned": true,
+      "Entries": [
+        {
+          "TextColumn1": "",
+          "TextColumn2": "Model",
+          "Tooltip": "public PolynomialModel Model { get; }",
+          "CanBeHidden": false,
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Model\",\"C\":{\"K\":\"NamedType\",\"N\":\"Polynomial\",\"C\":{\"K\":\"Namespace\",\"N\":\"Equations\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}}"
+        }
+      ]
+    },
+    {
+      "Id": 205,
+      "ConnectorId": 204,
+      "ZIndex": 190,
+      "AnchorKind": "End",
+      "AnchorVector": "0,0",
+      "Size": "56,17.5",
+      "IsPinned": true,
+      "Entries": [
+        {
+          "TextColumn1": "",
+          "TextColumn2": "Model",
+          "Tooltip": "public QuadraticModel Model { get; }",
+          "CanBeHidden": false,
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Model\",\"C\":{\"K\":\"NamedType\",\"N\":\"Quadratic\",\"C\":{\"K\":\"Namespace\",\"N\":\"Equations\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}}"
+        }
+      ]
+    },
+    {
+      "Id": 210,
+      "ConnectorId": 209,
+      "ZIndex": 195,
+      "AnchorKind": "End",
+      "AnchorVector": "0,0",
+      "Size": "56,17.5",
+      "IsPinned": true,
+      "Entries": [
+        {
+          "TextColumn1": "",
+          "TextColumn2": "Model",
+          "Tooltip": "public RationalModel Model { get; }",
+          "CanBeHidden": false,
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Model\",\"C\":{\"K\":\"NamedType\",\"N\":\"Rational\",\"C\":{\"K\":\"Namespace\",\"N\":\"Equations\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}}"
+        }
+      ]
+    },
+    {
+      "Id": 214,
+      "ConnectorId": 213,
+      "ZIndex": 199,
+      "AnchorKind": "End",
+      "AnchorVector": "0,0",
+      "Size": "56,17.5",
+      "IsPinned": true,
+      "Entries": [
+        {
+          "TextColumn1": "",
+          "TextColumn2": "Model",
+          "Tooltip": "public System2x2Model Model { get; }",
+          "CanBeHidden": false,
+          "Symbol": "{\"K\":\"Property\",\"N\":\"Model\",\"C\":{\"K\":\"NamedType\",\"N\":\"SystemOfEquations2x2\",\"C\":{\"K\":\"Namespace\",\"N\":\"Equations\",\"C\":{\"K\":\"Namespace\",\"N\":\"Algebra\",\"C\":{\"K\":\"Namespace\",\"N\":\"Numerics\",\"C\":{\"K\":\"Namespace\",\"N\":\"src\",\"C\":{\"K\":\"Namespace\",\"N\":\"Fluxion\",\"C\":{\"K\":\"Assembly\",\"N\":\"Fluxion\",\"V\":\"1.0.0.0\"}}}}}}}}"
+        }
+      ]
+    }
+  ]
+}
