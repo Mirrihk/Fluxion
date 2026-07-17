@@ -3,43 +3,95 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
+
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <!--
+      The Desktop project and generated bin/obj files are inside
+      the Fluxion directory. Prevent this project from compiling them.
+    -->
+    <DefaultItemExcludes>
+      $(DefaultItemExcludes);
+      Desktop\**;
+      **\bin\**;
+      **\obj\**
+    </DefaultItemExcludes>
   </PropertyGroup>
 
+  <!-- Exclude documentation folders from compilation -->
   <ItemGroup>
     <Compile Remove="docs\**" />
     <Compile Remove="md\**" />
+
     <EmbeddedResource Remove="docs\**" />
     <EmbeddedResource Remove="md\**" />
+
     <None Remove="docs\**" />
     <None Remove="md\**" />
   </ItemGroup>
 
+  <!-- Explicitly exclude the nested Desktop project and generated files -->
   <ItemGroup>
-    <PackageReference Include="FluentAssertions" Version="8.6.0" />
-    <PackageReference Include="FluentValidation" Version="12.0.0" />
-    <PackageReference Include="FluxionSharp" Version="2.0.0" />
-    <PackageReference Include="ImGui.NET" Version="1.91.6.1" />
-    <PackageReference Include="MathNet.Numerics" Version="5.0.0" />
-    <PackageReference Include="OpenTK" Version="4.9.4" />
-    <PackageReference Include="OpenTK.Windowing.Desktop" Version="4.9.4" />
-    <PackageReference Include="TorchSharp" Version="0.105.1" />
-    <PackageReference Include="xunit" Version="2.9.3" />
-    <PackageReference Include="xunit.abstractions" Version="2.0.3" />
-    <PackageReference Include="xunit.analyzers" Version="1.24.0">
+    <Compile Remove="Desktop\**\*.cs" />
+    <Compile Remove="**\bin\**\*.cs" />
+    <Compile Remove="**\obj\**\*.cs" />
+
+    <EmbeddedResource Remove="Desktop\**" />
+    <EmbeddedResource Remove="**\bin\**" />
+    <EmbeddedResource Remove="**\obj\**" />
+
+    <None Remove="Desktop\**" />
+    <None Remove="**\bin\**" />
+    <None Remove="**\obj\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions"
+                      Version="8.6.0" />
+
+    <PackageReference Include="FluentValidation"
+                      Version="12.0.0" />
+
+    <PackageReference Include="FluxionSharp"
+                      Version="2.0.0" />
+
+    <PackageReference Include="ImGui.NET"
+                      Version="1.91.6.1" />
+
+    <PackageReference Include="MathNet.Numerics"
+                      Version="5.0.0" />
+
+    <PackageReference Include="OpenTK"
+                      Version="4.9.4" />
+
+    <PackageReference Include="OpenTK.Windowing.Desktop"
+                      Version="4.9.4" />
+
+    <PackageReference Include="TorchSharp"
+                      Version="0.105.1" />
+
+    <PackageReference Include="xunit"
+                      Version="2.9.3" />
+
+    <PackageReference Include="xunit.abstractions"
+                      Version="2.0.3" />
+
+    <PackageReference Include="xunit.analyzers"
+                      Version="1.24.0">
       <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <IncludeAssets>
+        runtime;
+        build;
+        native;
+        contentfiles;
+        analyzers;
+        buildtransitive
+      </IncludeAssets>
     </PackageReference>
-    <PackageReference Include="xunit.core" Version="2.9.3" />
-  </ItemGroup>
 
-  <ItemGroup>
-    <EditorConfigFiles Remove="C:\Users\sebas\source\repos\Fluxion\.editorconfig" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="C:\Users\sebas\source\repos\Fluxion\.editorconfig" />
+    <PackageReference Include="xunit.core"
+                      Version="2.9.3" />
   </ItemGroup>
 
 </Project>
