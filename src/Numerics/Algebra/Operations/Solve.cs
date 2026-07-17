@@ -1,5 +1,5 @@
 ﻿// Fluxion.Math/Algebra/Operations/Solve.cs
-using Math.Algebra.Solvers;
+using Fluxion.src;
 using System;
 using Fluxion.src.Numerics.Algebra.Concepts;
 using Fluxion.src.Numerics.Algebra.Solvers;
