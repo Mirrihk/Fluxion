@@ -47,38 +47,27 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="FluentAssertions"
-                      Version="8.6.0" />
+    <PackageReference Include="FluentAssertions" Version="8.6.0" />
 
-    <PackageReference Include="FluentValidation"
-                      Version="12.0.0" />
+    <PackageReference Include="FluentValidation" Version="12.0.0" />
 
-    <PackageReference Include="FluxionSharp"
-                      Version="2.0.0" />
+    <PackageReference Include="FluxionSharp" Version="2.0.0" />
 
-    <PackageReference Include="ImGui.NET"
-                      Version="1.91.6.1" />
+    <PackageReference Include="ImGui.NET" Version="1.91.6.1" />
 
-    <PackageReference Include="MathNet.Numerics"
-                      Version="5.0.0" />
+    <PackageReference Include="MathNet.Numerics" Version="5.0.0" />
 
-    <PackageReference Include="OpenTK"
-                      Version="4.9.4" />
+    <PackageReference Include="OpenTK" Version="4.9.4" />
 
-    <PackageReference Include="OpenTK.Windowing.Desktop"
-                      Version="4.9.4" />
+    <PackageReference Include="OpenTK.Windowing.Desktop" Version="4.9.4" />
 
-    <PackageReference Include="TorchSharp"
-                      Version="0.105.1" />
+    <PackageReference Include="TorchSharp" Version="0.105.1" />
 
-    <PackageReference Include="xunit"
-                      Version="2.9.3" />
+    <PackageReference Include="xunit" Version="2.9.3" />
 
-    <PackageReference Include="xunit.abstractions"
-                      Version="2.0.3" />
+    <PackageReference Include="xunit.abstractions" Version="2.0.3" />
 
-    <PackageReference Include="xunit.analyzers"
-                      Version="1.24.0">
+    <PackageReference Include="xunit.analyzers" Version="1.24.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>
         runtime;
@@ -90,8 +79,11 @@
       </IncludeAssets>
     </PackageReference>
 
-    <PackageReference Include="xunit.core"
-                      Version="2.9.3" />
+    <PackageReference Include="xunit.core" Version="2.9.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="src\Expressions\" />
   </ItemGroup>
 
 </Project>
