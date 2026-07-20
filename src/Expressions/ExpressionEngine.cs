@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Globalization;
+using System.Linq;
 
 namespace Fluxion.src.Expressions;
 
@@ -66,7 +67,8 @@ public static class ExpressionEngine
         if (!IsSupportedAssignment(leftSide))
         {
             throw new ExpressionParseException(
-                "Use an expression, y = expression, or f(x) = expression",
+                "Use an expression, y = expression, z = expression, " +
+                "f(x) = expression, or f(x,y) = expression",
                 0);
         }
 
@@ -82,7 +84,7 @@ public static class ExpressionEngine
 
     private static bool IsSupportedAssignment(string leftSide)
     {
-        if (leftSide == "y")
+        if (leftSide is "y" or "z")
         {
             return true;
         }
@@ -96,10 +98,16 @@ public static class ExpressionEngine
             return false;
         }
 
-        string functionName = leftSide[..openParenthesis].Trim();
-        string parameter = leftSide[(openParenthesis + 1)..closeParenthesis].Trim();
+        string functionName =
+            leftSide[..openParenthesis].Trim();
 
-        if (parameter != "x" || functionName.Length == 0)
+        string parameters =
+            leftSide[(openParenthesis + 1)..closeParenthesis]
+                .Replace(" ", string.Empty);
+
+        if ((parameters != "x" &&
+             parameters != "x,y") ||
+            functionName.Length == 0)
         {
             return false;
         }
@@ -131,14 +139,32 @@ public sealed class CompiledExpression
 
     public string Source { get; }
 
-    public bool ContainsVariable => _root.ContainsVariable;
+    public bool ContainsX => _root.ContainsX;
 
-    public double Evaluate(double x = 0.0)
+    public bool ContainsY => _root.ContainsY;
+
+    public bool ContainsVariable =>
+        ContainsX || ContainsY;
+
+    public double Evaluate(
+        double x = 0.0,
+        double y = 0.0)
     {
-        return _root.Evaluate(x);
+        return _root.Evaluate(x, y);
     }
 
     public Func<double, double> ToFunction()
+    {
+        if (ContainsY)
+        {
+            throw new InvalidOperationException(
+                "This expression uses y and must be plotted as a 3D surface.");
+        }
+
+        return x => Evaluate(x, 0.0);
+    }
+
+    public Func<double, double, double> ToSurface()
     {
         return Evaluate;
     }
@@ -553,7 +579,14 @@ internal sealed class ExpressionParser
     {
         return identifier.Text switch
         {
-            "x" => new VariableExpressionNode(),
+            "x" =>
+                new VariableExpressionNode(
+                    ExpressionVariable.X),
+
+            "y" =>
+                new VariableExpressionNode(
+                    ExpressionVariable.Y),
+
             "pi" => new NumberExpressionNode(Math.PI),
             "e" => new NumberExpressionNode(Math.E),
             "tau" => new NumberExpressionNode(Math.Tau),
@@ -564,7 +597,8 @@ internal sealed class ExpressionParser
                     identifier.Position),
 
             _ => throw new ExpressionParseException(
-                $"Unknown identifier '{identifier.Text}'. Step 1 supports the variable x",
+                $"Unknown identifier '{identifier.Text}'. " +
+                "Fluxion currently supports the variables x and y",
                 identifier.Position)
         };
     }
@@ -599,8 +633,13 @@ internal sealed class ExpressionParser
 
 internal abstract class ExpressionNode
 {
-    public abstract bool ContainsVariable { get; }
-    public abstract double Evaluate(double x);
+    public abstract bool ContainsX { get; }
+
+    public abstract bool ContainsY { get; }
+
+    public abstract double Evaluate(
+        double x,
+        double y);
 }
 
 internal sealed class NumberExpressionNode : ExpressionNode
@@ -612,21 +651,52 @@ internal sealed class NumberExpressionNode : ExpressionNode
         _value = value;
     }
 
-    public override bool ContainsVariable => false;
+    public override bool ContainsX => false;
 
-    public override double Evaluate(double x)
+    public override bool ContainsY => false;
+
+    public override double Evaluate(
+        double x,
+        double y)
     {
         return _value;
     }
 }
 
+internal enum ExpressionVariable
+{
+    X,
+    Y
+}
+
 internal sealed class VariableExpressionNode : ExpressionNode
 {
-    public override bool ContainsVariable => true;
+    private readonly ExpressionVariable _variable;
 
-    public override double Evaluate(double x)
+    public VariableExpressionNode(
+        ExpressionVariable variable)
     {
-        return x;
+        _variable = variable;
+    }
+
+    public override bool ContainsX =>
+        _variable == ExpressionVariable.X;
+
+    public override bool ContainsY =>
+        _variable == ExpressionVariable.Y;
+
+    public override double Evaluate(
+        double x,
+        double y)
+    {
+        return _variable switch
+        {
+            ExpressionVariable.X => x,
+            ExpressionVariable.Y => y,
+
+            _ => throw new InvalidOperationException(
+                "Unknown expression variable.")
+        };
     }
 }
 
@@ -649,11 +719,18 @@ internal sealed class UnaryExpressionNode : ExpressionNode
         _operand = operand;
     }
 
-    public override bool ContainsVariable => _operand.ContainsVariable;
+    public override bool ContainsX =>
+        _operand.ContainsX;
 
-    public override double Evaluate(double x)
+    public override bool ContainsY =>
+        _operand.ContainsY;
+
+    public override double Evaluate(
+        double x,
+        double y)
     {
-        double value = _operand.Evaluate(x);
+        double value =
+            _operand.Evaluate(x, y);
 
         return _operator switch
         {
@@ -689,13 +766,23 @@ internal sealed class BinaryExpressionNode : ExpressionNode
         _right = right;
     }
 
-    public override bool ContainsVariable =>
-        _left.ContainsVariable || _right.ContainsVariable;
+    public override bool ContainsX =>
+        _left.ContainsX ||
+        _right.ContainsX;
 
-    public override double Evaluate(double x)
+    public override bool ContainsY =>
+        _left.ContainsY ||
+        _right.ContainsY;
+
+    public override double Evaluate(
+        double x,
+        double y)
     {
-        double leftValue = _left.Evaluate(x);
-        double rightValue = _right.Evaluate(x);
+        double leftValue =
+            _left.Evaluate(x, y);
+
+        double rightValue =
+            _right.Evaluate(x, y);
 
         return _operator switch
         {
@@ -722,32 +809,32 @@ internal sealed class FunctionExpressionNode : ExpressionNode
         _arguments = arguments;
     }
 
-    public override bool ContainsVariable
+    public override bool ContainsX =>
+        _arguments.Any(argument =>
+            argument.ContainsX);
+
+    public override bool ContainsY =>
+        _arguments.Any(argument =>
+            argument.ContainsY);
+
+    public override double Evaluate(
+        double x,
+        double y)
     {
-        get
+        var values =
+            new double[_arguments.Count];
+
+        for (int index = 0;
+             index < _arguments.Count;
+             index++)
         {
-            foreach (ExpressionNode argument in _arguments)
-            {
-                if (argument.ContainsVariable)
-                {
-                    return true;
-                }
-            }
-
-            return false;
-        }
-    }
-
-    public override double Evaluate(double x)
-    {
-        var values = new double[_arguments.Count];
-
-        for (int index = 0; index < _arguments.Count; index++)
-        {
-            values[index] = _arguments[index].Evaluate(x);
+            values[index] =
+                _arguments[index].Evaluate(x, y);
         }
 
-        return FunctionCatalog.Evaluate(_name, values);
+        return FunctionCatalog.Evaluate(
+            _name,
+            values);
     }
 }
 
